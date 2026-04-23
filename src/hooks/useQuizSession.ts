@@ -1,32 +1,49 @@
-import { useQuizStore } from '../store/quizStore';
-import { useAppNavigation } from '../navigation/useTypedNavigation';
-import type { AnswerKey } from '../types';
+import { useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { useQuizStore } from '../store/quizStore'
+import { useProgressStore } from '../store/progressStore'
+import { computeScore } from '../utils/quizUtils'
+import type { AnswerKey } from '../types'
 
 export function useQuizSession() {
-  const store = useQuizStore();
-  const navigation = useAppNavigation();
+  const navigate = useNavigate()
+  const session = useQuizStore(s => s.activeSession)
+  const getCurrentQuestionId = useQuizStore(s => s.getCurrentQuestionId)
+  const currentQuestionId = getCurrentQuestionId()
+  const submitAnswer = useQuizStore(s => s.submitAnswer)
+  const advanceQuestion = useQuizStore(s => s.advanceQuestion)
+  const completeSession = useQuizStore(s => s.completeSession)
+  const recordSession = useProgressStore(s => s.recordSession)
 
-  function handleSubmit(selectedKey: AnswerKey) {
-    const qId = store.getCurrentQuestionId();
-    if (qId) store.submitAnswer(qId, selectedKey);
+  useEffect(() => {
+    if (session?.completedAt) {
+      const { correct, total, percentage } = computeScore(session)
+      recordSession({
+        id: session.id,
+        category: session.category,
+        score: percentage,
+        totalQuestions: total,
+        correctAnswers: correct,
+        completedAt: session.completedAt,
+      })
+    }
+  }, [session?.completedAt])
+
+  function handleSubmit(key: AnswerKey) {
+    if (!currentQuestionId) return
+    submitAnswer(currentQuestionId, key)
   }
 
   function handleNext() {
-    const session = store.activeSession;
-    if (!session) return;
-    const isLast = session.currentIndex >= session.totalQuestions - 1;
+    if (!session) return
+    const isLast = session.currentIndex >= session.totalQuestions - 1
     if (isLast) {
-      store.completeSession();
-      navigation.replace('QuizResults', { sessionId: session.id });
+      completeSession()
+      navigate('/results', { replace: true })
     } else {
-      store.advanceQuestion();
+      advanceQuestion()
     }
   }
 
-  return {
-    session: store.activeSession,
-    currentQuestionId: store.getCurrentQuestionId(),
-    handleSubmit,
-    handleNext,
-  };
+  return { session, currentQuestionId, handleSubmit, handleNext }
 }

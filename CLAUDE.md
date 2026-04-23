@@ -8,6 +8,13 @@ Expo/React Native app for EPSO EU exam preparation.
 |------|------|------|
 | 8081 | epso-prep-8081 | Expo (Metro bundler) |
 
+## Global Rules
+
+See @~/.claude/rules/ for guidelines that apply to all projects:
+- **Git workflow**: @~/.claude/rules/git-workflow.md
+- **Security**: @~/.claude/rules/security.md
+- **Commit standards**: @~/.claude/rules/commits.md
+
 **Terminal Commands:**
 ```bash
 pm2 start ecosystem.config.cjs   # First time

@@ -1,16 +1,10 @@
-import { create } from 'zustand';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import type { ProgressState, SessionSummary, CategoryStats } from '../types';
+import { create } from 'zustand'
+import type { ProgressState, SessionSummary, CategoryStats } from '../types'
 
-const STORAGE_KEY = 'epso_progress_v1';
+const STORAGE_KEY = 'epso_progress_v1'
 
 function defaultCategoryStats(): CategoryStats {
-  return {
-    totalAttempted: 0,
-    totalCorrect: 0,
-    sessionsCompleted: 0,
-    lastAttemptedAt: null,
-  };
+  return { totalAttempted: 0, totalCorrect: 0, sessionsCompleted: 0, lastAttemptedAt: null }
 }
 
 function defaultState(): ProgressState {
@@ -22,37 +16,37 @@ function defaultState(): ProgressState {
       situational_judgement: defaultCategoryStats(),
     },
     recentSessions: [],
-  };
+  }
 }
 
 interface ProgressStore extends ProgressState {
-  isLoaded: boolean;
-  loadProgress: () => Promise<void>;
-  recordSession: (summary: SessionSummary) => Promise<void>;
-  resetProgress: () => Promise<void>;
+  isLoaded: boolean
+  loadProgress: () => void
+  recordSession: (summary: SessionSummary) => void
+  resetProgress: () => void
 }
 
 export const useProgressStore = create<ProgressStore>((set, get) => ({
   isLoaded: false,
   ...defaultState(),
 
-  loadProgress: async () => {
+  loadProgress: () => {
     try {
-      const raw = await AsyncStorage.getItem(STORAGE_KEY);
+      const raw = localStorage.getItem(STORAGE_KEY)
       if (raw) {
-        const saved = JSON.parse(raw) as ProgressState;
-        set({ ...saved, isLoaded: true });
+        const saved = JSON.parse(raw) as ProgressState
+        set({ ...saved, isLoaded: true })
       } else {
-        set({ isLoaded: true });
+        set({ isLoaded: true })
       }
     } catch {
-      set({ isLoaded: true });
+      set({ isLoaded: true })
     }
   },
 
-  recordSession: async (summary: SessionSummary) => {
-    const state = get();
-    const prev = state.statsByCategory[summary.category];
+  recordSession: (summary: SessionSummary) => {
+    const state = get()
+    const prev = state.statsByCategory[summary.category]
     const updated: ProgressState = {
       statsByCategory: {
         ...state.statsByCategory,
@@ -64,13 +58,13 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
         },
       },
       recentSessions: [summary, ...state.recentSessions].slice(0, 10),
-    };
-    set(updated);
-    await AsyncStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+    }
+    set(updated)
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated))
   },
 
-  resetProgress: async () => {
-    await AsyncStorage.removeItem(STORAGE_KEY);
-    set(defaultState());
+  resetProgress: () => {
+    localStorage.removeItem(STORAGE_KEY)
+    set(defaultState())
   },
-}));
+}))
