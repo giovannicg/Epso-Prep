@@ -1,7 +1,7 @@
 import React from 'react'
 import { useProgressStore } from '../store/progressStore'
 import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
-import { BookOpen, Calculator, Shapes, Users } from 'lucide-react'
+import { BookOpen, Calculator, Shapes, Users, Trash2 } from 'lucide-react'
 import type { ExamCategory } from '../types'
 
 const CATEGORY_NAMES: Record<ExamCategory, string> = {
@@ -12,10 +12,10 @@ const CATEGORY_NAMES: Record<ExamCategory, string> = {
 }
 
 const CATEGORIES: { key: ExamCategory; title: string; icon: React.ReactNode }[] = [
-  { key: 'verbal_reasoning', title: 'Razonamiento Verbal', icon: <BookOpen size={20} color={colors.primary} /> },
-  { key: 'numerical_reasoning', title: 'Razonamiento Numérico', icon: <Calculator size={20} color={colors.primary} /> },
-  { key: 'abstract_reasoning', title: 'Razonamiento Abstracto', icon: <Shapes size={20} color={colors.primary} /> },
-  { key: 'situational_judgement', title: 'Juicio Situacional', icon: <Users size={20} color={colors.primary} /> },
+  { key: 'verbal_reasoning', title: 'Razonamiento Verbal', icon: <BookOpen size={18} color={colors.primary} /> },
+  { key: 'numerical_reasoning', title: 'Razonamiento Numérico', icon: <Calculator size={18} color={colors.primary} /> },
+  { key: 'abstract_reasoning', title: 'Razonamiento Abstracto', icon: <Shapes size={18} color={colors.textMuted} /> },
+  { key: 'situational_judgement', title: 'Juicio Situacional', icon: <Users size={18} color={colors.textMuted} /> },
 ]
 
 export default function ProgressScreen() {
@@ -29,74 +29,88 @@ export default function ProgressScreen() {
   const overallAccuracy = totalAttempted > 0 ? Math.round((totalCorrect / totalAttempted) * 100) : null
 
   function handleReset() {
-    if (window.confirm('¿Estás seguro de que quieres borrar todo tu progreso?')) {
-      resetProgress()
-    }
+    if (window.confirm('¿Estás seguro de que quieres borrar todo tu progreso?')) resetProgress()
   }
 
   return (
-    <div style={{ flex: 1, backgroundColor: colors.background }}>
-      <div style={{ backgroundColor: colors.surface, borderBottom: `1px solid ${colors.border}`, padding: spacing.md, paddingBottom: spacing.lg, display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+    <div>
+      {/* Page header */}
+      <div style={{ backgroundColor: colors.surface, borderBottom: `1px solid ${colors.border}`, padding: `${spacing.lg}px ${spacing.xl * 2}px`, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
           <h1 style={{ fontSize: fontSize.xxl, fontWeight: 800, color: colors.textPrimary }}>Progreso</h1>
-          <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: 2 }}>Tu historial de práctica</p>
+          <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: 4 }}>Tu historial de práctica</p>
         </div>
-        <button onClick={handleReset} style={{ padding: `${spacing.xs}px ${spacing.sm}px`, borderRadius: radius.sm, backgroundColor: colors.errorLight, cursor: 'pointer' }}>
+        <button onClick={handleReset} style={{ display: 'flex', alignItems: 'center', gap: spacing.xs, padding: `${spacing.xs + 2}px ${spacing.sm}px`, borderRadius: radius.md, backgroundColor: colors.errorLight, cursor: 'pointer' }}>
+          <Trash2 size={14} color={colors.error} />
           <span style={{ fontSize: fontSize.sm, color: colors.error, fontWeight: 600 }}>Restablecer</span>
         </button>
       </div>
 
-      {totalSessions > 0 && (
-        <div style={{ backgroundColor: colors.primary, display: 'flex', padding: `${spacing.md}px 0`, borderBottom: `1px solid ${colors.primaryDark}`, ...shadow.sm }}>
-          {[{ value: totalSessions, label: 'Sesiones' }, { value: `${overallAccuracy}%`, label: 'Precisión' }, { value: totalAttempted, label: 'Preguntas' }].map((item, i) => (
-            <React.Fragment key={item.label}>
-              {i > 0 && <div style={{ width: 1, backgroundColor: 'rgba(255,255,255,0.2)' }} />}
-              <div style={{ flex: 1, textAlign: 'center' }}>
-                <p style={{ fontSize: fontSize.xl, fontWeight: 800, color: '#fff' }}>{item.value}</p>
-                <p style={{ fontSize: fontSize.xs, color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: 0.5 }}>{item.label}</p>
-              </div>
-            </React.Fragment>
-          ))}
-        </div>
-      )}
-
-      <div style={{ padding: spacing.md, overflowY: 'auto' }}>
-        <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.sm }}>Por categoría</p>
-        {CATEGORIES.map(({ key, title, icon }) => {
-          const stats = statsByCategory[key]
-          const accuracy = stats.totalAttempted > 0 ? Math.round((stats.totalCorrect / stats.totalAttempted) * 100) : null
-          return (
-            <div key={key} style={{ backgroundColor: colors.surface, borderRadius: radius.md, padding: spacing.md, marginBottom: spacing.sm, border: `1px solid ${colors.border}` }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: spacing.sm, marginBottom: spacing.sm }}>
-                {icon}
-                <p style={{ fontSize: fontSize.md, fontWeight: 700, color: colors.textPrimary }}>{title}</p>
-              </div>
-              {stats.sessionsCompleted === 0 ? (
-                <p style={{ fontSize: fontSize.sm, color: colors.textMuted, fontStyle: 'italic' }}>Sin sesiones completadas</p>
-              ) : (
-                <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                  {[{ v: stats.sessionsCompleted, l: 'Sesiones' }, { v: `${accuracy ?? 0}%`, l: 'Precisión' }, { v: `${stats.totalCorrect}/${stats.totalAttempted}`, l: 'Correctas' }].map(({ v, l }) => (
-                    <div key={l} style={{ textAlign: 'center' }}>
-                      <p style={{ fontSize: fontSize.lg, fontWeight: 800, color: colors.primary }}>{v}</p>
-                      <p style={{ fontSize: fontSize.sm, color: colors.textMuted, marginTop: 2 }}>{l}</p>
-                    </div>
-                  ))}
+      <div className="content-wrap">
+        {/* Overall stats */}
+        {totalSessions > 0 && (
+          <>
+            <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Resumen global</p>
+            <div className="stats-grid" style={{ marginBottom: spacing.xl }}>
+              {[
+                { value: totalSessions, label: 'Sesiones completadas', color: colors.primary },
+                { value: `${overallAccuracy ?? 0}%`, label: 'Precisión global', color: overallAccuracy != null && overallAccuracy >= 60 ? colors.success : colors.error },
+                { value: totalAttempted, label: 'Preguntas respondidas', color: colors.primary },
+              ].map(({ value, label, color }) => (
+                <div key={label} style={{ backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.lg, border: `1px solid ${colors.border}`, textAlign: 'center', ...shadow.sm }}>
+                  <p style={{ fontSize: fontSize.xxxl, fontWeight: 800, color }}>{value}</p>
+                  <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: spacing.xs }}>{label}</p>
                 </div>
-              )}
+              ))}
             </div>
-          )
-        })}
+          </>
+        )}
 
-        <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.sm, marginTop: spacing.lg }}>Sesiones recientes</p>
+        {/* Per-category */}
+        <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Por categoría</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: spacing.md, marginBottom: spacing.xl }}>
+          {CATEGORIES.map(({ key, title, icon }) => {
+            const stats = statsByCategory[key]
+            const accuracy = stats.totalAttempted > 0 ? Math.round((stats.totalCorrect / stats.totalAttempted) * 100) : null
+            return (
+              <div key={key} style={{ backgroundColor: colors.surface, borderRadius: radius.md, padding: spacing.md, border: `1px solid ${colors.border}`, ...shadow.sm }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: spacing.sm, marginBottom: spacing.sm }}>
+                  {icon}
+                  <p style={{ fontSize: fontSize.md, fontWeight: 700, color: colors.textPrimary }}>{title}</p>
+                </div>
+                {stats.sessionsCompleted === 0 ? (
+                  <p style={{ fontSize: fontSize.sm, color: colors.textMuted, fontStyle: 'italic' }}>Sin sesiones completadas</p>
+                ) : (
+                  <div style={{ display: 'flex', gap: spacing.lg }}>
+                    {[{ v: stats.sessionsCompleted, l: 'Sesiones' }, { v: `${accuracy ?? 0}%`, l: 'Precisión' }, { v: `${stats.totalCorrect}/${stats.totalAttempted}`, l: 'Correctas' }].map(({ v, l }) => (
+                      <div key={l}>
+                        <p style={{ fontSize: fontSize.xl, fontWeight: 800, color: colors.primary }}>{v}</p>
+                        <p style={{ fontSize: fontSize.xs, color: colors.textMuted, marginTop: 2 }}>{l}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        {/* Recent sessions */}
+        <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Sesiones recientes</p>
         {recentSessions.length === 0 ? (
-          <p style={{ fontSize: fontSize.sm, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center', padding: spacing.lg }}>No hay sesiones recientes</p>
+          <p style={{ fontSize: fontSize.sm, color: colors.textMuted, fontStyle: 'italic', textAlign: 'center', padding: spacing.xl }}>No hay sesiones recientes</p>
         ) : (
-          recentSessions.map(session => (
-            <div key={session.id} style={{ backgroundColor: colors.surface, borderRadius: radius.sm, padding: spacing.sm, marginBottom: spacing.xs, border: `1px solid ${colors.border}`, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <p style={{ fontSize: fontSize.sm, color: colors.textPrimary, fontWeight: 600 }}>{CATEGORY_NAMES[session.category]}</p>
-              <span style={{ fontSize: fontSize.sm, fontWeight: 700, color: session.score >= 60 ? colors.success : colors.error }}>{session.score}%</span>
-            </div>
-          ))
+          <div style={{ backgroundColor: colors.surface, borderRadius: radius.lg, border: `1px solid ${colors.border}`, overflow: 'hidden', ...shadow.sm }}>
+            {recentSessions.map((session, i) => (
+              <div key={session.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: `${spacing.sm + 4}px ${spacing.md}px`, borderTop: i > 0 ? `1px solid ${colors.border}` : 'none' }}>
+                <div>
+                  <p style={{ fontSize: fontSize.sm, color: colors.textPrimary, fontWeight: 600 }}>{CATEGORY_NAMES[session.category]}</p>
+                  <p style={{ fontSize: fontSize.xs, color: colors.textMuted, marginTop: 2 }}>{session.correctAnswers} / {session.totalQuestions} correctas</p>
+                </div>
+                <span style={{ fontSize: fontSize.lg, fontWeight: 800, color: session.score >= 60 ? colors.success : colors.error }}>{session.score}%</span>
+              </div>
+            ))}
+          </div>
         )}
       </div>
     </div>
