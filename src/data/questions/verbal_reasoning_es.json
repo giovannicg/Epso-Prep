@@ -1,0 +1,152 @@
+[
+  {
+    "id": "vr_es_009",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "Los tests de ADN han confirmado que un oso blanco con manchas marrones abatido a tiros en el Norte de Canadá es el primer híbrido de oso pardo y oso polar encontrado en la naturaleza. Hasta ahora solo se tenía noticia de híbridos de oso pardo y oso polar en los zoos, dado que en la naturaleza raramente coinciden y mucho menos se aparean. Existen también diferencias, como la época en que se produce el apareamiento, que no solo hacen estos híbridos extremadamente inhabituales sino que además limitan las posibilidades de supervivencia de las crías resultantes. En efecto, probablemente la única posibilidad de que tal unión se produzca es cuando, tras salir de la hibernación, un oso pardo desorientado se interne por el hielo en el territorio del oso polar.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      { "key": "A", "text": "La razón principal por la que no se cruzan los osos polares y los osos pardos es porque tienen diferentes épocas de apareamiento" },
+      { "key": "B", "text": "Los osos pardos y los osos polares se reproducen naturalmente en los zoos" },
+      { "key": "C", "text": "Las dos especies sería más probable que se encontraran cuando un oso polar se internara accidentalmente en el territorio del oso pardo" },
+      { "key": "D", "text": "Hay una serie de distintos factores que limitan las probabilidades de que se produzca un híbrido de oso pardo y oso polar en la naturaleza" }
+    ],
+    "correctKey": "D",
+    "explanation": "El texto menciona múltiples factores: raramente coinciden en la naturaleza, tienen diferentes épocas de apareamiento, y las crías tienen pocas posibilidades de supervivencia. La opción D recoge correctamente esta pluralidad de factores limitantes."
+  },
+  {
+    "id": "vr_es_010",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "Paralelamente al aumento del número de pasajeros de avión, ha aumentado la presión política para reducir las emisiones de efecto invernadero. Un equipo de investigadores británicos y estadounidenses ha concebido un nuevo avión a reacción revolucionario que podría atenuar espectacularmente los efectos del cambio climático. Su forma es radicalmente diferente a la de otros aviones ya que su fuselaje se parece a una cuña y no tiene cola y solo unas pequeñas alas. Lo más importante es que su consumo de combustible podría ser un 35 % inferior al de los aviones de pasajeros actualmente en servicio, lo que no significa sin embargo que llegará a construirse un día. Desde el nacimiento de la era de reactores, en 1957, el aspecto de los aviones comerciales ha cambiado muy poco.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      { "key": "A", "text": "El nuevo avión es el de menor consumo de combustible jamás construido" },
+      { "key": "B", "text": "El número de personas que viajan en avión anualmente debería crecer de forma constante" },
+      { "key": "C", "text": "Gracias a que no tiene cola, el nuevo avión consumirá menos combustible que los reactores comerciales existentes" },
+      { "key": "D", "text": "Aunque este nuevo diseño permite ahorrar combustible, no está claro que algún día será construido" }
+    ],
+    "correctKey": "D",
+    "explanation": "El texto indica que el consumo podría ser un 35% inferior, pero añade explícitamente que esto 'no significa sin embargo que llegará a construirse un día'. La opción D refleja exactamente esta conclusión."
+  },
+  {
+    "id": "vr_es_001",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "La Unión Europea fue creada después de la Segunda Guerra Mundial con el objetivo principal de fomentar la cooperación económica entre sus miembros y así reducir el riesgo de conflictos. Con el tiempo, la UE ha evolucionado hasta convertirse en una organización que abarca desde asuntos económicos hasta políticos y sociales. Hoy cuenta con 27 Estados miembros y más de 450 millones de ciudadanos. Las instituciones europeas, entre ellas el Parlamento Europeo, el Consejo de la UE y la Comisión Europea, trabajan conjuntamente para legislar y administrar las políticas comunitarias.",
+    "question": "¿Cuál de las siguientes afirmaciones se puede deducir del texto?",
+    "options": [
+      { "key": "A", "text": "La UE fue fundada exclusivamente con fines militares tras la Segunda Guerra Mundial" },
+      { "key": "B", "text": "El Parlamento Europeo es la única institución que legisla en la UE" },
+      { "key": "C", "text": "La UE ha ampliado su ámbito de actuación más allá de la cooperación económica original" },
+      { "key": "D", "text": "Todos los países europeos son miembros de la Unión Europea" }
+    ],
+    "correctKey": "C",
+    "explanation": "El texto señala que 'con el tiempo, la UE ha evolucionado hasta convertirse en una organización que abarca desde asuntos económicos hasta políticos y sociales', lo que confirma la opción C."
+  },
+  {
+    "id": "vr_es_002",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "El cambio climático es uno de los mayores desafíos que afronta la humanidad en el siglo XXI. Las concentraciones de dióxido de carbono en la atmósfera han alcanzado niveles sin precedentes desde hace millones de años. Los científicos advierten que, de no reducirse drásticamente las emisiones de gases de efecto invernadero, las temperaturas medias globales podrían aumentar entre 2 y 4 grados Celsius antes de finales del siglo. Esto tendría consecuencias devastadoras para los ecosistemas, la seguridad alimentaria y los asentamientos costeros de todo el mundo. No obstante, aún existe debate sobre las medidas concretas que deben adoptarse y quién debe asumir los costes económicos de la transición energética.",
+    "question": "¿Cuál de las siguientes afirmaciones está respaldada por el texto?",
+    "options": [
+      { "key": "A", "text": "Los científicos han llegado a un acuerdo sobre las medidas concretas para combatir el cambio climático" },
+      { "key": "B", "text": "El aumento de las temperaturas podría tener graves consecuencias en múltiples ámbitos" },
+      { "key": "C", "text": "Las emisiones de CO₂ comenzaron a aumentar de forma significativa en el siglo XXI" },
+      { "key": "D", "text": "Los países en desarrollo son los principales responsables de las emisiones de gases de efecto invernadero" }
+    ],
+    "correctKey": "B",
+    "explanation": "El texto menciona consecuencias para los ecosistemas, la seguridad alimentaria y los asentamientos costeros, lo que confirma que el aumento de temperaturas tendría graves consecuencias en múltiples ámbitos."
+  },
+  {
+    "id": "vr_es_003",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "La inteligencia artificial (IA) está transformando numerosos sectores de la economía mundial, desde la manufactura hasta los servicios financieros y la medicina. Los sistemas de aprendizaje automático son capaces de analizar cantidades ingentes de datos a una velocidad muy superior a la humana, lo que les permite identificar patrones y hacer predicciones con una precisión creciente. Sin embargo, el uso de la IA también plantea importantes dilemas éticos, como la privacidad de los datos, la responsabilidad en caso de decisiones erróneas y el impacto en el mercado laboral. Algunos expertos temen que la automatización pueda eliminar millones de puestos de trabajo, aunque otros argumentan que históricamente las nuevas tecnologías han creado más empleo del que han destruido.",
+    "question": "Según el texto, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      { "key": "A", "text": "Todos los expertos coinciden en que la IA destruirá más empleo del que creará" },
+      { "key": "B", "text": "Los sistemas de IA solo son útiles en el sector de la manufactura" },
+      { "key": "C", "text": "El uso de la IA plantea cuestiones éticas además de beneficios económicos" },
+      { "key": "D", "text": "La IA ya ha eliminado millones de puestos de trabajo en todo el mundo" }
+    ],
+    "correctKey": "C",
+    "explanation": "El texto afirma explícitamente que 'el uso de la IA también plantea importantes dilemas éticos' al tiempo que describe sus beneficios en distintos sectores."
+  },
+  {
+    "id": "vr_es_004",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "El Tratado de Lisboa, que entró en vigor en diciembre de 2009, introdujo cambios significativos en el funcionamiento de la Unión Europea. Entre las principales reformas se encuentra la creación del cargo de Presidente del Consejo Europeo con un mandato de dos años y medio, renovable una vez. Asimismo, se reforzó el papel del Parlamento Europeo en el proceso legislativo, otorgándole poderes de codecisión en un mayor número de ámbitos políticos. El tratado también estableció la figura del Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad, con el fin de dotar a la UE de una voz más coherente en el escenario internacional.",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el Tratado de Lisboa es correcta?",
+    "options": [
+      { "key": "A", "text": "El Tratado de Lisboa creó el cargo de Presidente de la Comisión Europea" },
+      { "key": "B", "text": "El mandato del Presidente del Consejo Europeo es de cuatro años sin posibilidad de renovación" },
+      { "key": "C", "text": "El Parlamento Europeo obtuvo mayores competencias legislativas gracias al tratado" },
+      { "key": "D", "text": "El tratado redujo el número de ámbitos en los que el Parlamento Europeo puede codecidir" }
+    ],
+    "correctKey": "C",
+    "explanation": "El texto indica que el tratado reforzó el papel del Parlamento Europeo 'otorgándole poderes de codecisión en un mayor número de ámbitos políticos'."
+  },
+  {
+    "id": "vr_es_005",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "La biodiversidad, entendida como la variedad de especies vivas que habitan la Tierra, está experimentando un declive sin precedentes. Según informes de Naciones Unidas, aproximadamente un millón de especies animales y vegetales están actualmente amenazadas de extinción, muchas de ellas en pocas décadas. Las causas principales incluyen la destrucción de hábitats, la sobreexplotación de recursos naturales, la contaminación, las especies invasoras y el cambio climático. A diferencia de otras crisis medioambientales, la pérdida de biodiversidad es en gran medida irreversible, pues una vez que una especie se extingue, no puede recuperarse.",
+    "question": "¿Qué se puede inferir del texto sobre la pérdida de biodiversidad?",
+    "options": [
+      { "key": "A", "text": "El cambio climático es la única causa de la pérdida de biodiversidad" },
+      { "key": "B", "text": "La pérdida de biodiversidad puede revertirse con las políticas adecuadas" },
+      { "key": "C", "text": "Aproximadamente un millón de especies ya se han extinguido en las últimas décadas" },
+      { "key": "D", "text": "La extinción de especies es un proceso que no puede deshacerse una vez ocurrido" }
+    ],
+    "correctKey": "D",
+    "explanation": "El texto afirma que 'la pérdida de biodiversidad es en gran medida irreversible, pues una vez que una especie se extingue, no puede recuperarse'."
+  },
+  {
+    "id": "vr_es_006",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "El teletrabajo, impulsado masivamente por la pandemia de COVID-19, ha alterado de forma duradera la organización del trabajo en muchas empresas. Estudios recientes indican que la productividad de los trabajadores en remoto es comparable, o incluso superior en algunos casos, a la de quienes trabajan presencialmente. No obstante, el teletrabajo también presenta desventajas: puede dificultar la colaboración espontánea entre colegas, aumentar la sensación de aislamiento y difuminar los límites entre la vida laboral y personal. Las empresas se enfrentan ahora al reto de diseñar modelos híbridos que aprovechen las ventajas de ambas modalidades.",
+    "question": "Según el texto, ¿cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      { "key": "A", "text": "Los estudios demuestran que los teletrabajadores son siempre más productivos que los presenciales" },
+      { "key": "B", "text": "El teletrabajo no tiene ningún inconveniente para los trabajadores" },
+      { "key": "C", "text": "El teletrabajo puede tener tanto ventajas como desventajas para los trabajadores y las empresas" },
+      { "key": "D", "text": "Antes de la pandemia, el teletrabajo era la modalidad predominante en la mayoría de las empresas" }
+    ],
+    "correctKey": "C",
+    "explanation": "El texto describe tanto ventajas (productividad comparable o superior) como desventajas (aislamiento, dificultad de colaboración, difuminación de límites)."
+  },
+  {
+    "id": "vr_es_007",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "El Banco Central Europeo (BCE) tiene como mandato principal mantener la estabilidad de precios en la zona euro, con un objetivo de inflación del 2% a medio plazo. Para lograr este objetivo, el BCE dispone de varios instrumentos de política monetaria, como la fijación de los tipos de interés de referencia o la compra de activos financieros en los mercados. Cuando la inflación supera el objetivo, el BCE suele subir los tipos de interés para enfriar la economía y reducir el consumo y la inversión. Por el contrario, cuando la inflación es demasiado baja o existe riesgo de deflación, tiende a bajar los tipos o a recurrir a medidas no convencionales.",
+    "question": "¿Cuál de las siguientes afirmaciones sobre el BCE es correcta según el texto?",
+    "options": [
+      { "key": "A", "text": "El BCE fija los tipos de interés únicamente en situaciones de deflación" },
+      { "key": "B", "text": "El objetivo de inflación del BCE es del 5% anual" },
+      { "key": "C", "text": "El BCE puede utilizar la compra de activos como herramienta de política monetaria" },
+      { "key": "D", "text": "Cuando la inflación es alta, el BCE reduce los tipos de interés para estimular la economía" }
+    ],
+    "correctKey": "C",
+    "explanation": "El texto menciona explícitamente que el BCE dispone de instrumentos como 'la compra de activos financieros en los mercados'."
+  },
+  {
+    "id": "vr_es_008",
+    "category": "verbal_reasoning",
+    "language": "es",
+    "passage": "La energía solar fotovoltaica ha experimentado una caída de costes extraordinaria en la última década, convirtiéndose en una de las fuentes de electricidad más baratas en muchas partes del mundo. A pesar de este avance, su integración masiva en la red eléctrica presenta desafíos considerables. La generación solar es intermitente, ya que depende de la disponibilidad de luz solar, lo que obliga a disponer de capacidad de almacenamiento o de fuentes de energía de respaldo para garantizar el suministro eléctrico continuo. La tecnología de baterías está mejorando rápidamente, pero su coste sigue siendo elevado para su despliegue a gran escala.",
+    "question": "¿Qué conclusión se puede extraer del texto?",
+    "options": [
+      { "key": "A", "text": "La energía solar es actualmente la fuente de electricidad más cara del mercado" },
+      { "key": "B", "text": "El almacenamiento de energía no es necesario para integrar la energía solar en la red" },
+      { "key": "C", "text": "La reducción de costes de la energía solar ha eliminado todos los obstáculos para su adopción masiva" },
+      { "key": "D", "text": "Aunque la energía solar es más asequible, su intermitencia sigue siendo un reto para su integración en la red" }
+    ],
+    "correctKey": "D",
+    "explanation": "El texto señala que, a pesar de la caída de costes, la generación solar es intermitente y requiere almacenamiento o fuentes de respaldo."
+  }
+]
