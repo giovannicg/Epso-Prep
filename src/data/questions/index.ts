@@ -1,8 +1,10 @@
 import type { Question, ExamCategory, Language } from '../../types';
 import verbalReasoningEs from './verbal_reasoning_es.json';
+import numericalReasoningEs from './numerical_reasoning_es.json';
 
 const questionBank: Record<string, Question[]> = {
   verbal_reasoning_es: verbalReasoningEs as Question[],
+  numerical_reasoning_es: numericalReasoningEs as Question[],
 };
 
 export function getQuestions(category: ExamCategory, language: Language): Question[] {

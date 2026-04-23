@@ -8,6 +8,7 @@ import { useQuizStore } from '../store/quizStore';
 import { getQuestionById } from '../data/questions';
 import { ProgressBar } from '../components/quiz/ProgressBar';
 import { PassageText } from '../components/quiz/PassageText';
+import { DataTable } from '../components/quiz/DataTable';
 import { QuestionText } from '../components/quiz/QuestionText';
 import { OptionButton } from '../components/quiz/OptionButton';
 import { FeedbackBanner } from '../components/quiz/FeedbackBanner';
@@ -75,7 +76,11 @@ export default function QuizScreen() {
 
       <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
         <ProgressBar current={session.currentIndex + 1} total={session.totalQuestions} />
-        <PassageText text={question.passage} />
+        {question.tableData ? (
+          <DataTable data={question.tableData} />
+        ) : question.passage ? (
+          <PassageText text={question.passage} />
+        ) : null}
         <QuestionText text={question.question} />
 
         {question.options.map(opt => (

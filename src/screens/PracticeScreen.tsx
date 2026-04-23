@@ -10,10 +10,16 @@ import { colors, spacing, fontSize, radius, shadow } from '../utils/theme';
 export default function PracticeScreen() {
   const navigation = useAppNavigation();
   const stats = useProgressStore(s => s.statsByCategory.verbal_reasoning);
+  const numStats = useProgressStore(s => s.statsByCategory.numerical_reasoning);
 
   const accuracy =
     stats.totalAttempted > 0
       ? Math.round((stats.totalCorrect / stats.totalAttempted) * 100)
+      : null;
+
+  const numAccuracy =
+    numStats.totalAttempted > 0
+      ? Math.round((numStats.totalCorrect / numStats.totalAttempted) * 100)
       : null;
 
   return (
@@ -64,7 +70,48 @@ export default function PracticeScreen() {
           />
         </View>
 
-        {(['Razonamiento Numérico', 'Razonamiento Abstracto', 'Juicio Situacional'] as const).map(name => (
+        <View style={[styles.card, shadow.md]}>
+          <View style={styles.cardHeader}>
+            <View style={styles.iconBox}>
+              <Ionicons name="calculator-outline" size={24} color={colors.primary} />
+            </View>
+            <View style={styles.cardInfo}>
+              <Text style={styles.cardTitle}>Razonamiento Numérico</Text>
+              <Text style={styles.cardDesc}>3 preguntas · Español · AST/ES</Text>
+            </View>
+            <View style={styles.availableBadge}>
+              <Text style={styles.availableText}>Disponible</Text>
+            </View>
+          </View>
+
+          {numAccuracy != null ? (
+            <View style={styles.statsRow}>
+              <View style={styles.stat}>
+                <Text style={styles.statValue}>{numStats.sessionsCompleted}</Text>
+                <Text style={styles.statLabel}>Sesiones</Text>
+              </View>
+              <View style={styles.statDivider} />
+              <View style={styles.stat}>
+                <Text style={styles.statValue}>{numAccuracy}%</Text>
+                <Text style={styles.statLabel}>Precisión</Text>
+              </View>
+              <View style={styles.statDivider} />
+              <View style={styles.stat}>
+                <Text style={styles.statValue}>{numStats.totalAttempted}</Text>
+                <Text style={styles.statLabel}>Preguntas</Text>
+              </View>
+            </View>
+          ) : (
+            <Text style={styles.noStats}>Aún no has practicado este test</Text>
+          )}
+
+          <QuizActionButton
+            label="Iniciar práctica"
+            onPress={() => navigation.navigate('Quiz', { category: 'numerical_reasoning', language: 'es' })}
+          />
+        </View>
+
+        {(['Razonamiento Abstracto', 'Juicio Situacional'] as const).map(name => (
           <View key={name} style={[styles.card, styles.lockedCard]}>
             <View style={styles.cardHeader}>
               <View style={[styles.iconBox, styles.iconBoxLocked]}>

@@ -6,18 +6,25 @@ export type ExamCategory =
 
 export type Language = 'es' | 'en' | 'fr';
 
-export type AnswerKey = 'A' | 'B' | 'C' | 'D';
+export type AnswerKey = 'A' | 'B' | 'C' | 'D' | 'E';
 
 export interface AnswerOption {
   key: AnswerKey;
   text: string;
 }
 
+export interface TableData {
+  title?: string;
+  headers: string[];
+  rows: string[][];
+}
+
 export interface Question {
   id: string;
   category: ExamCategory;
   language: Language;
-  passage: string;
+  passage?: string;
+  tableData?: TableData;
   question: string;
   options: AnswerOption[];
   correctKey: AnswerKey;

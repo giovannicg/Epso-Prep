@@ -17,7 +17,7 @@ const CATEGORIES = [
     category: 'numerical_reasoning' as const,
     title: 'Razonamiento Numérico',
     description: 'Tablas, gráficos y cálculos estadísticos',
-    locked: true,
+    locked: false,
   },
   {
     category: 'abstract_reasoning' as const,
