@@ -68,7 +68,7 @@ export default function QuizScreen() {
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', maxWidth: 480, margin: '0 auto', backgroundColor: colors.background }}>
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: `${spacing.sm}px ${spacing.md}px`, borderBottom: `1px solid ${colors.border}`, backgroundColor: colors.surface, flexShrink: 0 }}>
-        <button onClick={() => navigation.goBack()} style={{ width: 36, height: 36, borderRadius: 18, backgroundColor: colors.surfaceAlt, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
+        <button aria-label="Cerrar" onClick={() => navigation.goBack()} style={{ width: 36, height: 36, borderRadius: 18, backgroundColor: colors.surfaceAlt, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
           <X size={18} color={colors.textSecondary} />
         </button>
         <div style={{ textAlign: 'center' }}>

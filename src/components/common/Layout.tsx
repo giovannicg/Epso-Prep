@@ -12,10 +12,12 @@ export default function Layout() {
     justifyContent: 'center',
     padding: `${spacing.xs}px`,
     gap: 3,
+    minHeight: 56,
     color: isActive ? colors.primary : colors.textMuted,
     fontSize: fontSize.xs,
     fontWeight: isActive ? 700 : 400,
     transition: 'color 0.15s',
+    borderTop: isActive ? `2px solid ${colors.primary}` : '2px solid transparent',
   })
 
   return (

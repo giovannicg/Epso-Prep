@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { CheckCircle, XCircle } from 'lucide-react'
 import { useQuizStore } from '../store/quizStore'
 import { computeScore } from '../utils/quizUtils'
+import { getQuestionById } from '../data/questions'
 import { colors, spacing, fontSize, radius } from '../utils/theme'
 
 export default function QuizResultsScreen() {
@@ -23,7 +24,7 @@ export default function QuizResultsScreen() {
   const { correct, total, percentage } = computeScore(session)
   const attempts = Object.values(session.attempts)
 
-  const scoreColor = percentage >= 70 ? colors.success : percentage >= 50 ? colors.accent : colors.error
+  const scoreColor = percentage >= 70 ? colors.success : percentage >= 50 ? colors.primaryDark : colors.error
   const scoreLabel = percentage >= 70 ? '¡Excelente!' : percentage >= 50 ? 'Bien' : 'Sigue practicando'
 
   function handleRetry() {
@@ -70,6 +71,7 @@ export default function QuizResultsScreen() {
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.sm }}>Desglose</p>
         {attempts.map((item, index) => {
           const isCorrect = item.status === 'correct'
+          const question = getQuestionById(item.questionId)
           return (
             <div key={item.questionId} style={{ display: 'flex', alignItems: 'center', gap: spacing.sm, padding: `${spacing.sm}px`, borderRadius: radius.sm, marginBottom: 4, border: `1px solid ${isCorrect ? 'rgba(22,163,74,0.15)' : 'rgba(220,38,38,0.15)'}`, backgroundColor: isCorrect ? '#F0FDF4' : '#FFF5F5' }}>
               <div style={{ width: 24, height: 24, borderRadius: 12, backgroundColor: isCorrect ? colors.successLight : colors.errorLight, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
@@ -77,7 +79,7 @@ export default function QuizResultsScreen() {
               </div>
               {isCorrect ? <CheckCircle size={18} color={colors.success} /> : <XCircle size={18} color={colors.error} />}
               <span style={{ fontSize: fontSize.sm, color: isCorrect ? colors.successDark : colors.errorDark, flex: 1 }}>
-                {isCorrect ? 'Correcta' : `Incorrecta — correcta: ${item.selectedKey ?? '—'}`}
+                {isCorrect ? 'Correcta' : `Incorrecta — correcta: ${question?.correctKey ?? '—'}`}
               </span>
             </div>
           )

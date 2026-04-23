@@ -4,6 +4,13 @@ import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
 import { BookOpen, Calculator, Shapes, Users } from 'lucide-react'
 import type { ExamCategory } from '../types'
 
+const CATEGORY_NAMES: Record<ExamCategory, string> = {
+  verbal_reasoning: 'Razonamiento Verbal',
+  numerical_reasoning: 'Razonamiento Numérico',
+  abstract_reasoning: 'Razonamiento Abstracto',
+  situational_judgement: 'Juicio Situacional',
+}
+
 const CATEGORIES: { key: ExamCategory; title: string; icon: React.ReactNode }[] = [
   { key: 'verbal_reasoning', title: 'Razonamiento Verbal', icon: <BookOpen size={20} color={colors.primary} /> },
   { key: 'numerical_reasoning', title: 'Razonamiento Numérico', icon: <Calculator size={20} color={colors.primary} /> },
@@ -86,7 +93,7 @@ export default function ProgressScreen() {
         ) : (
           recentSessions.map(session => (
             <div key={session.id} style={{ backgroundColor: colors.surface, borderRadius: radius.sm, padding: spacing.sm, marginBottom: spacing.xs, border: `1px solid ${colors.border}`, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <p style={{ fontSize: fontSize.sm, color: colors.textPrimary, fontWeight: 600 }}>{session.category.replace('_', ' ')}</p>
+              <p style={{ fontSize: fontSize.sm, color: colors.textPrimary, fontWeight: 600 }}>{CATEGORY_NAMES[session.category]}</p>
               <span style={{ fontSize: fontSize.sm, fontWeight: 700, color: session.score >= 60 ? colors.success : colors.error }}>{session.score}%</span>
             </div>
           ))

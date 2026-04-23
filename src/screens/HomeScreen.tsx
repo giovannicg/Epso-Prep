@@ -21,7 +21,7 @@ export default function HomeScreen() {
       <div style={{ backgroundColor: colors.euBlue, padding: spacing.lg, paddingTop: spacing.xl }}>
         <div style={{ display: 'flex', gap: spacing.xs, marginBottom: spacing.sm }}>
           {Array.from({ length: 12 }).map((_, i) => (
-            <span key={i} style={{ fontSize: 10 }}>★</span>
+            <span key={i} style={{ fontSize: 10, color: colors.euGold }}>★</span>
           ))}
         </div>
         <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: fontSize.sm, marginBottom: 4 }}>Preparación EPSO</p>
