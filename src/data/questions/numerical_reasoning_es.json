@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nr_es_s06_q01",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "tableData": {
+      "title": "Marathon Results 2010 (42.2 km)",
+      "headers": ["Runner", "Time (h:mm:ss)"],
+      "rows": [
+        ["Anderson", "2:12:14"],
+        ["Benoit", "2:12:38"],
+        ["Canard", "2:13:31"],
+        ["Dennis", "2:14:12"],
+        ["Ekimov", "2:14:20"]
+      ]
+    },
+    "question": "Canard passed the halfway marker at 1:07:50. What was his average speed for the second half of the race?",
+    "options": [
+      { "key": "A", "text": "15.20 km/h" },
+      { "key": "B", "text": "17.38 km/h" },
+      { "key": "C", "text": "18.63 km/h" },
+      { "key": "D", "text": "19.27 km/h" },
+      { "key": "E", "text": "20.31 km/h" }
+    ],
+    "correctKey": "D",
+    "explanation": "Canard's total time = 2:13:31 = 8011s. Halfway time = 1:07:50 = 4070s. Second half time = 8011 − 4070 = 3941s. Distance = 21.1 km. Speed = 21.1 ÷ (3941 ÷ 3600) ≈ 19.27 km/h."
+  },
+  {
+    "id": "nr_es_s06_q02",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "tableData": {
+      "title": "Marathon Results 2010 (42.2 km)",
+      "headers": ["Runner", "Time (h:mm:ss)"],
+      "rows": [
+        ["Anderson", "2:12:14"],
+        ["Benoit", "2:12:38"],
+        ["Canard", "2:13:31"],
+        ["Dennis", "2:14:12"],
+        ["Ekimov", "2:14:20"]
+      ]
+    },
+    "question": "Dennis and Ekimov passed the \"1km to go\" marker at exactly the same time, 2:11:00. How much faster than Ekimov did Dennis run in the last kilometre?",
+    "options": [
+      { "key": "A", "text": "1%" },
+      { "key": "B", "text": "4.2%" },
+      { "key": "C", "text": "6.6%" },
+      { "key": "D", "text": "8%" },
+      { "key": "E", "text": "12.5%" }
+    ],
+    "correctKey": "B",
+    "explanation": "Both reached the 1km marker at 2:11:00 = 7860s. Dennis finished at 2:14:12 = 8052s → last km in 192s. Ekimov at 2:14:20 = 8060s → last km in 200s. Speed ∝ 1/time: (200 − 192) ÷ 192 × 100 ≈ 4.2% faster."
+  },
+  {
+    "id": "nr_es_s06_q03",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "tableData": {
+      "title": "Marathon Results 2010 (42.2 km)",
+      "headers": ["Runner", "Time (h:mm:ss)"],
+      "rows": [
+        ["Anderson", "2:12:14"],
+        ["Benoit", "2:12:38"],
+        ["Canard", "2:13:31"],
+        ["Dennis", "2:14:12"],
+        ["Ekimov", "2:14:20"]
+      ]
+    },
+    "question": "Benoit ran the last 150m at a speed 5% faster than his overall average for the race. How far was Benoit from the finishing line when Anderson finished?",
+    "options": [
+      { "key": "A", "text": "84m" },
+      { "key": "B", "text": "92m" },
+      { "key": "C", "text": "100m" },
+      { "key": "D", "text": "133m" },
+      { "key": "E", "text": "149m" }
+    ],
+    "correctKey": "D",
+    "explanation": "Benoit total = 7958s; Anderson = 7934s → 24s remaining for Benoit when Anderson finishes. Benoit avg speed = 42200 ÷ 7958 ≈ 5.303 m/s. Last 150m speed = 5.303 × 1.05 ≈ 5.568 m/s. Time for last 150m = 150 ÷ 5.568 ≈ 26.9s > 24s, so Benoit is in the last 150m. Distance left = 24 × 5.568 ≈ 133m."
+  }
+]

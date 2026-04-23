@@ -1,37 +1,12 @@
-import React from 'react';
-import { ScrollView, Text, StyleSheet, View } from 'react-native';
-import { colors, spacing, fontSize, radius } from '../../utils/theme';
+import React from 'react'
+import { colors, spacing, fontSize, radius } from '../../utils/theme'
 
-interface Props {
-  text: string;
-}
+interface Props { text: string }
 
 export function PassageText({ text }: Props) {
   return (
-    <View style={styles.wrapper}>
-      <ScrollView style={styles.scroll} showsVerticalScrollIndicator={false} nestedScrollEnabled>
-        <Text style={styles.text}>{text}</Text>
-      </ScrollView>
-    </View>
-  );
+    <div style={{ backgroundColor: colors.surfaceAlt, borderRadius: radius.md, padding: spacing.md, marginBottom: spacing.md, maxHeight: 200, overflowY: 'auto', border: `1px solid ${colors.border}` }}>
+      <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, lineHeight: 1.7 }}>{text}</p>
+    </div>
+  )
 }
-
-const styles = StyleSheet.create({
-  wrapper: {
-    backgroundColor: colors.surface,
-    borderRadius: radius.md,
-    borderLeftWidth: 4,
-    borderLeftColor: colors.primary,
-    maxHeight: 180,
-    marginBottom: spacing.md,
-  },
-  scroll: {
-    padding: spacing.md,
-  },
-  text: {
-    fontSize: fontSize.md,
-    lineHeight: 23,
-    color: colors.textSecondary,
-    fontStyle: 'italic',
-  },
-});
