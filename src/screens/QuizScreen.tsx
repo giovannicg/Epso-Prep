@@ -26,7 +26,9 @@ export default function QuizScreen() {
   const [submitted, setSubmitted] = useState(false)
 
   React.useEffect(() => {
-    if (!session) {
+    const mismatch = session && (session.category !== route.params.category || session.language !== route.params.language)
+    if (!session || mismatch) {
+      store.clearSession()
       const newSession = store.startSession(route.params.category, route.params.language)
       if (!newSession) navigation.goBack()
     }

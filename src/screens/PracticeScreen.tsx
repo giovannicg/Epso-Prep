@@ -1,16 +1,29 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BookOpen, Calculator, Lock, Play } from 'lucide-react'
 import { useProgressStore } from '../store/progressStore'
+import { UserPickerModal } from '../components/quiz/UserPickerModal'
 import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
 
 export default function PracticeScreen() {
   const navigate = useNavigate()
   const vStats = useProgressStore(s => s.statsByCategory.verbal_reasoning)
   const nStats = useProgressStore(s => s.statsByCategory.numerical_reasoning)
+  const [showPicker, setShowPicker] = useState(false)
+  const pendingNav = useRef<string | null>(null)
 
   const vAccuracy = vStats.totalAttempted > 0 ? Math.round((vStats.totalCorrect / vStats.totalAttempted) * 100) : null
   const nAccuracy = nStats.totalAttempted > 0 ? Math.round((nStats.totalCorrect / nStats.totalAttempted) * 100) : null
+
+  function startQuiz(path: string) {
+    pendingNav.current = path
+    setShowPicker(true)
+  }
+
+  function handleUserSelected() {
+    setShowPicker(false)
+    if (pendingNav.current) navigate(pendingNav.current)
+  }
 
   function StatsRow({ sessions, accuracy, attempted }: { sessions: number; accuracy: number | null; attempted: number }) {
     if (accuracy == null) return (
@@ -57,6 +70,13 @@ export default function PracticeScreen() {
 
   return (
     <div>
+      {showPicker && (
+        <UserPickerModal
+          onSelect={handleUserSelected}
+          onClose={() => setShowPicker(false)}
+        />
+      )}
+
       <div style={{ backgroundColor: colors.surface, borderBottom: `1px solid ${colors.border}`, padding: `${spacing.lg}px ${spacing.xl * 2}px` }}>
         <h1 style={{ fontSize: fontSize.xxl, fontWeight: 800, color: colors.textPrimary }}>Práctica</h1>
         <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: 4 }}>Elige un test para comenzar a practicar</p>
@@ -65,8 +85,8 @@ export default function PracticeScreen() {
       <div className="content-wrap">
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Tests disponibles</p>
         <div className="practice-grid">
-          <PracticeCard title="Razonamiento Verbal" desc="10 preguntas · Español · AST/ES" icon={<BookOpen size={24} color={colors.primary} />} onStart={() => navigate('/quiz/verbal_reasoning/es')} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
-          <PracticeCard title="Razonamiento Numérico" desc="3 preguntas · Español · AST/ES" icon={<Calculator size={24} color={colors.primary} />} onStart={() => navigate('/quiz/numerical_reasoning/es')} accuracy={nAccuracy} attempted={nStats.totalAttempted} sessions={nStats.sessionsCompleted} />
+          <PracticeCard title="Razonamiento Verbal" desc="10 preguntas · Español · AST/ES" icon={<BookOpen size={24} color={colors.primary} />} onStart={() => startQuiz('/quiz/verbal_reasoning/es')} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
+          <PracticeCard title="Razonamiento Numérico" desc="3 preguntas · Español · AST/ES" icon={<Calculator size={24} color={colors.primary} />} onStart={() => startQuiz('/quiz/numerical_reasoning/es')} accuracy={nAccuracy} attempted={nStats.totalAttempted} sessions={nStats.sessionsCompleted} />
         </div>
 
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md, marginTop: spacing.xl }}>Próximamente</p>

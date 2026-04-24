@@ -1,6 +1,8 @@
 import React from 'react'
 import { Outlet, NavLink } from 'react-router-dom'
 import { Home, GraduationCap, BarChart2 } from 'lucide-react'
+import { useUserStore, USER_PROFILES } from '../../store/userStore'
+import { useProgressStore } from '../../store/progressStore'
 import { colors, fontSize } from '../../utils/theme'
 
 const NAV_LINKS = [
@@ -10,6 +12,17 @@ const NAV_LINKS = [
 ]
 
 export default function Layout() {
+  const activeUser = useUserStore(s => s.activeUser)
+  const clearUser = useUserStore(s => s.clearUser)
+  const loadProgress = useProgressStore(s => s.loadProgress)
+
+  function handleClearUser() {
+    clearUser()
+    loadProgress()
+  }
+
+  const profile = activeUser ? USER_PROFILES[activeUser] : null
+
   return (
     <div className="app-shell">
       <nav className="sidebar-nav">
@@ -53,11 +66,25 @@ export default function Layout() {
           ))}
         </div>
 
-        {/* Footer */}
-        <div style={{ padding: '16px 20px', borderTop: `1px solid ${colors.border}` }}>
-          <p style={{ fontSize: fontSize.xs, color: colors.textMuted, lineHeight: 1.5 }}>
-            Preparación para exámenes EPSO · Nivel AST/ES
-          </p>
+        {/* Active user footer */}
+        <div style={{ padding: '14px 20px', borderTop: `1px solid ${colors.border}` }}>
+          {profile ? (
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+              <div style={{ width: 34, height: 34, borderRadius: 17, backgroundColor: profile.color, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                <span style={{ fontSize: fontSize.xs, fontWeight: 800, color: '#fff' }}>{profile.initials}</span>
+              </div>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <p style={{ fontSize: fontSize.sm, fontWeight: 700, color: colors.textPrimary }}>{profile.name}</p>
+                <button onClick={handleClearUser} style={{ fontSize: fontSize.xs, color: colors.textMuted, cursor: 'pointer', padding: 0, textAlign: 'left' }}>
+                  Cambiar usuario
+                </button>
+              </div>
+            </div>
+          ) : (
+            <p style={{ fontSize: fontSize.xs, color: colors.textMuted, lineHeight: 1.5 }}>
+              Selecciona un usuario al iniciar un test
+            </p>
+          )}
         </div>
       </nav>
 
