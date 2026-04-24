@@ -101,6 +101,17 @@ export default function QuizScreen() {
       {/* Scrollable content */}
       <div style={{ flex: 1, overflowY: 'auto', paddingTop: spacing.xl, paddingBottom: spacing.xl }}>
         <div className="quiz-body">
+          {question.groupId && question.groupTotalQuestions && question.groupTotalQuestions > 1 && (
+            <div style={{ marginBottom: spacing.md, padding: `${spacing.xs + 2}px ${spacing.md}px`, backgroundColor: colors.primarySurface, borderRadius: radius.md, border: `1px solid rgba(3,105,161,0.15)`, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: spacing.sm }}>
+              <span style={{ fontSize: fontSize.xs, fontWeight: 600, color: colors.primary, flex: 1, minWidth: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                {question.groupTitle}
+              </span>
+              <span style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.primary, whiteSpace: 'nowrap', flexShrink: 0 }}>
+                Pregunta {question.groupQuestionIndex} de {question.groupTotalQuestions}
+              </span>
+            </div>
+          )}
+
           {question.tableData ? <DataTable data={question.tableData} /> : question.passage ? <PassageText text={question.passage} /> : null}
 
           <p style={{ fontSize: fontSize.lg, fontWeight: 700, color: colors.textPrimary, lineHeight: 1.6, marginBottom: spacing.md }}>{question.question}</p>

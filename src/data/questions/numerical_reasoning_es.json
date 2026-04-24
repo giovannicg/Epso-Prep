@@ -1,80 +1,175 @@
 [
   {
-    "id": "nr_es_s06_q01",
+    "dataset_id": "nr_dataset_001",
     "category": "numerical_reasoning",
     "language": "es",
+    "title": "Ingresos anuales de 'TechGlobal' por región (millones de €)",
     "tableData": {
-      "title": "Marathon Results 2010 (42.2 km)",
-      "headers": ["Runner", "Time (h:mm:ss)"],
+      "title": "Ingresos anuales de 'TechGlobal' por región (millones de €)",
+      "headers": ["Región", "2020", "2021", "2022"],
       "rows": [
-        ["Anderson", "2:12:14"],
-        ["Benoit", "2:12:38"],
-        ["Canard", "2:13:31"],
-        ["Dennis", "2:14:12"],
-        ["Ekimov", "2:14:20"]
+        ["Norte", "120", "135", "150"],
+        ["Sur", "80", "90", "110"],
+        ["Este", "60", "65", "70"],
+        ["Oeste", "140", "130", "125"]
       ]
     },
-    "question": "Canard passed the halfway marker at 1:07:50. What was his average speed for the second half of the race?",
-    "options": [
-      { "key": "A", "text": "15.20 km/h" },
-      { "key": "B", "text": "17.38 km/h" },
-      { "key": "C", "text": "18.63 km/h" },
-      { "key": "D", "text": "19.27 km/h" },
-      { "key": "E", "text": "20.31 km/h" }
-    ],
-    "correctKey": "D",
-    "explanation": "Canard's total time = 2:13:31 = 8011s. Halfway time = 1:07:50 = 4070s. Second half time = 8011 − 4070 = 3941s. Distance = 21.1 km. Speed = 21.1 ÷ (3941 ÷ 3600) ≈ 19.27 km/h."
+    "questions": [
+      {
+        "id": "nr_es_001",
+        "question": "¿Cuál fue el incremento porcentual aproximado de los ingresos en la región Sur entre 2020 y 2022?",
+        "options": [
+          { "key": "A", "text": "30.0%" },
+          { "key": "B", "text": "35.5%" },
+          { "key": "C", "text": "37.5%" },
+          { "key": "D", "text": "40.0%" }
+        ],
+        "correctKey": "C",
+        "explanation": "Paso 1: Calcular la diferencia absoluta de ingresos en la región Sur: 110 (2022) - 80 (2020) = 30 millones. Paso 2: Calcular el porcentaje de incremento sobre el valor inicial (2020): (30 / 80) * 100 = 37.5%."
+      },
+      {
+        "id": "nr_es_002",
+        "question": "¿Qué región fue la única en experimentar una disminución constante en sus ingresos durante el período mostrado?",
+        "options": [
+          { "key": "A", "text": "Norte" },
+          { "key": "B", "text": "Sur" },
+          { "key": "C", "text": "Este" },
+          { "key": "D", "text": "Oeste" }
+        ],
+        "correctKey": "D",
+        "explanation": "Al observar la tabla, la región Oeste pasó de 140 en 2020 a 130 en 2021, y luego a 125 en 2022. Las demás regiones aumentaron sus ingresos año tras año."
+      },
+      {
+        "id": "nr_es_003",
+        "question": "¿Cuál fue el ingreso total combinado de todas las regiones en el año 2021?",
+        "options": [
+          { "key": "A", "text": "400 millones de €" },
+          { "key": "B", "text": "420 millones de €" },
+          { "key": "C", "text": "440 millones de €" },
+          { "key": "D", "text": "450 millones de €" }
+        ],
+        "correctKey": "B",
+        "explanation": "Sumamos los ingresos de todas las regiones en 2021: 135 (Norte) + 90 (Sur) + 65 (Este) + 130 (Oeste) = 420 millones de €."
+      }
+    ]
   },
   {
-    "id": "nr_es_s06_q02",
+    "dataset_id": "nr_dataset_002",
     "category": "numerical_reasoning",
     "language": "es",
+    "title": "Emisiones de CO2 por sector económico (millones de toneladas)",
     "tableData": {
-      "title": "Marathon Results 2010 (42.2 km)",
-      "headers": ["Runner", "Time (h:mm:ss)"],
+      "title": "Emisiones de CO2 por sector económico (millones de toneladas)",
+      "headers": ["Sector", "2018", "2022"],
       "rows": [
-        ["Anderson", "2:12:14"],
-        ["Benoit", "2:12:38"],
-        ["Canard", "2:13:31"],
-        ["Dennis", "2:14:12"],
-        ["Ekimov", "2:14:20"]
+        ["Transporte", "450", "410"],
+        ["Industria", "380", "350"],
+        ["Agricultura", "120", "130"],
+        ["Residencial", "200", "190"]
       ]
     },
-    "question": "Dennis and Ekimov passed the \"1km to go\" marker at exactly the same time, 2:11:00. How much faster than Ekimov did Dennis run in the last kilometre?",
-    "options": [
-      { "key": "A", "text": "1%" },
-      { "key": "B", "text": "4.2%" },
-      { "key": "C", "text": "6.6%" },
-      { "key": "D", "text": "8%" },
-      { "key": "E", "text": "12.5%" }
-    ],
-    "correctKey": "B",
-    "explanation": "Both reached the 1km marker at 2:11:00 = 7860s. Dennis finished at 2:14:12 = 8052s → last km in 192s. Ekimov at 2:14:20 = 8060s → last km in 200s. Speed ∝ 1/time: (200 − 192) ÷ 192 × 100 ≈ 4.2% faster."
+    "questions": [
+      {
+        "id": "nr_es_004",
+        "question": "¿Cuál fue la reducción absoluta de las emisiones del sector Transporte entre 2018 y 2022?",
+        "options": [
+          { "key": "A", "text": "30 millones de toneladas" },
+          { "key": "B", "text": "40 millones de toneladas" },
+          { "key": "C", "text": "50 millones de toneladas" },
+          { "key": "D", "text": "60 millones de toneladas" }
+        ],
+        "correctKey": "B",
+        "explanation": "Emisiones del sector Transporte en 2018 (450) menos emisiones en 2022 (410) = 40 millones de toneladas de reducción."
+      },
+      {
+        "id": "nr_es_005",
+        "question": "Aproximadamente, ¿qué porcentaje de las emisiones totales en 2022 provino del sector Industria?",
+        "options": [
+          { "key": "A", "text": "28.5%" },
+          { "key": "B", "text": "30.1%" },
+          { "key": "C", "text": "32.4%" },
+          { "key": "D", "text": "35.0%" }
+        ],
+        "correctKey": "C",
+        "explanation": "Paso 1: Calcular emisiones totales en 2022: 410 + 350 + 130 + 190 = 1080 millones. Paso 2: Calcular el porcentaje de la Industria (350): (350 / 1080) * 100 = 32.40%."
+      },
+      {
+        "id": "nr_es_006",
+        "question": "¿Qué sector fue el único en mostrar un aumento en sus emisiones de CO2 entre 2018 y 2022?",
+        "options": [
+          { "key": "A", "text": "Transporte" },
+          { "key": "B", "text": "Industria" },
+          { "key": "C", "text": "Agricultura" },
+          { "key": "D", "text": "Residencial" }
+        ],
+        "correctKey": "C",
+        "explanation": "Comparando los datos, el sector Agricultura pasó de 120 millones en 2018 a 130 millones en 2022, siendo el único sector con incremento."
+      }
+    ]
   },
   {
-    "id": "nr_es_s06_q03",
+    "dataset_id": "nr_dataset_003",
     "category": "numerical_reasoning",
     "language": "es",
+    "title": "Tipo de cambio frente al Euro (1 EUR = X moneda extranjera)",
     "tableData": {
-      "title": "Marathon Results 2010 (42.2 km)",
-      "headers": ["Runner", "Time (h:mm:ss)"],
+      "title": "Tipo de cambio frente al Euro (1 EUR = X moneda extranjera)",
+      "headers": ["Mes", "Dólar (USD)", "Libra (GBP)", "Yen (JPY)"],
       "rows": [
-        ["Anderson", "2:12:14"],
-        ["Benoit", "2:12:38"],
-        ["Canard", "2:13:31"],
-        ["Dennis", "2:14:12"],
-        ["Ekimov", "2:14:20"]
+        ["Enero", "1.10", "0.85", "130"],
+        ["Febrero", "1.12", "0.84", "128"],
+        ["Marzo", "1.15", "0.86", "132"]
       ]
     },
-    "question": "Benoit ran the last 150m at a speed 5% faster than his overall average for the race. How far was Benoit from the finishing line when Anderson finished?",
-    "options": [
-      { "key": "A", "text": "84m" },
-      { "key": "B", "text": "92m" },
-      { "key": "C", "text": "100m" },
-      { "key": "D", "text": "133m" },
-      { "key": "E", "text": "149m" }
-    ],
-    "correctKey": "D",
-    "explanation": "Benoit total = 7958s; Anderson = 7934s → 24s remaining for Benoit when Anderson finishes. Benoit avg speed = 42200 ÷ 7958 ≈ 5.303 m/s. Last 150m speed = 5.303 × 1.05 ≈ 5.568 m/s. Time for last 150m = 150 ÷ 5.568 ≈ 26.9s > 24s, so Benoit is in the last 150m. Distance left = 24 × 5.568 ≈ 133m."
+    "questions": [
+      {
+        "id": "nr_es_007",
+        "question": "Si a finales de marzo se cambian 500 Euros a Dólares Estadounidenses (USD), ¿cuántos dólares se obtienen?",
+        "options": [
+          { "key": "A", "text": "550 USD" },
+          { "key": "B", "text": "560 USD" },
+          { "key": "C", "text": "575 USD" },
+          { "key": "D", "text": "600 USD" }
+        ],
+        "correctKey": "C",
+        "explanation": "El tipo de cambio del EUR a USD en marzo es 1.15. Multiplicamos la cantidad de euros por la tasa: 500 * 1.15 = 575 USD."
+      },
+      {
+        "id": "nr_es_008",
+        "question": "¿Cuál fue la variación porcentual de la tasa de cambio de la Libra Esterlina (GBP) respecto al Euro entre febrero y marzo?",
+        "options": [
+          { "key": "A", "text": "+1.5%" },
+          { "key": "B", "text": "+2.4%" },
+          { "key": "C", "text": "-2.4%" },
+          { "key": "D", "text": "-1.5%" }
+        ],
+        "correctKey": "B",
+        "explanation": "La tasa en febrero era 0.84 y en marzo subió a 0.86. Variación = (0.86 - 0.84) / 0.84 = 0.02 / 0.84 = 0.0238... Multiplicado por 100 = +2.38%, que se redondea a +2.4%."
+      },
+      {
+        "id": "nr_es_009",
+        "question": "Aproximadamente, ¿cuántos Yenes (JPY) se podrían haber comprado indirectamente con 200 Libras (GBP) en el mes de enero?",
+        "options": [
+          { "key": "A", "text": "30,000 JPY" },
+          { "key": "B", "text": "30,588 JPY" },
+          { "key": "C", "text": "31,250 JPY" },
+          { "key": "D", "text": "32,000 JPY" }
+        ],
+        "correctKey": "B",
+        "explanation": "Paso 1: Convertir GBP a EUR. Tasa en enero es 0.85 GBP por EUR. 200 GBP / 0.85 = 235.29 EUR. Paso 2: Convertir EUR a JPY. Tasa en enero es 130 JPY por EUR. 235.29 EUR * 130 = 30,587.7 JPY (aproximadamente 30,588)."
+      },
+      {
+        "id": "nr_es_010",
+        "question": "¿En qué mes tuvo el Euro su valor más bajo (más débil) frente al Yen japonés (JPY)?",
+        "options": [
+          { "key": "A", "text": "Enero" },
+          { "key": "B", "text": "Febrero" },
+          { "key": "C", "text": "Marzo" },
+          { "key": "D", "text": "No se puede determinar" }
+        ],
+        "correctKey": "B",
+        "explanation": "Un euro más débil compra menos yenes. Al revisar la tabla, en febrero 1 EUR compraba solo 128 JPY (la cantidad más baja), por lo que ese fue su momento de menor valor frente al Yen."
+      }
+    ]
   }
 ]

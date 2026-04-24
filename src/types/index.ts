@@ -29,6 +29,28 @@ export interface Question {
   options: AnswerOption[];
   correctKey: AnswerKey;
   explanation?: string;
+  groupId?: string;
+  groupTitle?: string;
+  groupQuestionIndex?: number;
+  groupTotalQuestions?: number;
+}
+
+export interface QuestionGroupItem {
+  id: string;
+  question: string;
+  options: AnswerOption[];
+  correctKey: AnswerKey;
+  explanation?: string;
+}
+
+export interface QuestionGroup {
+  dataset_id: string;
+  category: ExamCategory;
+  language: Language;
+  title?: string;
+  tableData?: TableData;
+  passage?: string;
+  questions: QuestionGroupItem[];
 }
 
 export type AnswerStatus = 'correct' | 'incorrect' | 'unanswered';
