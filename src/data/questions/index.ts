@@ -1,6 +1,7 @@
 import type { Question, ExamCategory, Language, QuestionGroup } from '../../types';
 import verbalReasoningEs from './verbal_reasoning_es.json';
-import numericalReasoningEsRaw from './numerical_reasoning_es.json';
+import numericalReasoningEsRaw from './numerical_reasoning_es_book.json';
+import numericalReasoningEnRaw from './numerical_reasoning_en.json';
 
 function flattenGroups(groups: QuestionGroup[]): Question[] {
   return groups.flatMap(group =>
@@ -9,6 +10,7 @@ function flattenGroups(groups: QuestionGroup[]): Question[] {
       category: group.category,
       language: group.language,
       tableData: group.tableData,
+      imageUrls: group.imageUrls,
       passage: group.passage,
       question: item.question,
       options: item.options,
@@ -23,10 +25,12 @@ function flattenGroups(groups: QuestionGroup[]): Question[] {
 }
 
 const numericalReasoningEs = flattenGroups(numericalReasoningEsRaw as unknown as QuestionGroup[]);
+const numericalReasoningEn = flattenGroups(numericalReasoningEnRaw as unknown as QuestionGroup[]);
 
 const questionBank: Record<string, Question[]> = {
   verbal_reasoning_es: verbalReasoningEs as Question[],
   numerical_reasoning_es: numericalReasoningEs,
+  numerical_reasoning_en: numericalReasoningEn,
 };
 
 export function getQuestions(category: ExamCategory, language: Language): Question[] {
@@ -36,4 +40,11 @@ export function getQuestions(category: ExamCategory, language: Language): Questi
 
 export function getQuestionById(id: string): Question | undefined {
   return Object.values(questionBank).flat().find(q => q.id === id);
+}
+
+export function getQuestionByIdAndLanguage(id: string, language: Language): Question | undefined {
+  return Object.entries(questionBank)
+    .filter(([key]) => key.endsWith(`_${language}`))
+    .flatMap(([, qs]) => qs)
+    .find(q => q.id === id);
 }

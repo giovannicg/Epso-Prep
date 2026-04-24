@@ -25,6 +25,7 @@ export interface Question {
   language: Language;
   passage?: string;
   tableData?: TableData;
+  imageUrls?: string[];
   question: string;
   options: AnswerOption[];
   correctKey: AnswerKey;
@@ -49,6 +50,7 @@ export interface QuestionGroup {
   language: Language;
   title?: string;
   tableData?: TableData;
+  imageUrls?: string[];
   passage?: string;
   questions: QuestionGroupItem[];
 }

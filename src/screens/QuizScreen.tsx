@@ -3,11 +3,12 @@ import { X } from 'lucide-react'
 import { useQuizSession } from '../hooks/useQuizSession'
 import { useQuizRoute, useAppNavigation } from '../navigation/useTypedNavigation'
 import { useQuizStore } from '../store/quizStore'
-import { getQuestionById } from '../data/questions'
+import { getQuestionById, getQuestionByIdAndLanguage } from '../data/questions'
 import { DataTable } from '../components/quiz/DataTable'
 import { PassageText } from '../components/quiz/PassageText'
+import { QuizImageSet } from '../components/quiz/QuizImageSet'
 import { colors, spacing, fontSize, radius } from '../utils/theme'
-import type { AnswerKey } from '../types'
+import type { AnswerKey, Language } from '../types'
 
 const CATEGORY_LABELS: Record<string, string> = {
   verbal_reasoning: 'Razonamiento Verbal',
@@ -24,6 +25,7 @@ export default function QuizScreen() {
 
   const [selectedKey, setSelectedKey] = useState<AnswerKey | null>(null)
   const [submitted, setSubmitted] = useState(false)
+  const [viewLang, setViewLang] = useState<Language>(route.params.language as Language)
 
   React.useEffect(() => {
     const mismatch = session && (session.category !== route.params.category || session.language !== route.params.language)
@@ -37,11 +39,12 @@ export default function QuizScreen() {
   React.useEffect(() => {
     setSelectedKey(null)
     setSubmitted(false)
+    setViewLang(route.params.language as Language)
   }, [currentQuestionId])
 
   if (!session || !currentQuestionId) return null
 
-  const question = getQuestionById(currentQuestionId)
+  const question = getQuestionByIdAndLanguage(currentQuestionId, viewLang) ?? getQuestionById(currentQuestionId)
   if (!question) return null
 
   const attempt = session.attempts[currentQuestionId]
@@ -95,7 +98,23 @@ export default function QuizScreen() {
             {session.currentIndex + 1} / {session.totalQuestions}
           </span>
         </div>
-        <span style={{ fontSize: fontSize.sm, fontWeight: 600, color: colors.textSecondary, whiteSpace: 'nowrap' }}>{categoryLabel}</span>
+        <div style={{ display: 'flex', alignItems: 'center', backgroundColor: colors.surfaceAlt, borderRadius: radius.xl, padding: 3, gap: 2, flexShrink: 0 }}>
+          {(['es', 'en'] as Language[]).map(lang => (
+            <button
+              key={lang}
+              onClick={() => setViewLang(lang)}
+              style={{
+                padding: `4px 10px`, borderRadius: radius.lg, border: 'none',
+                fontSize: fontSize.xs, fontWeight: 700, cursor: 'pointer',
+                backgroundColor: viewLang === lang ? colors.primary : 'transparent',
+                color: viewLang === lang ? '#fff' : colors.textSecondary,
+                transition: 'all 0.15s',
+              }}
+            >
+              {lang.toUpperCase()}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* Scrollable content */}
@@ -112,7 +131,7 @@ export default function QuizScreen() {
             </div>
           )}
 
-          {question.tableData ? <DataTable data={question.tableData} /> : question.passage ? <PassageText text={question.passage} /> : null}
+          {question.imageUrls?.length ? <QuizImageSet imageUrls={question.imageUrls} /> : question.tableData ? <DataTable data={question.tableData} /> : question.passage ? <PassageText text={question.passage} /> : null}
 
           <p style={{ fontSize: fontSize.lg, fontWeight: 700, color: colors.textPrimary, lineHeight: 1.6, marginBottom: spacing.md }}>{question.question}</p>
 

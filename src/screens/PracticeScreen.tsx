@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BookOpen, Calculator, Lock, Play } from 'lucide-react'
 import { useProgressStore } from '../store/progressStore'
+import { useUserStore } from '../store/userStore'
 import { UserPickerModal } from '../components/quiz/UserPickerModal'
 import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
 
@@ -9,6 +10,8 @@ export default function PracticeScreen() {
   const navigate = useNavigate()
   const vStats = useProgressStore(s => s.statsByCategory.verbal_reasoning)
   const nStats = useProgressStore(s => s.statsByCategory.numerical_reasoning)
+  const preferredLanguage = useUserStore(s => s.preferredLanguage)
+  const setPreferredLanguage = useUserStore(s => s.setPreferredLanguage)
   const [showPicker, setShowPicker] = useState(false)
   const pendingNav = useRef<string | null>(null)
 
@@ -77,16 +80,34 @@ export default function PracticeScreen() {
         />
       )}
 
-      <div style={{ backgroundColor: colors.surface, borderBottom: `1px solid ${colors.border}`, padding: `${spacing.lg}px ${spacing.xl * 2}px` }}>
-        <h1 style={{ fontSize: fontSize.xxl, fontWeight: 800, color: colors.textPrimary }}>Práctica</h1>
-        <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: 4 }}>Elige un test para comenzar a practicar</p>
+      <div style={{ backgroundColor: colors.surface, borderBottom: `1px solid ${colors.border}`, padding: `${spacing.lg}px ${spacing.xl * 2}px`, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: spacing.md, flexWrap: 'wrap' }}>
+        <div>
+          <h1 style={{ fontSize: fontSize.xxl, fontWeight: 800, color: colors.textPrimary }}>Práctica</h1>
+          <p style={{ fontSize: fontSize.sm, color: colors.textSecondary, marginTop: 4 }}>Elige un test para comenzar a practicar</p>
+        </div>
+        <div style={{ display: 'flex', gap: 4, backgroundColor: colors.surfaceAlt, borderRadius: 999, padding: 4, border: `1px solid ${colors.border}` }}>
+          {(['es', 'en'] as const).map(lang => (
+            <button
+              key={lang}
+              onClick={() => setPreferredLanguage(lang)}
+              style={{
+                padding: '6px 18px', borderRadius: 999, fontSize: fontSize.sm, fontWeight: 700, cursor: 'pointer',
+                backgroundColor: preferredLanguage === lang ? colors.primary : 'transparent',
+                color: preferredLanguage === lang ? '#fff' : colors.textSecondary,
+                transition: 'all 0.15s',
+              }}
+            >
+              {lang === 'es' ? 'ES' : 'EN'}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="content-wrap">
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Tests disponibles</p>
         <div className="practice-grid">
-          <PracticeCard title="Razonamiento Verbal" desc="10 preguntas · Español · AST/ES" icon={<BookOpen size={24} color={colors.primary} />} onStart={() => startQuiz('/quiz/verbal_reasoning/es')} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
-          <PracticeCard title="Razonamiento Numérico" desc="3 preguntas · Español · AST/ES" icon={<Calculator size={24} color={colors.primary} />} onStart={() => startQuiz('/quiz/numerical_reasoning/es')} accuracy={nAccuracy} attempted={nStats.totalAttempted} sessions={nStats.sessionsCompleted} />
+          <PracticeCard title={preferredLanguage === 'en' ? 'Verbal Reasoning' : 'Razonamiento Verbal'} desc={preferredLanguage === 'en' ? '10 questions · English · AST/AD' : '10 preguntas · Español · AST/ES'} icon={<BookOpen size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/verbal_reasoning/${preferredLanguage}`)} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
+          <PracticeCard title={preferredLanguage === 'en' ? 'Numerical Reasoning' : 'Razonamiento Numérico'} desc={preferredLanguage === 'en' ? '120 questions · English · AST/AD' : '120 preguntas · Español · AST/ES'} icon={<Calculator size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/numerical_reasoning/${preferredLanguage}`)} accuracy={nAccuracy} attempted={nStats.totalAttempted} sessions={nStats.sessionsCompleted} />
         </div>
 
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md, marginTop: spacing.xl }}>Próximamente</p>

@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BookOpen, Calculator, Shapes, Users, Lock, ChevronRight } from 'lucide-react'
 import { useProgressStore } from '../store/progressStore'
+import { useUserStore } from '../store/userStore'
 import { UserPickerModal } from '../components/quiz/UserPickerModal'
 import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
 import type { ExamCategory } from '../types'
@@ -16,6 +17,7 @@ const CATEGORIES: { category: ExamCategory; title: string; description: string; 
 export default function HomeScreen() {
   const navigate = useNavigate()
   const statsByCategory = useProgressStore(s => s.statsByCategory)
+  const preferredLanguage = useUserStore(s => s.preferredLanguage)
   const [showPicker, setShowPicker] = useState(false)
   const pendingNav = useRef<string | null>(null)
 
@@ -69,7 +71,7 @@ export default function HomeScreen() {
             return (
               <button
                 key={category}
-                onClick={() => !locked && startQuiz(`/quiz/${category}/es`)}
+                onClick={() => !locked && startQuiz(`/quiz/${category}/${preferredLanguage}`)}
                 disabled={locked}
                 style={{ display: 'flex', flexDirection: 'column', backgroundColor: colors.surface, borderRadius: radius.lg, padding: spacing.lg, textAlign: 'left', border: `1px solid ${colors.border}`, opacity: locked ? 0.45 : 1, cursor: locked ? 'default' : 'pointer', ...(!locked ? shadow.sm : {}), transition: 'box-shadow 0.15s, border-color 0.15s', width: '100%' }}
               >

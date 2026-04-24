@@ -1,0 +1,3768 @@
+[
+  {
+    "dataset_id": "nr_set_01",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set1.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set01_q1",
+        "question": "¿Cuál fue el aumento del tráfico intra-UE total entre 2015 y 2016 (redondeado al millón más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "11 millones"
+          },
+          {
+            "key": "B",
+            "text": "39 millones"
+          },
+          {
+            "key": "C",
+            "text": "13 millones"
+          },
+          {
+            "key": "D",
+            "text": "73 millones"
+          },
+          {
+            "key": "E",
+            "text": "4 millones"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Es necesario calcular el tráfico intra-UE total en 2015 y 2016, y luego obtener la diferencia. Usamos los datos del primer par de la tabla (Reino Unido-España): En 2015, la cuota del tráfico total era del 9,1%, por lo que el tráfico intra-UE total fue: 35.922,6 / 0,091 = 394.753,8. En 2016, con una cuota del 9,6%: 41.637,8 / 0,096 = 433.727,1. Diferencia: 433.727,1 – 394.753,8 = 38.973,2 miles ≈ 39 millones. Trampa habitual: sumar solo los cinco pares de la tabla da 11 millones (opción A), que es incorrecto."
+      },
+      {
+        "id": "nr_set01_q2",
+        "question": "¿Cuál fue el aumento porcentual del tráfico hacia los tres principales destinos desde el Reino Unido entre 2015 y 2016 (redondeado a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "0,9%"
+          },
+          {
+            "key": "B",
+            "text": "8,9%"
+          },
+          {
+            "key": "C",
+            "text": "11,2%"
+          },
+          {
+            "key": "D",
+            "text": "12,4%"
+          },
+          {
+            "key": "E",
+            "text": "0,4%"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el total de pasajeros desde el Reino Unido a sus tres principales destinos en ambos años. Pasajeros en 2015: 35.922,6 + 13.302,7 + 12.711,3 = 61.936,6. Pasajeros en 2016: 41.637,8 + 13.877 + 14.123,5 = 69.638,3. Incremento porcentual: (69.638,3 / 61.936,6 – 1) × 100% = 12,4%. Trampas: sumar todos los pares da 11,2% (opción C); sumar las cuotas porcentuales en lugar de los pasajeros reales da 0,4% (opción E)."
+      },
+      {
+        "id": "nr_set01_q3",
+        "question": "En 2015 el coste medio de un vuelo España-Alemania era de 147,60 €, y aumentó un 2,1% en 2016. ¿Cuál fue el incremento en el gasto total de los pasajeros España-Alemania entre 2015 y 2016 (redondeado al millar de euros más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "457 miles €"
+          },
+          {
+            "key": "B",
+            "text": "364 miles €"
+          },
+          {
+            "key": "C",
+            "text": "457.115 miles €"
+          },
+          {
+            "key": "D",
+            "text": "2.108 miles €"
+          },
+          {
+            "key": "E",
+            "text": "364.091 miles €"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Paso 1: Coste medio en 2016: 147,60 × 1,021 ≈ 150,70 €. Paso 2: Gasto total en 2015: 25.063,9 × 147,60 ≈ 3.699.432 miles €. Paso 3: Gasto total en 2016: 27.581,6 × 150,70 ≈ 4.156.547 miles €. Diferencia: 4.156.547 – 3.699.432 ≈ 457.115 miles €. Trampa: olvidar que los pasajeros están en miles lleva a 457 miles € (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_02",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set02_q1",
+        "question": "¿Cuál fue la diferencia entre el número de viajes al exterior realizados por residentes de la UE en 2016 a EE. UU. y a Suiza (al millón más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "60 millones"
+          },
+          {
+            "key": "B",
+            "text": "39 millones"
+          },
+          {
+            "key": "C",
+            "text": "15 millones"
+          },
+          {
+            "key": "D",
+            "text": "15.431 millones"
+          },
+          {
+            "key": "E",
+            "text": "18.934 millones"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Viajes a EE. UU.: 308.622 × 0,14 = 43.207,1 miles. Viajes a Suiza: 308.622 × 0,09 = 27.776,0 miles. Diferencia: 43.207,1 – 27.776,0 = 15.431,1 miles ≈ 15 millones. Trampa: omitir que las cifras están en miles lleva a 15.431 millones (opción D). Atajo: 308.622 × (0,14 – 0,09) = 308.622 × 0,05 = 15.431,1."
+      },
+      {
+        "id": "nr_set02_q2",
+        "question": "El número de viajes al exterior de residentes de la UE a Turquía disminuyó un 0,6% entre 2016 y 2017, y el total de viajes al exterior aumentó un 1,8% en el mismo período. ¿Cuál fue la cuota de viajes a Turquía en 2017 (redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "9,2%"
+          },
+          {
+            "key": "B",
+            "text": "9,4%"
+          },
+          {
+            "key": "C",
+            "text": "10,2%"
+          },
+          {
+            "key": "D",
+            "text": "9,8%"
+          },
+          {
+            "key": "E",
+            "text": "10,8%"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Total de viajes en 2017: 308.622 × 1,018 = 314.177,2 miles. Viajes a Turquía en 2016: 308.622 × 0,10 = 30.862,2 miles. Viajes a Turquía en 2017: 30.862,2 × (1 – 0,006) = 30.677,0 miles. Cuota en 2017: 30.677,0 / 314.177,2 ≈ 9,8%. Trampa: restar directamente 0,6% a 10% sin considerar el aumento total da 9,4% (opción B)."
+      },
+      {
+        "id": "nr_set02_q3",
+        "question": "La cuota en el gasto de los viajes al exterior de residentes de la UE a Noruega en 2016 era 1,4 veces mayor que la cuota de Noruega en el número de viajes, y la cuota en el gasto a Rusia era un 25% menor que la cuota de Rusia en el número de viajes. ¿Cuál fue la razón entre los gastos en viajes a Noruega y a Rusia en 2016?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4:5"
+          },
+          {
+            "key": "B",
+            "text": "7:5"
+          },
+          {
+            "key": "C",
+            "text": "5:4"
+          },
+          {
+            "key": "D",
+            "text": "3:7"
+          },
+          {
+            "key": "E",
+            "text": "7:3"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Cuota en gasto de Noruega: 5% × 1,4 = 7%. Cuota en gasto de Rusia: 4% × 0,75 = 3%. Razón Noruega:Rusia = 7%:3% = 7:3. Trampa: invertir el orden da 3:7 (opción D); usar las cuotas de número de viajes en lugar de gasto da 5:4 (opción C)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_03",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set3_1.png",
+      "/images/numerical/set3_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set03_q1",
+        "question": "El gasto sanitario medio de los 5 principales estados miembros de la UE aumentó un 4,5% entre 2015 y 2017. ¿Cuál fue el gasto medio de esos 5 países en 2017 (redondeado al millar de millones más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "226 MM€"
+          },
+          {
+            "key": "B",
+            "text": "39 MM€"
+          },
+          {
+            "key": "C",
+            "text": "216 MM€"
+          },
+          {
+            "key": "D",
+            "text": "236.708 MM€"
+          },
+          {
+            "key": "E",
+            "text": "225.932 MM€"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Suma del gasto de los 5 países en 2015: 241.366 + 338.207 + 148.029 + 98.586 + 254.827 = 1.081.015 M€. Media en 2015: 1.081.015 / 5 = 216.203 M€. Media en 2017 con aumento del 4,5%: 216.203 × 1,045 ≈ 225.932 M€ ≈ 226 MM€. Trampa: omitir el aumento da 216 MM€ (opción C); no convertir a miles de millones da 225.932 (opción E)."
+      },
+      {
+        "id": "nr_set03_q2",
+        "question": "¿Cuál fue la diferencia entre el PIB del Reino Unido y de Francia en 2015 (redondeada al millar de millones de euros más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "13.461 MM€"
+          },
+          {
+            "key": "B",
+            "text": "380 MM€"
+          },
+          {
+            "key": "C",
+            "text": "415.561 MM€"
+          },
+          {
+            "key": "D",
+            "text": "379.774 MM€"
+          },
+          {
+            "key": "E",
+            "text": "13 MM€"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "PIB = gasto sanitario / cuota del gasto en PIB. PIB del Reino Unido: 254.827 / 0,099 ≈ 2.574.010 M€. PIB de Francia: 241.366 / 0,11 ≈ 2.194.236 M€. Diferencia: 2.574.010 – 2.194.236 = 379.774 M€ ≈ 380 MM€. Trampa: olvidar que las cifras están en millones y no en miles de millones da 379.774 (opción D)."
+      },
+      {
+        "id": "nr_set03_q3",
+        "question": "La población de España creció un 3,1% en 2016 y un 3,4% en 2017. ¿Cuál era la población de España a finales de 2017 (redondeada al millón más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "49 millones"
+          },
+          {
+            "key": "B",
+            "text": "49.505 millones"
+          },
+          {
+            "key": "C",
+            "text": "50 millones"
+          },
+          {
+            "key": "D",
+            "text": "49.501 millones"
+          },
+          {
+            "key": "E",
+            "text": "46 millones"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Población en 2015: 98.586 / 2.123 ≈ 46,437 millones. Población en 2016: 46,437 × 1,031 ≈ 47,877 millones. Población en 2017: 47,877 × 1,034 ≈ 49,505 millones ≈ 50 millones. Trampa: sumar 3,1% + 3,4% = 6,5% y aplicarlo directamente desde 2015 da 49 millones (opción A), que parece plausible pero es incorrecto."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_04",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set4.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set04_q1",
+        "question": "Si la generación de residuos del sector agricultura, silvicultura y pesca en Chile hubiera sido 500.000 toneladas menos en 2005 y en 2007, ¿qué porcentaje habría representado esa disminución sobre el total de residuos generados en Chile en el período 2004-2007?",
+        "options": [
+          {
+            "key": "A",
+            "text": "11,4%"
+          },
+          {
+            "key": "B",
+            "text": "17,4%"
+          },
+          {
+            "key": "C",
+            "text": "18,9%"
+          },
+          {
+            "key": "D",
+            "text": "21,1%"
+          },
+          {
+            "key": "E",
+            "text": "174%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Total generado en Chile 2004-2007: 1.515 + 1.393 + 1.367 + 1.470 = 5.745 miles de toneladas. Disminución hipotética total: 500 + 500 = 1.000 miles de toneladas. Porcentaje: (1.000 / 5.745) × 100 ≈ 17,4%. Trampa: sumar todos los años de Chile (no solo 2004-2007) da el 11,4% de la opción A."
+      },
+      {
+        "id": "nr_set04_q2",
+        "question": "¿En qué país disminuyó la generación de residuos de este sector a mayor ritmo entre 2006 y 2008: Austria, Bélgica o Italia?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Austria"
+          },
+          {
+            "key": "B",
+            "text": "Bélgica"
+          },
+          {
+            "key": "C",
+            "text": "Italia"
+          },
+          {
+            "key": "D",
+            "text": "Bélgica e Italia (diferencia despreciable)"
+          },
+          {
+            "key": "E",
+            "text": "La diferencia entre los tres es despreciable"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Austria: (513 – 459) / 513 × 100 ≈ 10,5%. Bélgica: (361 – 288) / 361 × 100 ≈ 20,2%. Italia: (554 – 341) / 554 × 100 ≈ 38,5%. El mayor ritmo de disminución fue en Italia. Atajo: como el valor de 2006 de Italia era mayor que el de Austria y su valor de 2008 era menor, sin cálculo se puede deducir que Italia supera a Austria. Solo hay que comparar Bélgica e Italia."
+      },
+      {
+        "id": "nr_set04_q3",
+        "question": "¿En qué año la generación de residuos de Japón en este sector se alejó más de la media del período 2004-2010?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2004"
+          },
+          {
+            "key": "B",
+            "text": "2006"
+          },
+          {
+            "key": "C",
+            "text": "2008"
+          },
+          {
+            "key": "D",
+            "text": "2009"
+          },
+          {
+            "key": "E",
+            "text": "2010"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Total 2004-2010: 89.300 + 87.584 + 87.945 + 87.837 + 87.992 + 88.446 + 85.109 = 614.213. Media: 614.213 / 7 = 87.745. Desviación de 2004: 89.300 – 87.745 = 1.555. Para superar 1.555, otro año debe estar por debajo de 86.190 o por encima de 89.300. El valor de 2010 es 85.109, la desviación más grande con 87.745 – 85.109 = 2.636. Respuesta: 2010."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_05",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set5_1.png",
+      "/images/numerical/set5_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set05_q1",
+        "question": "¿Cuál fue el cambio porcentual medio entre 2011 y 2016 de las personas de 25-64 años que declararon conocer tres o más idiomas extranjeros en los cuatro países mostrados (redondeado a tres decimales)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "–0,48%"
+          },
+          {
+            "key": "B",
+            "text": "–0,425%"
+          },
+          {
+            "key": "C",
+            "text": "0,425%"
+          },
+          {
+            "key": "D",
+            "text": "0,48%"
+          },
+          {
+            "key": "E",
+            "text": "0,34%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Cambio por país: Rep. Checa = 7,4 – 7,1 = +0,3%. Polonia = 2,8 – 4,0 = –1,2%. Eslovaquia = 28 – 21,6 = +6,4%. Eslovenia = 37,7 – 44,9 = –7,2%. Media: (0,3 – 1,2 + 6,4 – 7,2) / 4 = –1,7 / 4 = –0,425%. Trampa: olvidar el signo negativo del resultado final da +0,425% (opción C)."
+      },
+      {
+        "id": "nr_set05_q2",
+        "question": "¿Cuál fue la razón entre la proporción de eslovenos de 25-64 años con educación terciaria que declararon conocer uno o más idiomas extranjeros y la proporción de todos los eslovenos de esa edad con uno o más idiomas en 2016?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15:13"
+          },
+          {
+            "key": "B",
+            "text": "10:9"
+          },
+          {
+            "key": "C",
+            "text": "4:19"
+          },
+          {
+            "key": "D",
+            "text": "19:4"
+          },
+          {
+            "key": "E",
+            "text": "19:16"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Proporción total de eslovenos de 25-64 años con uno o más idiomas en 2016: 17,6 + 24,7 + 37,7 = 80%. El gráfico indica que el 95% de quienes tienen educación terciaria conocen uno o más idiomas. Razón: 95:80, que simplificada (dividiendo por 5) da 19:16. Atajo: los que no conocen ningún idioma son el 20%, luego los que conocen uno o más son 100% – 20% = 80%, lo que permite calcular mentalmente 95/80."
+      },
+      {
+        "id": "nr_set05_q3",
+        "question": "La población polaca de 25-64 años cambió de 31,2 millones a 30,7 millones entre 2011 y 2016. ¿Cuál fue la diferencia entre el número de polacos de 25-64 años que declararon conocer exactamente un idioma extranjero en 2016 y en 2011 (redondeada al millar)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2 miles"
+          },
+          {
+            "key": "B",
+            "text": "174 miles"
+          },
+          {
+            "key": "C",
+            "text": "–1.741 miles"
+          },
+          {
+            "key": "D",
+            "text": "1.741 miles"
+          },
+          {
+            "key": "E",
+            "text": "–174 miles"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Personas en 2016: 30.700 × 0,45 = 13.815 miles. Personas en 2011: 31.200 × 0,387 = 12.074,4 miles. Diferencia: 13.815 – 12.074,4 = 1.740,6 ≈ 1.741 miles. Trampa: invertir 2016 y 2011 da –1.741 miles (opción C). No convertir de millones a miles da 2 miles (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_06",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set6.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set06_q1",
+        "question": "Canard pasó el punto intermedio a 1:07:50. ¿Cuál fue su velocidad media en la segunda mitad de la carrera?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15,20 km/h"
+          },
+          {
+            "key": "B",
+            "text": "17,38 km/h"
+          },
+          {
+            "key": "C",
+            "text": "18,63 km/h"
+          },
+          {
+            "key": "D",
+            "text": "19,27 km/h"
+          },
+          {
+            "key": "E",
+            "text": "20,31 km/h"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Distancia de la segunda mitad: 42,2 / 2 = 21,1 km. Tiempo de la segunda mitad: 2:13:31 – 1:07:50 = 1:05:41. Conversión: 41/60 = 0,683 min → 0,683 + 5 = 5,683 min → 5,683/60 = 0,0947 h → 0,0947 + 1 = 1,0947 h. Velocidad: 21,1 / 1,0947 ≈ 19,27 km/h."
+      },
+      {
+        "id": "nr_set06_q2",
+        "question": "Dennis y Ekimov pasaron el marcador de '1 km a meta' exactamente a la misma hora: 2:11:00. ¿Cuánto más rápido que Ekimov corrió Dennis en el último kilómetro?",
+        "options": [
+          {
+            "key": "A",
+            "text": "1%"
+          },
+          {
+            "key": "B",
+            "text": "4,2%"
+          },
+          {
+            "key": "C",
+            "text": "6,6%"
+          },
+          {
+            "key": "D",
+            "text": "8%"
+          },
+          {
+            "key": "E",
+            "text": "12,5%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Tiempo de Dennis: 2:14:12 – 2:11:00 = 3:12 = 192 s. Tiempo de Ekimov: 2:14:20 – 2:11:00 = 3:20 = 200 s. Diferencia de tiempo: 200 – 192 = 8 s. Diferencia porcentual: 100 × (8 / 192) = 4,2%. Atajo: al cubrir la misma distancia, la diferencia porcentual de velocidad es idéntica a la diferencia porcentual de tiempo, lo que evita calcular velocidades."
+      },
+      {
+        "id": "nr_set06_q3",
+        "question": "Benoit corrió los últimos 150 m a una velocidad un 5% mayor que su media total en la carrera. ¿A qué distancia de la meta estaba Benoit cuando Anderson terminó?",
+        "options": [
+          {
+            "key": "A",
+            "text": "84 m"
+          },
+          {
+            "key": "B",
+            "text": "92 m"
+          },
+          {
+            "key": "C",
+            "text": "100 m"
+          },
+          {
+            "key": "D",
+            "text": "133 m"
+          },
+          {
+            "key": "E",
+            "text": "149 m"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Velocidad media de Benoit: 42,1 / 2,211 h ≈ 19,04 km/h. Velocidad en los últimos 150 m: 19,04 × 1,05 = 20 km/h = 5,56 m/s. Diferencia de tiempo entre Anderson y Benoit: 2:12:38 – 2:12:14 = 24 s. Distancia: 5,56 m/s × 24 s = 133 m."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_07",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set7.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set07_q1",
+        "question": "Si 60 alumnos varones de un instituto usan algún producto de tabaco, ¿cuántas alumnas tiene el instituto?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Menos de 250"
+          },
+          {
+            "key": "B",
+            "text": "Alrededor de 260"
+          },
+          {
+            "key": "C",
+            "text": "Alrededor de 280"
+          },
+          {
+            "key": "D",
+            "text": "Alrededor de 290"
+          },
+          {
+            "key": "E",
+            "text": "Más de 320"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Planteamos la ecuación con X = nº de varones e Y = nº de mujeres. Sabemos que X × 0,216 = 60, por lo que X ≈ 278. Sustituyendo: (278 + Y) × 0,196 = 60 + Y × 0,175. Simplificando: Y × (0,196 – 0,175) = 60 – 278 × 0,196 → Y × 0,021 = 5,512 → Y ≈ 262, lo que corresponde a la opción B (alrededor de 260). Trampa: calcular el nº de varones en lugar de mujeres da 278 (opción C)."
+      },
+      {
+        "id": "nr_set07_q2",
+        "question": "En un instituto con 300 alumnos varones, de los cuales 20 usan tanto cigarrillos electrónicos como convencionales, ¿cuántos alumnos varones usan solo uno de los dos tipos?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15"
+          },
+          {
+            "key": "B",
+            "text": "63"
+          },
+          {
+            "key": "C",
+            "text": "20"
+          },
+          {
+            "key": "D",
+            "text": "23"
+          },
+          {
+            "key": "E",
+            "text": "43"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Usuarios de cigarrillos electrónicos: 300 × 0,133 ≈ 40. Solo electrónicos: 40 – 20 = 20. Usuarios de cigarrillos convencionales: 300 × 0,076 ≈ 23. Solo convencionales: 23 – 20 = 3. Total que usa solo un tipo: 20 + 3 = 23. Trampa: calcular el total de usuarios de cualquier tipo sin restar los que usan ambos da 63 (opción B)."
+      },
+      {
+        "id": "nr_set07_q3",
+        "question": "Si hay 100 estudiantes que usan algún producto de tabaco en un instituto donde el número de varones es el doble que el de mujeres, ¿cuántas alumnas usan cigarrillos electrónicos?",
+        "options": [
+          {
+            "key": "A",
+            "text": "7"
+          },
+          {
+            "key": "B",
+            "text": "34"
+          },
+          {
+            "key": "C",
+            "text": "12"
+          },
+          {
+            "key": "D",
+            "text": "17"
+          },
+          {
+            "key": "E",
+            "text": "39"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "El 19,6% del alumnado usa tabaco, por lo que el total de estudiantes es 100 / 0,196 ≈ 510. Las alumnas son 510 / 3 = 170. De ellas, el 9,9% usa cigarrillos electrónicos: 170 × 0,099 ≈ 17. Trampa: invertir la proporción varones/mujeres da 34 (opción B). Tomar 100 como el total de estudiantes da 7 (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_08",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set8.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set08_q1",
+        "question": "La tasa de conversión de peso en canal a peso minorista para vacuno y ternera es 0,7. Suponiendo que Argentina tenía 44,27 millones de habitantes en 2017, ¿cuál era el peso de canales bovinas necesario para satisfacer el consumo de vacuno y ternera?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2,6 millones de kg"
+          },
+          {
+            "key": "B",
+            "text": "2,6 millones de toneladas"
+          },
+          {
+            "key": "C",
+            "text": "1,8 millones de kg"
+          },
+          {
+            "key": "D",
+            "text": "1,8 millones de toneladas"
+          },
+          {
+            "key": "E",
+            "text": "Ninguna de las anteriores"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Consumo total: 44,27 M × 41,2 kg = 1.823,9 M kg. Peso en canal: 1.823,9 / 0,7 ≈ 2.605,6 M kg ≈ 2,6 millones de toneladas. Trampa: no convertir de kg a toneladas da 2,6 M kg (opción A). No dividir por 0,7 da 1,8 M toneladas (opción D)."
+      },
+      {
+        "id": "nr_set08_q2",
+        "question": "Suponiendo que Brasil tiene 209,3 millones de habitantes, ¿cuál sería la tasa global de disminución del consumo de carne si tanto el vacuno/ternera como la carne de ave disminuyesen un 20%?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15,3%"
+          },
+          {
+            "key": "B",
+            "text": "16,9%"
+          },
+          {
+            "key": "C",
+            "text": "18,7%"
+          },
+          {
+            "key": "D",
+            "text": "20,3%"
+          },
+          {
+            "key": "E",
+            "text": "22,2%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "El consumo total per cápita es: 26,5 + 11,8 + 39,9 + 0,4 = 78,6 kg. La disminución es: (26,5 + 39,9) × 0,2 = 13,28 kg. Porcentaje: (13,28 / 78,6) × 100 ≈ 16,9%. Nota: la población de Brasil es un dato irrelevante (trampa). Trampa: dividir el consumo inicial por el reducido y restar 1 da 20,3% (opción D)."
+      },
+      {
+        "id": "nr_set08_q3",
+        "question": "La población de Australia es de 24,6 millones de personas. Suponiendo que el peso en canal necesario para satisfacer el consumo de carne de cerdo es de 652,85 M kg, ¿cuál es la tasa de conversión de peso en canal a peso minorista para el cerdo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "1 a 0,62"
+          },
+          {
+            "key": "B",
+            "text": "1 a 0,72"
+          },
+          {
+            "key": "C",
+            "text": "1 a 0,78"
+          },
+          {
+            "key": "D",
+            "text": "1 a 0,88"
+          },
+          {
+            "key": "E",
+            "text": "Ninguna de las anteriores"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Consumo total de cerdo: 24,6 M × 20,7 kg = 509,22 M kg. Tasa de conversión: 509,22 / 652,85 ≈ 0,78. Por tanto la razón es 1 a 0,78. Trampa: calcular 652,85/509,22 invierte la razón y da 1 a 0,72 (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_09",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set9.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set09_q1",
+        "question": "Compras 2.000 acciones el martes a un 1,4% por debajo del precio de cierre del día anterior. El cargo por operación es de 15,95 €. ¿Cuánto te cuesta en total?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4.673,64 €"
+          },
+          {
+            "key": "B",
+            "text": "4.689,59 €"
+          },
+          {
+            "key": "C",
+            "text": "4.734,37 €"
+          },
+          {
+            "key": "D",
+            "text": "4.761,47 €"
+          },
+          {
+            "key": "E",
+            "text": "4.768,47 €"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Precio de cierre del lunes: 2,37. Precio de compra: 2,37 × 0,986 = 2,33682. Coste total de 2.000 acciones: 2.000 × 2,33682 = 4.673,64 €. Añadiendo el cargo: 4.673,64 + 15,95 = 4.689,59 €. Trampa: comprar a un 1,4% por encima en lugar de por debajo daría un resultado diferente."
+      },
+      {
+        "id": "nr_set09_q2",
+        "question": "Vendes 2.000 acciones el viernes con un cargo de 15,95 €. El importe total obtenido es de 4.664,05 €. ¿En qué porcentaje había subido el precio desde el cierre de ayer?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2%"
+          },
+          {
+            "key": "B",
+            "text": "3%"
+          },
+          {
+            "key": "C",
+            "text": "4%"
+          },
+          {
+            "key": "D",
+            "text": "5%"
+          },
+          {
+            "key": "E",
+            "text": "6%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Precio real de venta (incluyendo el cargo): 4.664,05 + 15,95 = 4.680 €. Precio por acción: 4.680 / 2.000 = 2,34 €. Precio de cierre del jueves: 2,25. Subida porcentual: 100 × (2,34 – 2,25) / 2,25 = 100 × 0,09 / 2,25 = 4%. Atajo: 0,09 / (9/4) = 0,09 × 4/9 = 4%."
+      },
+      {
+        "id": "nr_set09_q3",
+        "question": "La diferencia entre el precio de compra y el de venta en un día determinado se denomina 'horquilla'. Si el porcentaje de horquilla se calcula como porcentaje del valor más alto, ¿qué día tiene la mayor horquilla porcentual?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Lunes"
+          },
+          {
+            "key": "B",
+            "text": "Martes"
+          },
+          {
+            "key": "C",
+            "text": "Miércoles"
+          },
+          {
+            "key": "D",
+            "text": "Jueves"
+          },
+          {
+            "key": "E",
+            "text": "Viernes"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Horquillas absolutas: lunes 0,05, martes 0,04, miércoles 0,05, jueves 0,03, viernes 0,05. Los tres días con horquilla 0,05 son los candidatos. La mayor horquilla porcentual corresponde al menor precio de compra, que es el del viernes. Lunes: 0,05/2,37 = 2,11%. Miércoles: 0,05/2,39 = 2,09%. Viernes: 0,05/2,34 = 2,14% → el mayor."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_10",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set10.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set10_q1",
+        "question": "¿Qué software de contabilidad de los mostrados en la tabla tiene el menor coste proyectado de adquisición y operación durante dos años?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Accounts Pro 10"
+          },
+          {
+            "key": "B",
+            "text": "BSheet 12"
+          },
+          {
+            "key": "C",
+            "text": "BSheet Lite"
+          },
+          {
+            "key": "D",
+            "text": "BookKeeper Standard"
+          },
+          {
+            "key": "E",
+            "text": "BSheet 12 y BookKeeper Standard"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Fórmula: Coste total = Instalación + Licencia(año 1) + Licencia(año 2) + (Personal × Horas × Meses × Tarifa). Accounts Pro 10: 130 + 4.500 + 4.500 + (4×20×24×20) = 47.530. BSheet 12: 150 + 3.500 + 3.500 + (4×20×24×20) = 45.550. BSheet Lite: 200 + 8.000 + 8.000 + (3×25×24×20) = 52.200. BookKeeper Standard (licencia única): 550 + 9.000 + (5×15×24×20) = 45.550. BSheet 12 y BookKeeper Standard empatan con el coste más bajo."
+      },
+      {
+        "id": "nr_set10_q2",
+        "question": "Si la empresa logra un descuento del 15% en las licencias y la instalación es gratuita, ¿cuánto costaría introducir y operar BSheet 12 durante 5 años?",
+        "options": [
+          {
+            "key": "A",
+            "text": "16.475 €"
+          },
+          {
+            "key": "B",
+            "text": "19.100 €"
+          },
+          {
+            "key": "C",
+            "text": "110.875 €"
+          },
+          {
+            "key": "D",
+            "text": "113.500 €"
+          },
+          {
+            "key": "E",
+            "text": "111.025 €"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Licencias descontadas 5 años: 3.500 × 5 × 0,85 = 14.875 €. Coste de personal: 4 × 20 × 60 × 20 = 96.000 €. Coste total: 96.000 + 14.875 = 110.875 €. Trampas: olvidar el descuento da 113.500 € (opción D); no anular la instalación da 111.025 € (opción E); no multiplicar el personal por los meses da cifras muy bajas."
+      },
+      {
+        "id": "nr_set10_q3",
+        "question": "¿Cuánto ahorrará o perderá la empresa en 3 años si introduce BookKeeper Standard en lugar de Accounts Pro 10?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2.605 € de ahorro"
+          },
+          {
+            "key": "B",
+            "text": "6.840 € de ahorro"
+          },
+          {
+            "key": "C",
+            "text": "7.680 € de ahorro"
+          },
+          {
+            "key": "D",
+            "text": "10.320 € de pérdida"
+          },
+          {
+            "key": "E",
+            "text": "13.820 € de pérdida"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "BookKeeper Standard 3 años: (5×15×36×20) + 9.000 + 550 = 63.550 €. Accounts Pro 10 3 años: (4×20×36×20) + (4.500×3) + 130 = 71.230 €. Diferencia: 71.230 – 63.550 = 7.680 €. Como el coste de BookKeeper Standard es menor, representa un ahorro neto de 7.680 €."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_11",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set11.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set11_q1",
+        "question": "Si la tabla se ordenara por incremento porcentual en producción entre 2010 y 2015, ¿qué cultivo quedaría en el centro de la tabla?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Maíz"
+          },
+          {
+            "key": "B",
+            "text": "Colza"
+          },
+          {
+            "key": "C",
+            "text": "Azúcar"
+          },
+          {
+            "key": "D",
+            "text": "Girasoles"
+          },
+          {
+            "key": "E",
+            "text": "Trigo"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Maíz: (12.409–12.211)/12.211 × 100 = 1,62%. Colza: (5.801–5.472)/5.472 × 100 = 6,01%. Azúcar: (2.702–2.920)/2.920 × 100 = –7,47%. Girasol: (21.199–19.194)/19.194 × 100 = 10,45%. Trigo: (7.792–7.719)/7.719 × 100 = 0,95%. Orden de menor a mayor: azúcar, trigo, maíz, colza, girasol. El central (3.º) es el maíz."
+      },
+      {
+        "id": "nr_set11_q2",
+        "question": "¿Cuántas toneladas más de azúcar habría necesitado producir Francia en 2010 para que su incremento porcentual desde 2005 (al punto porcentual entero más cercano) igualara el del trigo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "245,6"
+          },
+          {
+            "key": "B",
+            "text": "6.560"
+          },
+          {
+            "key": "C",
+            "text": "191"
+          },
+          {
+            "key": "D",
+            "text": "224,7"
+          },
+          {
+            "key": "E",
+            "text": "2.926,6"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Incremento del trigo 2005-2010: (7.719–7.422)/7.422 × 100 ≈ 4,0%. Sea X la producción de azúcar en 2010: (X–2.814)/2.814 × 100 = 4% → X = 2.814 × 1,04 = 2.926,56. Diferencia: 2.926,56 – 2.920 ≈ 6,56, es decir ≈ 6.560 toneladas (la cifra está en miles de toneladas). Trampa: confundir las unidades."
+      },
+      {
+        "id": "nr_set11_q3",
+        "question": "El rendimiento de colza es de 3,1 t/ha en 2005 y mejora un 6% en 2015. ¿Cuál fue el incremento porcentual en el uso de suelo para colza entre 2005 y 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "27,7%"
+          },
+          {
+            "key": "B",
+            "text": "13,7%"
+          },
+          {
+            "key": "C",
+            "text": "35,4%"
+          },
+          {
+            "key": "D",
+            "text": "26,2%"
+          },
+          {
+            "key": "E",
+            "text": "20,5%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Superficie en 2005: 4.541 / 3,1 ≈ 1.464,84 (miles de ha). Rendimiento en 2015: 3,1 × 1,06 = 3,286 t/ha. Superficie en 2015: 5.801 / 3,286 ≈ 1.765,37. Incremento: (1.765,37–1.464,84) / 1.464,84 × 100 ≈ 20,5%. Observación clave: el rendimiento (3,1) se cancela en la fórmula, por lo que no es realmente necesario para el cálculo."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_12",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set12.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set12_q1",
+        "question": "¿Cuál fue la producción total de acuicultura de la UE-28 en 2015 (en millones de toneladas, redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "1,3 millones de t"
+          },
+          {
+            "key": "B",
+            "text": "5,1 millones de t"
+          },
+          {
+            "key": "C",
+            "text": "1.264,4 millones de t"
+          },
+          {
+            "key": "D",
+            "text": "1.189,3 millones de t"
+          },
+          {
+            "key": "E",
+            "text": "0,8 millones de t"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Usamos Dinamarca (cuota del 14,1%): producción UE-28 = 905 / 0,141 ≈ 6.418 miles de t. Producción acuicultura: 6.418 / 1.000 × 0,197 ≈ 1,3 millones de t. Trampa: no convertir de miles a millones da 1.264,4 M t (opción C). Sumar solo los 5 países da 0,8 M t (opción E)."
+      },
+      {
+        "id": "nr_set12_q2",
+        "question": "La captura de peces de Francia fue 271 miles de toneladas mayor que su producción acuícola en 2015. ¿Qué cuota representó la acuicultura francesa en la producción total de productos pesqueros de la UE-28 (redondeada al punto porcentual más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "6%"
+          },
+          {
+            "key": "B",
+            "text": "4%"
+          },
+          {
+            "key": "C",
+            "text": "7%"
+          },
+          {
+            "key": "D",
+            "text": "3%"
+          },
+          {
+            "key": "E",
+            "text": "1%"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Producción total de Francia: 661 miles de t = capturas + acuicultura. Capturas = acuicultura + 271. Acuicultura = (661 – 271) / 2 = 195 miles de t. Cuota en UE-28: 195 / 661 × 10,3 ≈ 3%. Trampa: confundir capturas con acuicultura da 7% (opción C)."
+      },
+      {
+        "id": "nr_set12_q3",
+        "question": "¿En qué porcentaje fue mayor el incremento de la producción total de productos pesqueros del Reino Unido entre 2008 y 2015, en comparación con el de España en el mismo período (redondeado a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "86,1%"
+          },
+          {
+            "key": "B",
+            "text": "71,2%"
+          },
+          {
+            "key": "C",
+            "text": "18,0%"
+          },
+          {
+            "key": "D",
+            "text": "56,0%"
+          },
+          {
+            "key": "E",
+            "text": "10,8%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Incremento RU: (913/768 – 1) × 100 ≈ 18,88%. Incremento España: (1.195/1.106 – 1) × 100 ≈ 8,05%. Diferencia: 18,88 – 8,05 ≈ 10,8%. Trampa: usar incrementos absolutos (145 y 89) da 56% (opción D)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_13",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set13.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set13_q1",
+        "question": "La producción eléctrica total del Reino Unido aumentó un 7,25% entre 2000 y 2005. ¿Cuál fue el incremento porcentual en la generación de energía nuclear en el mismo período?",
+        "options": [
+          {
+            "key": "A",
+            "text": "14,8%"
+          },
+          {
+            "key": "B",
+            "text": "22%"
+          },
+          {
+            "key": "C",
+            "text": "19,3%"
+          },
+          {
+            "key": "D",
+            "text": "13,8%"
+          },
+          {
+            "key": "E",
+            "text": "96%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Sea X la producción total de 2000. En 2005: Total = X × 1,0725. Incremento nuclear: (X × 1,0725 × 12,4 – X × 10,9) / (X × 10,9). El factor X se cancela: (1,0725 × 12,4 – 10,9) / 10,9 = 0,22 → 22%. Clave: X se cancela, por lo que no necesitamos el valor absoluto de la producción total."
+      },
+      {
+        "id": "nr_set13_q2",
+        "question": "¿Qué forma de generación eléctrica muestra el mayor incremento porcentual en su cuota del total generado entre 2010 y 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Combustibles fósiles"
+          },
+          {
+            "key": "B",
+            "text": "Eólica"
+          },
+          {
+            "key": "C",
+            "text": "Solar"
+          },
+          {
+            "key": "D",
+            "text": "Nuclear"
+          },
+          {
+            "key": "E",
+            "text": "Otras renovables"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Hay que calcular el cambio porcentual de la cuota (no de la producción absoluta) para cada fuente entre 2010 y 2015 y comparar. La energía solar, al partir de una cuota muy pequeña, suele mostrar el mayor incremento porcentual relativo en su cuota."
+      },
+      {
+        "id": "nr_set13_q3",
+        "question": "¿Qué porcentaje de la producción eléctrica total del Reino Unido en 2015 procedía de fuentes de energía renovable (eólica, solar y otras renovables)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Menos del 10%"
+          },
+          {
+            "key": "B",
+            "text": "Entre el 10% y el 20%"
+          },
+          {
+            "key": "C",
+            "text": "Entre el 20% y el 30%"
+          },
+          {
+            "key": "D",
+            "text": "Entre el 30% y el 40%"
+          },
+          {
+            "key": "E",
+            "text": "Más del 40%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Sumamos las cuotas de eólica, solar y otras renovables en 2015. El resultado es el porcentaje total de renovables."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_14",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set14.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set14_q1",
+        "question": "Si el daño económico causado por tormentas se hubiera duplicado, ¿qué porcentaje del daño económico total habría sido causado por tormentas?",
+        "options": [
+          {
+            "key": "A",
+            "text": "55,2%"
+          },
+          {
+            "key": "B",
+            "text": "62%"
+          },
+          {
+            "key": "C",
+            "text": "71,8%"
+          },
+          {
+            "key": "D",
+            "text": "76%"
+          },
+          {
+            "key": "E",
+            "text": "83,7%"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Solo se necesitan los datos del diagrama izquierdo. Sumamos los costes de todos los tipos de desastre contando el daño por tormentas el doble. Cálculo: Daño total: 763 + 662 + 119 + 100 + (2 × 1011) = $3666 mil millones. Daño por tormentas: 2 × 1011 = $2022 mil millones. Porcentaje: (2022 / 3666) × 100 ≈ 55,2%. Error común: Simplemente duplicar el 38% daría 76% (opción D)."
+      },
+      {
+        "id": "nr_set14_q2",
+        "question": "Si el coste total del daño económico hubiera permanecido igual pero Asia hubiera sufrido el 45%, ¿cuál habría sido la pérdida absoluta de Asia?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Aproximadamente 820 a 835 mil millones USD"
+          },
+          {
+            "key": "B",
+            "text": "Aproximadamente 835 a 850 mil millones USD"
+          },
+          {
+            "key": "C",
+            "text": "Aproximadamente 850 a 865 mil millones USD"
+          },
+          {
+            "key": "D",
+            "text": "Aproximadamente 865 a 880 mil millones USD"
+          },
+          {
+            "key": "E",
+            "text": "Aproximadamente 880 a 895 mil millones USD"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos el coste total y luego el 45% de esa cifra. Cálculo: Total: 709 + 262 + 40 + 10 + 870 = $1891 mil millones. El 45%: 1891 × 0,45 ≈ $851 mil millones. Solución alternativa: 1% = 709 / 37 ≈ 19,16 mil millones; pérdida = 19,16 × 45 = 862 mil millones. Ambos métodos dan la opción C."
+      },
+      {
+        "id": "nr_set14_q3",
+        "question": "¿Cuál fue el coste del daño económico causado por tormentas en América?",
+        "options": [
+          {
+            "key": "A",
+            "text": "$292 mil millones"
+          },
+          {
+            "key": "B",
+            "text": "$314 mil millones"
+          },
+          {
+            "key": "C",
+            "text": "$387 mil millones"
+          },
+          {
+            "key": "D",
+            "text": "$455 mil millones"
+          },
+          {
+            "key": "E",
+            "text": "No hay suficiente información"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "No es posible hacer este cálculo porque no hay información suficiente. Conocemos el daño global por tormentas ($1011 mil millones) y el daño total en América ($870 mil millones), pero no sabemos qué proporción del daño americano fue causado por tormentas. Error común: Aplicar la proporción global de tormentas a América daría $455 mil millones (opción D, incorrecta)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_15",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set15.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set15_q1",
+        "question": "Davies corrió los últimos 10 m a una velocidad un 8% más rápida que su velocidad media general. ¿Por qué distancia, al centímetro más cercano, le faltó para ganar la medalla de bronce (3.er puesto)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "43"
+          },
+          {
+            "key": "B",
+            "text": "37"
+          },
+          {
+            "key": "C",
+            "text": "32"
+          },
+          {
+            "key": "D",
+            "text": "26"
+          },
+          {
+            "key": "E",
+            "text": "18"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos la velocidad de Davies y la distancia recorrida durante la diferencia de tiempo con el 3.° clasificado. Cálculo: Velocidad media: 100 / 10,07 = 9,93 m/s. Velocidad en los últimos 10 m (8% más): 9,93 × 1,08 = 10,72 m/s. Distancia en 0,04 s: 10,72 × 0,04 = 0,43 m = 43 cm."
+      },
+      {
+        "id": "nr_set15_q2",
+        "question": "¿Cuánto más rápido corrió Adams que Best de media?",
+        "options": [
+          {
+            "key": "A",
+            "text": "0,1%"
+          },
+          {
+            "key": "B",
+            "text": "0,3%"
+          },
+          {
+            "key": "C",
+            "text": "0,7%"
+          },
+          {
+            "key": "D",
+            "text": "1,0%"
+          },
+          {
+            "key": "E",
+            "text": "1,2%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la velocidad de cada corredor y luego la diferencia porcentual. Cálculo: Adams: 100 / 9,95 = 10,05 m/s. Best: 100 / 9,98 = 10,02 m/s. Diferencia porcentual: 100 × (10,05 – 10,02) / 10,02 = 0,3%."
+      },
+      {
+        "id": "nr_set15_q3",
+        "question": "Carter corrió la final un 1,3% más rápido que en la semifinal, que fue un 1,8% más rápida que en la serie clasificatoria. Ganó su serie por 3 centésimas de segundo. ¿Cuál fue el tiempo del corredor que quedó segundo en la serie de Carter?",
+        "options": [
+          {
+            "key": "A",
+            "text": "10,09"
+          },
+          {
+            "key": "B",
+            "text": "10,18"
+          },
+          {
+            "key": "C",
+            "text": "10,29"
+          },
+          {
+            "key": "D",
+            "text": "10,34"
+          },
+          {
+            "key": "E",
+            "text": "10,37"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos la velocidad de Carter en la final y retrocedemos a rondas anteriores. Cálculo: Final: 100 / 10,03 = 9,97 m/s. Semifinal: 9,97 / 1,013 = 9,84 m/s. Serie: 9,84 / 1,018 = 9,67 m/s. Tiempo de Carter en serie: 100 / 9,67 = 10,34 s. El subcampeón: 10,34 + 0,03 = 10,37 s."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_16",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set16.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set16_q1",
+        "question": "¿Cuál fue la razón entre el cambio porcentual de la producción total vendida de productos químicos de la UE entre 2016 y 2017 y el cambio porcentual entre 2014 y 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "674 : 663"
+          },
+          {
+            "key": "B",
+            "text": "11 : 17"
+          },
+          {
+            "key": "C",
+            "text": "17 : 11"
+          },
+          {
+            "key": "D",
+            "text": "2 : 5"
+          },
+          {
+            "key": "E",
+            "text": "16 : 17"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "La producción total vendida en 2014 y 2016 es la misma (663), lo que da un denominador común. Cálculo: Cambio 2016–2017: 674 – 663 = 11. Cambio 2014–2015: 680 – 663 = 17. Razón: 11 : 17. Error común: Invertir el orden da 17 : 11 (opción C)."
+      },
+      {
+        "id": "nr_set16_q2",
+        "question": "La cantidad vendida de productos médicos y farmacéuticos aumentó un 5,2% entre 2016 y 2017. ¿Cuál fue la participación de los productos médicos y farmacéuticos en la producción total vendida de productos químicos en 2016 (redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "23,8%"
+          },
+          {
+            "key": "B",
+            "text": "24,4%"
+          },
+          {
+            "key": "C",
+            "text": "26,7%"
+          },
+          {
+            "key": "D",
+            "text": "25,6%"
+          },
+          {
+            "key": "E",
+            "text": "24,1%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos la cantidad vendida en 2016 y su participación en el total. Cálculo: Cantidad en 2016: 168 / 1,052 ≈ €159,7 mil millones. Participación: 159,7 / 663 × 100% ≈ 24,1%. Error: Dividir por (1 – 0,052) en lugar de (1 + 0,052) daría 26,7% (opción C)."
+      },
+      {
+        "id": "nr_set16_q3",
+        "question": "¿Cuál fue la diferencia entre las participaciones orgánica e inorgánica en las exportaciones intra-UE-28 de productos químicos en 2017 (redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "12,1%"
+          },
+          {
+            "key": "B",
+            "text": "18,6%"
+          },
+          {
+            "key": "C",
+            "text": "64,0%"
+          },
+          {
+            "key": "D",
+            "text": "29,5%"
+          },
+          {
+            "key": "E",
+            "text": "63,6%"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos las participaciones de productos orgánicos e inorgánicos en las exportaciones intra-UE-28 y su diferencia. Cálculo: Orgánica: 81 / 527 × 100% ≈ 15,37%. Inorgánica: 17 / 527 × 100% ≈ 3,23%. Diferencia: 15,37% – 3,23% ≈ 12,1%. Atajo: (81 – 17) / 527 × 100%."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_17",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set17_1.png",
+      "/images/numerical/set17_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set17_q1",
+        "question": "Si el coste medio de una botella de 75 cl de vino tinto en los Países Bajos era de €6,63 en 2015, ¿cuál fue el gasto per cápita en vino tinto en 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "€18,15"
+          },
+          {
+            "key": "B",
+            "text": "€27,87"
+          },
+          {
+            "key": "C",
+            "text": "€20,62"
+          },
+          {
+            "key": "D",
+            "text": "€27,50"
+          },
+          {
+            "key": "E",
+            "text": "€37,02"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el número de botellas, el gasto total y el gasto per cápita. Cálculo: Botellas: 52 / 0,75 = 69,333 millones. Gasto total: 69,333 × 6,63 = 459,678 millones de euros. Per cápita: 459,678 / 16714 × 1000 = €27,50. Hay que prestar atención a los órdenes de magnitud (millones vs miles)."
+      },
+      {
+        "id": "nr_set17_q2",
+        "question": "Si el cambio en el consumo de vino blanco entre 2010 y 2015 hubiera sido igual al cambio del vino rosado en el mismo periodo, ¿cuál habría sido la cifra de consumo de vino blanco en 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "56"
+          },
+          {
+            "key": "B",
+            "text": "60"
+          },
+          {
+            "key": "C",
+            "text": "67"
+          },
+          {
+            "key": "D",
+            "text": "14"
+          },
+          {
+            "key": "E",
+            "text": "66"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos el cambio porcentual del vino rosado y lo aplicamos al vino blanco. Cálculo: Cambio rosado: (31 – 38) / 38 × 100 = –18,42%. Aplicado al vino blanco: 74 × (–0,1842) = –13,63. Resultado: 74 – 13,63 = 60,37 ≈ 60 millones de litros."
+      },
+      {
+        "id": "nr_set17_q3",
+        "question": "¿Cuál fue el cambio porcentual en el consumo per cápita de vino tinto entre 2005 y 2010?",
+        "options": [
+          {
+            "key": "A",
+            "text": "−4,2%"
+          },
+          {
+            "key": "B",
+            "text": "−4,4%"
+          },
+          {
+            "key": "C",
+            "text": "−5,1%"
+          },
+          {
+            "key": "D",
+            "text": "−3,2%"
+          },
+          {
+            "key": "E",
+            "text": "−3,9%"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos el consumo per cápita en 2005 y 2010 y luego el cambio porcentual. Cálculo: Per cápita 2005: 63 millones / 16.316 miles = 3,8612. Per cápita 2010: 61 millones / 16.492 miles = 3,6988. Cambio: (3,6988 – 3,8612) / 3,8612 × 100 = –4,2%."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_18",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set18.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set18_q1",
+        "question": "¿Cuál fue la razón entre la proporción de jóvenes italianos de 20 a 24 años participando en educación y aprendiendo dos o más idiomas extranjeros en 2015 y la proporción de la UE-28? Elige la opción más aproximada.",
+        "options": [
+          {
+            "key": "A",
+            "text": "8 : 5"
+          },
+          {
+            "key": "B",
+            "text": "17 : 10"
+          },
+          {
+            "key": "C",
+            "text": "4 : 3"
+          },
+          {
+            "key": "D",
+            "text": "3 : 2"
+          },
+          {
+            "key": "E",
+            "text": "96 : 59"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos el producto de las dos participaciones porcentuales para Italia y la UE-28. Cálculo: Italia: 0,338 × 0,958 = 0,3238. UE-28: 0,414 × 0,588 = 0,2434. Razón: 0,3238 : 0,2434 ≈ 32 : 24 = 4 : 3. Error: Usar solo los valores del gráfico de barras daría 8:5 u 96:59."
+      },
+      {
+        "id": "nr_set18_q2",
+        "question": "El número de jóvenes franceses de 20 a 24 años que participaban en educación era de 1,365 millones en 2010 y aumentó un 3,6% entre 2010 y 2015. Calcula el incremento entre 2010 y 2015 de jóvenes franceses de 20 a 24 años que participaban en educación y aprendían dos o más idiomas extranjeros (en miles).",
+        "options": [
+          {
+            "key": "A",
+            "text": "95 mil"
+          },
+          {
+            "key": "B",
+            "text": "67 mil"
+          },
+          {
+            "key": "C",
+            "text": "94747 mil"
+          },
+          {
+            "key": "D",
+            "text": "56 mil"
+          },
+          {
+            "key": "E",
+            "text": "765 mil"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos los aprendices en 2010 y 2015 y luego la diferencia. Cálculo: 2010: 1,365 × 1000 × 0,518 = 707,07 mil. Participantes 2015: 1,365 × 1000 × 1,036 = 1414,14 mil. Aprendices 2015: 1414,14 × 0,567 = 801,82 mil. Diferencia: 801,82 – 707,07 ≈ 95 mil. Error: Ignorar el aumento del 3,6% daría 67 mil (opción B)."
+      },
+      {
+        "id": "nr_set18_q3",
+        "question": "La población alemana de 15 a 29 años en 2015 era un 23% mayor que la italiana. ¿En qué porcentaje era mayor el número de jóvenes alemanes de 15 a 29 años que participaban en educación en 2015 respecto a los italianos (redondeado a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "9,1%"
+          },
+          {
+            "key": "B",
+            "text": "50,2%"
+          },
+          {
+            "key": "C",
+            "text": "64,2%"
+          },
+          {
+            "key": "D",
+            "text": "29,5%"
+          },
+          {
+            "key": "E",
+            "text": "12,2%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Multiplicamos el ratio de población por las participaciones en educación. Cálculo: Ratio: 1,23 : 1. Aplicando participaciones: 1,23 × 0,502 : 1 × 0,411 = 0,61746 : 0,411. Porcentaje: (0,61746 / 0,411 – 1) × 100% ≈ 50,2%. Error: Ignorar la diferencia de población daría 9,1% (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_19",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set19.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set19_q1",
+        "question": "¿Qué porcentaje de la energía de biomasa representaron los biocombustibles en 2017 en EE. UU.?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Alrededor del 21%"
+          },
+          {
+            "key": "B",
+            "text": "Alrededor del 36%"
+          },
+          {
+            "key": "C",
+            "text": "Alrededor del 48%"
+          },
+          {
+            "key": "D",
+            "text": "Alrededor del 54%"
+          },
+          {
+            "key": "E",
+            "text": "No hay suficiente información"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Utilizamos la proporción biomasa residual : biocombustibles : madera = 4 : 21 : 19. De cada 44 unidades de energía de biomasa, 21 provienen de biocombustibles. Cálculo: (21 / 44) × 100 = 47,72 ≈ 48% (opción C). Error: Usar directamente el 21% del gráfico daría la opción A."
+      },
+      {
+        "id": "nr_set19_q2",
+        "question": "Si todos los valores porcentuales hubieran permanecido iguales y la energía hidroeléctrica producida hubiera sido de 2 cuatrillones de Btu, ¿cuál habría sido la producción total de energía en 2017 en EE. UU.?",
+        "options": [
+          {
+            "key": "A",
+            "text": "18,2 cuatrillones de Btu"
+          },
+          {
+            "key": "B",
+            "text": "33,4 cuatrillones de Btu"
+          },
+          {
+            "key": "C",
+            "text": "57,6 cuatrillones de Btu"
+          },
+          {
+            "key": "D",
+            "text": "72,7 cuatrillones de Btu"
+          },
+          {
+            "key": "E",
+            "text": "91,9 cuatrillones de Btu"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Dividimos 2 entre la proporción hidroeléctrica del total renovable (25%) para obtener el total renovable, y luego dividimos entre la proporción de renovables del total (11%). Cálculo: Renovable = 2 / 0,25 = 8. Total = 8 / 0,11 ≈ 72,7 cuatrillones (opción D). Error: Saltar el primer paso daría 2 / 0,11 = 18,2 (opción A)."
+      },
+      {
+        "id": "nr_set19_q3",
+        "question": "Si la energía del petróleo hubiera disminuido un 10% y la de las demás fuentes hubiera aumentado en cantidades iguales para mantener el total constante, ¿cuál habría sido la cantidad de energía producida a partir del carbón?",
+        "options": [
+          {
+            "key": "A",
+            "text": "13,2 cuatrillones de Btu"
+          },
+          {
+            "key": "B",
+            "text": "14,2 cuatrillones de Btu"
+          },
+          {
+            "key": "C",
+            "text": "14,6 cuatrillones de Btu"
+          },
+          {
+            "key": "D",
+            "text": "16,1 cuatrillones de Btu"
+          },
+          {
+            "key": "E",
+            "text": "17,3 cuatrillones de Btu"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos la energía original del petróleo, la reducción del 10%, el reparto entre las otras 4 fuentes y lo sumamos al carbón original. Cálculo: Petróleo: 97,7 × 0,37 ≈ 36,15. Reducción: 36,15 × 0,1 ≈ 3,62. Por fuente: 3,62 / 4 ≈ 0,9. Carbón: 97,7 × 0,14 ≈ 13,68. Total carbón: 13,68 + 0,9 = 14,58 ≈ 14,6 cuatrillones (opción C)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_20",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set20.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set20_q1",
+        "question": "¿Qué porcentaje de los libros de jóvenes y adolescentes pertenece a más de una subcategoría?",
+        "options": [
+          {
+            "key": "A",
+            "text": "12,3%"
+          },
+          {
+            "key": "B",
+            "text": "15,9%"
+          },
+          {
+            "key": "C",
+            "text": "17,2%"
+          },
+          {
+            "key": "D",
+            "text": "20,4%"
+          },
+          {
+            "key": "E",
+            "text": "22,8%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Los libros en más de una subcategoría son la suma en cada subcategoría menos el total de la categoría. Cálculo: Suma: 10096 + 390686 + 371140 + 310547 + 15387 + 81644 = 1179500. Diferencia: 1179500 – 1017540 = 161960. Porcentaje: (161960 / 1017540) × 100 ≈ 15,9% (opción B)."
+      },
+      {
+        "id": "nr_set20_q2",
+        "question": "¿Qué porcentaje del total de libros de jóvenes y adolescentes corresponde a la subcategoría de referencia general?",
+        "options": [
+          {
+            "key": "A",
+            "text": "0,45%"
+          },
+          {
+            "key": "B",
+            "text": "0,7%"
+          },
+          {
+            "key": "C",
+            "text": "0,82%"
+          },
+          {
+            "key": "D",
+            "text": "1,51%"
+          },
+          {
+            "key": "E",
+            "text": "1,12%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos los libros de referencia general y su porcentaje del total. Cálculo: 15387 × 0,54 ≈ 8309 libros. Porcentaje: (8309 / 1017540) × 100 ≈ 0,82% (opción C). Error: Usar la suma de subcategorías en lugar del total daría 0,7% (opción B)."
+      },
+      {
+        "id": "nr_set20_q3",
+        "question": "¿Qué porcentaje de la subcategoría de referencia representarían los diccionarios si añadiésemos 1000 atlas más?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15,67%"
+          },
+          {
+            "key": "B",
+            "text": "16,8%"
+          },
+          {
+            "key": "C",
+            "text": "18,21%"
+          },
+          {
+            "key": "D",
+            "text": "19,72%"
+          },
+          {
+            "key": "E",
+            "text": "25,82%"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos los diccionarios actuales y el nuevo total de referencia tras añadir 1000 atlas. Cálculo: Diccionarios: 15387 × 0,21 ≈ 3231. Nuevo total referencia: 15387 + 1000 = 16387. Porcentaje: (3231 / 16387) × 100 ≈ 19,72% (opción D). Error: Añadir los 1000 a los diccionarios en vez de atlas daría 25,82% (opción E)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_21",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set21.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set21_q1",
+        "question": "Viajas de Bruselas a Estrasburgo saliendo y llegando a tiempo. La velocidad de crucero del tren es un 15% mayor que su velocidad media global. ¿Cuál es la velocidad de crucero al kilómetro por hora más cercano?",
+        "options": [
+          {
+            "key": "A",
+            "text": "100"
+          },
+          {
+            "key": "B",
+            "text": "116"
+          },
+          {
+            "key": "C",
+            "text": "125"
+          },
+          {
+            "key": "D",
+            "text": "133"
+          },
+          {
+            "key": "E",
+            "text": "150"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos la velocidad media y le aplicamos el 15%. Cálculo: 45 min = 0,75 h; tiempo total = 3,75 h. Velocidad media: 435 / 3,75 = 116 km/h. Velocidad de crucero: 116 × 1,15 ≈ 133 km/h (opción D)."
+      },
+      {
+        "id": "nr_set21_q2",
+        "question": "Viajas de Bruselas a Luxemburgo pero por condiciones adversas el tren circula un 10% más lento de lo normal. ¿Con cuánto retraso llegas a Luxemburgo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5 min 35 s"
+          },
+          {
+            "key": "B",
+            "text": "9 min 30 s"
+          },
+          {
+            "key": "C",
+            "text": "10 min 31 s"
+          },
+          {
+            "key": "D",
+            "text": "12 min 45 s"
+          },
+          {
+            "key": "E",
+            "text": "15 min 10 s"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos la velocidad normal, luego la reducida y el tiempo real. Cálculo: 35 min = 0,583 h; tiempo = 1,583 h. Velocidad normal: 220 / 1,583 = 138,98 km/h. Velocidad reducida: 138,98 × 0,9 = 125,1 km/h. Tiempo real: 220 / 125,1 = 1 h 45 min 31 s. Retraso: 10 min 31 s (opción C)."
+      },
+      {
+        "id": "nr_set21_q3",
+        "question": "Los trenes salen de Bruselas hacia Berlín cada 2 horas desde las 06:00, y desde Berlín desde las 05:00. Si sales de Bruselas a las 08:00, ¿cuántos trenes con destino Bruselas cruzas en el trayecto a Berlín?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4"
+          },
+          {
+            "key": "B",
+            "text": "5"
+          },
+          {
+            "key": "C",
+            "text": "6"
+          },
+          {
+            "key": "D",
+            "text": "7"
+          },
+          {
+            "key": "E",
+            "text": "8"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la hora de llegada y contamos los trenes de Berlín que aún están en ruta. Cálculo: Llegada a Berlín: 08:00 + 5:20 = 13:20. Trenes de Berlín en ruta al partir: salidas 05:00, 07:00, 09:00, 11:00, 13:00 = 5 trenes (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_22",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set22.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set22_q1",
+        "question": "En 2015 el número de desempleados en Irlanda era 10000 más que en 2010 y la tasa de desempleo era 0,1 puntos porcentuales menor en 2010 que en 2015. ¿Cuál fue el cambio porcentual de la población de Irlanda entre 2010 y 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "−0,5%"
+          },
+          {
+            "key": "B",
+            "text": "0%"
+          },
+          {
+            "key": "C",
+            "text": "5,7%"
+          },
+          {
+            "key": "D",
+            "text": "6,8%"
+          },
+          {
+            "key": "E",
+            "text": "−3,8%"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos los desempleados en 2015, ajustamos para 2010 y obtenemos el cambio de población. Cálculo: Desempleados 2015: 4606 × 0,485 × 0,059 = 131,8 miles. Desempleados 2010: 131,8 – 10 = 121,8 miles. Tasa 2010: 5,8%. Población 2010: 121,8 / (0,058 × 0,487) ≈ 4312 miles. Cambio: (4606 – 4312) / 4312 × 100 ≈ 6,8% (opción D)."
+      },
+      {
+        "id": "nr_set22_q2",
+        "question": "¿Qué porcentaje del número de desempleados en Portugal representa el número de desempleados en Hungría en 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "87,4%"
+          },
+          {
+            "key": "B",
+            "text": "92,6%"
+          },
+          {
+            "key": "C",
+            "text": "96,9%"
+          },
+          {
+            "key": "D",
+            "text": "96,6%"
+          },
+          {
+            "key": "E",
+            "text": "103%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos los desempleados en Hungría y Portugal y luego el porcentaje. Cálculo: Hungría: 11086 × 0,467 × 0,076 = 393,5 miles. Portugal: 11602 × 0,421 × 0,087 = 425 miles. Porcentaje: 393,5 / 425 × 100 = 92,6% (opción B)."
+      },
+      {
+        "id": "nr_set22_q3",
+        "question": "El porcentaje de desempleados sobre la población activa en Croacia aumentó un 5% entre 2010 y 2015, y la población creció un 3,3%. ¿Cuál fue el incremento del número de desempleados en Croacia entre 2010 y 2015?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5715"
+          },
+          {
+            "key": "B",
+            "text": "18912"
+          },
+          {
+            "key": "C",
+            "text": "7939"
+          },
+          {
+            "key": "D",
+            "text": "104680"
+          },
+          {
+            "key": "E",
+            "text": "12542"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos los desempleados en 2015 y 2010 y la diferencia. Cálculo: Desempleados 2015: 4887 × 0,421 × 0,074 = 152,25 miles. Tasa 2010: 0,074 / 1,05 = 7,048%. Población 2010: 4887 / 1,033 = 4730,88 miles. Desempleados 2010: 4730,88 × 0,419 × 0,07048 = 139,71 miles. Diferencia: 12,54 miles = 12542 (opción E)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_23",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set23.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set23_q1",
+        "question": "Suponiendo que el 66% de la población está en edad de trabajar, ¿en qué año del período 2007-2011 fue mayor el número de desempleados en edad de trabajar?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2007"
+          },
+          {
+            "key": "B",
+            "text": "2008"
+          },
+          {
+            "key": "C",
+            "text": "2009"
+          },
+          {
+            "key": "D",
+            "text": "2010"
+          },
+          {
+            "key": "E",
+            "text": "2011"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Para cada año calculamos población × 0,66 × tasa de desempleo. Cálculo: 2007 ≈ 463104; 2008 ≈ 527535; 2009 ≈ 644144; 2010 ≈ 773180. En 2011 la tasa es igual a 2010 pero la población es menor, por lo que 2010 es el máximo (opción D). Atajo: El factor 0,66 es constante y puede ignorarse en la comparación."
+      },
+      {
+        "id": "nr_set23_q2",
+        "question": "Suponiendo que el 66% de la población en edad de trabajar tiene entre 15 y 74 años y que cada grupo de edad está igualmente representado entre los desempleados, ¿cuántos de los desempleados en edad de trabajar en 2017 tendrán más de 74 años en 2020?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Menos de 14000"
+          },
+          {
+            "key": "B",
+            "text": "Alrededor de 14500"
+          },
+          {
+            "key": "C",
+            "text": "Alrededor de 15000"
+          },
+          {
+            "key": "D",
+            "text": "Alrededor de 15500"
+          },
+          {
+            "key": "E",
+            "text": "Más de 16000"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Los que tendrán más de 74 en 2020 son los que en 2017 tienen 72, 73 o 74 años. Cálculo: Desempleados activos 2017: 9721559 × 0,66 × 0,045 ≈ 288730. Por grupo de edad (60 grupos): 288730 / 60 ≈ 4812. Tres grupos: 3 × 4812 ≈ 14436 ≈ 14500 (opción B)."
+      },
+      {
+        "id": "nr_set23_q3",
+        "question": "¿A qué ritmo cambió el número de personas (de cualquier edad) que no trabajaban entre 2007 y 2017, asumiendo que el 66% está en edad activa y que nadie fuera del grupo 15-74 tiene empleo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Aumento de alrededor del 7%"
+          },
+          {
+            "key": "B",
+            "text": "Aumento de alrededor del 38%"
+          },
+          {
+            "key": "C",
+            "text": "Se mantuvo aproximadamente igual"
+          },
+          {
+            "key": "D",
+            "text": "Disminución de alrededor del 38%"
+          },
+          {
+            "key": "E",
+            "text": "Disminución de alrededor del 7%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos el total de personas que no trabajan (desempleados activos + fuera de edad activa) en 2007 y 2017. Cálculo: No trabajaban 2007: 463104 + 3408122 = 3871226. No trabajaban 2017: 288730 + 3305331 = 3594061. Cambio: (3594061 / 3871226 – 1) × 100 ≈ –7,2% (opción E). Error: Calcular solo el cambio en desempleados activos daría –38% (opción D)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_24",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set24_1.png",
+      "/images/numerical/set24_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set24_q1",
+        "question": "¿Cuál fue el uso total de agua del sector doméstico en Letonia en 2015 como porcentaje del de Lituania (redondeado a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "68,0%"
+          },
+          {
+            "key": "B",
+            "text": "75,9%"
+          },
+          {
+            "key": "C",
+            "text": "87,4%"
+          },
+          {
+            "key": "D",
+            "text": "111,6%"
+          },
+          {
+            "key": "E",
+            "text": "115,1%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "El uso total es el consumo per cápita multiplicado por la población. Cálculo: Letonia: 56,8 × 1,986 = 112,80. Lituania: 50,9 × 2,921 = 148,68. Porcentaje: 112,80 / 148,68 × 100 ≈ 75,9% (opción B). Error: Usar solo el consumo per cápita daría 111,6% (opción D)."
+      },
+      {
+        "id": "nr_set24_q2",
+        "question": "¿Cuál fue la diferencia entre el uso medio per cápita de agua de los cinco países en 2015 y en 2010 (en m³, redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "3,4 m³"
+          },
+          {
+            "key": "B",
+            "text": "17,4 m³"
+          },
+          {
+            "key": "C",
+            "text": "13,2 m³"
+          },
+          {
+            "key": "D",
+            "text": "16,8 m³"
+          },
+          {
+            "key": "E",
+            "text": "5,9 m³"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos la media per cápita de los 5 países en cada año y la diferencia. Cálculo: Media 2015: (47,1+43,0+38,9+56,8+50,9)/5 = 47,34. Media 2010: (44,7+44,4+38,9+57,4+34,5)/5 = 43,98. Diferencia: 47,34 – 43,98 ≈ 3,4 m³ (opción A). Error: Diferencia de totales en vez de medias daría 16,8 m³ (opción D)."
+      },
+      {
+        "id": "nr_set24_q3",
+        "question": "El uso total de agua del sector doméstico en Lituania aumentó 40,3 millones de m³ entre 2011 y 2015. ¿Cuál fue la población de Lituania en 2011 (en millones, redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4,2 millones"
+          },
+          {
+            "key": "B",
+            "text": "2,9 millones"
+          },
+          {
+            "key": "C",
+            "text": "2,4 millones"
+          },
+          {
+            "key": "D",
+            "text": "2,7 millones"
+          },
+          {
+            "key": "E",
+            "text": "3,1 millones"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos el uso total en 2015, restamos el incremento y dividimos por el consumo per cápita. Cálculo: Total 2015: 50,9 × 2,921 = 148,68 M m³. Total 2011: 148,68 – 40,3 = 108,38 M m³. Población 2011: 108,38 / 35,5 ≈ 3,1 millones (opción E). Error: Ignorar el incremento daría 4,2 millones (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_25",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set25.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set25_q1",
+        "question": "La población de Croacia aumentó un 7,5% entre 2005 y 2015. ¿Cuántos nacimientos más hubo en Croacia en 2015 que en 2005 (redondeado al número entero más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "6931"
+          },
+          {
+            "key": "B",
+            "text": "1433"
+          },
+          {
+            "key": "C",
+            "text": "1333"
+          },
+          {
+            "key": "D",
+            "text": "73310"
+          },
+          {
+            "key": "E",
+            "text": "80241"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos los nacimientos en ambos años (población × tasa de natalidad) y la diferencia. Cálculo: Población 2015: 4443 × 1,075 = 4776,225 miles. Nacimientos 2015: 4776,225 × 16,8 = 80241. Nacimientos 2005: 4443 × 16,5 = 73310. Diferencia: 6931 (opción A). Nota: la población en miles y la tasa por mil se cancelan."
+      },
+      {
+        "id": "nr_set25_q2",
+        "question": "¿Cuál es el número medio de nacimientos en los cuatro países mostrados en 2005 (redondeado al número entero más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "92704"
+          },
+          {
+            "key": "B",
+            "text": "102314"
+          },
+          {
+            "key": "C",
+            "text": "98433"
+          },
+          {
+            "key": "D",
+            "text": "96154"
+          },
+          {
+            "key": "E",
+            "text": "100238"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos los nacimientos en cada país y dividimos entre 4. Cálculo: Croacia: 73310. Dinamarca: 64462. Portugal: 151877. Suecia: 104082. Total: 393731. Media: 393731 / 4 = 98433 (opción C). Error: Promediar poblaciones y tasas por separado daría 100238 (opción E)."
+      },
+      {
+        "id": "nr_set25_q3",
+        "question": "En Portugal hubo 4 nacimientos más en 2015 que en 2005. ¿Cuál fue el cambio porcentual en la población de Portugal en ese periodo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5%"
+          },
+          {
+            "key": "B",
+            "text": "−5%"
+          },
+          {
+            "key": "C",
+            "text": "0,1%"
+          },
+          {
+            "key": "D",
+            "text": "−0,1%"
+          },
+          {
+            "key": "E",
+            "text": "3,6%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos los nacimientos en 2005, sumamos 4 para 2015, deducimos la población 2015 y calculamos el cambio. Cálculo: Nacimientos 2005: 10547 × 14,4 = 151877. Nacimientos 2015: 151881. Población 2015: 151881 / 13,9 ≈ 10927 miles. Cambio: (10927–10547)/10547 × 100 ≈ 3,6% (opción E). Atajo: La caída de tasa (13,9–14,4)/14,4 = −3,6% implica igual aumento de población."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_26",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set26.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set26_q1",
+        "question": "La empresa reorganiza su flota. Si en 2013 tenía 42 barcos en el Atlántico Sur y en 2014 aumenta la flota total un 15%, ¿cuántos barcos tendrá en el Océano Atlántico en total en 2014 (redondeado al barco entero más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "105"
+          },
+          {
+            "key": "B",
+            "text": "112"
+          },
+          {
+            "key": "C",
+            "text": "129"
+          },
+          {
+            "key": "D",
+            "text": "140"
+          },
+          {
+            "key": "E",
+            "text": "161"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos la flota total 2013, la aumentamos un 15% y calculamos el 50% atlántico. Cálculo: Flota 2013: 42/0,15 = 280. Flota 2014: 280 × 1,15 = 322. Atlántico (40%+10%=50%): 322 × 0,50 = 161 (opción E). Error: Olvidar el 15% daría 140 (opción D)."
+      },
+      {
+        "id": "nr_set26_q2",
+        "question": "¿En qué porcentaje aproximado cambia el número de barcos en el Océano Pacífico entre 2013 y 2014 si la flota total crece un 15%?",
+        "options": [
+          {
+            "key": "A",
+            "text": "−16,67%"
+          },
+          {
+            "key": "B",
+            "text": "−5,00%"
+          },
+          {
+            "key": "C",
+            "text": "−4,17%"
+          },
+          {
+            "key": "D",
+            "text": "−1,25%"
+          },
+          {
+            "key": "E",
+            "text": "+27,78%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Comparamos la proporción de la flota en el Pacífico en 2013 y 2014. Cálculo: 2013: 0,30 × Flota. 2014: 0,25 × 1,15 × Flota = 0,2875 × Flota. Cambio: (0,2875–0,30)/0,30 = −4,17% (opción C). Error: Restar porcentajes directamente daría −1,25% (opción D)."
+      },
+      {
+        "id": "nr_set26_q3",
+        "question": "Si el Océano Pacífico es 2,3 veces más grande que el Índico, ¿en qué porcentaje es mayor la densidad de barcos por km² en el Índico que en el Pacífico en 2014?",
+        "options": [
+          {
+            "key": "A",
+            "text": "30%"
+          },
+          {
+            "key": "B",
+            "text": "92%"
+          },
+          {
+            "key": "C",
+            "text": "130%"
+          },
+          {
+            "key": "D",
+            "text": "230%"
+          },
+          {
+            "key": "E",
+            "text": "Imposible determinarlo"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Ambos océanos tienen el 25% de la flota, por lo que la densidad solo depende del tamaño. Cálculo: Índico = 1, Pacífico = 2,3. Diferencia porcentual: (2,3–1)/1 × 100 = 130% (opción C). Nota: 2,3 veces mayor ≠ 230% mayor; hay que restar el 100% del valor base."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_27",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set27.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set27_q1",
+        "question": "Si el 5% de la producción del 1.er trimestre de 2014 provino de 50 parques eólicos y el mismo porcentaje del 2.º trimestre fue aportado por parques eólicos, ¿cuántos parques eólicos produjeron electricidad en el 2.º trimestre? Todos los parques producen cantidades idénticas.",
+        "options": [
+          {
+            "key": "A",
+            "text": "42"
+          },
+          {
+            "key": "B",
+            "text": "48"
+          },
+          {
+            "key": "C",
+            "text": "52"
+          },
+          {
+            "key": "D",
+            "text": "55"
+          },
+          {
+            "key": "E",
+            "text": "No se puede determinar"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos la producción por parque en T1 y luego el número de parques en T2. Cálculo: Producción eólica T1: 12,5×0,05=0,625 GWh. Por parque: 0,625/50=0,0125 GWh. Producción eólica T2: 10,5×0,05=0,525 GWh. Parques T2: 0,525/0,0125=42 (opción A). Atajo: La producción bajó, así que el número de parques también bajó; solo la opción A es menor que 50."
+      },
+      {
+        "id": "nr_set27_q2",
+        "question": "En 2014 Hungría exportó el 79% de su excedente de capacidad. ¿Cuántos GWh de excedente necesita generar en el resto de 2015 para lograr el mismo volumen de exportación que en 2014, si en el primer semestre de 2015 exportó el 50% de su excedente?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4,2 GWh"
+          },
+          {
+            "key": "B",
+            "text": "5,1 GWh"
+          },
+          {
+            "key": "C",
+            "text": "5,8 GWh"
+          },
+          {
+            "key": "D",
+            "text": "6,7 GWh"
+          },
+          {
+            "key": "E",
+            "text": "No puede lograrlo"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos el excedente y exportaciones de 2014, luego las del 1.er sem. 2015 y la diferencia. Cálculo: Excedente 2014: 2,7+0,4+1,5+3,0=7,6 GWh. Exportado 2014: 7,6×0,79=6,004 GWh. Excedente 1.er sem. 2015: 0,1+1,7=1,8 GWh. Exportado: 1,8×0,5=0,9 GWh. Pendiente: 6,004–0,9≈5,1 GWh (opción B)."
+      },
+      {
+        "id": "nr_set27_q3",
+        "question": "La central nuclear de Paks produce 14,8 GWh anuales a tasa constante. ¿En cuántos de los trimestres mostrados la producción de Paks fue superior al 30% de la producción total?",
+        "options": [
+          {
+            "key": "A",
+            "text": "En ninguno"
+          },
+          {
+            "key": "B",
+            "text": "1"
+          },
+          {
+            "key": "C",
+            "text": "2"
+          },
+          {
+            "key": "D",
+            "text": "4"
+          },
+          {
+            "key": "E",
+            "text": "En todos"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Paks produce 14,8/4=3,7 GWh por trimestre. Supera el 30% cuando la producción total es menor que 3,7/0,30=12,33 GWh. Trimestres con producción total < 12,33: T2 2014 (10,5) y T1 2015 (10,8) → 2 trimestres (opción C)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_28",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set28.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set28_q1",
+        "question": "¿Cuál fue la diferencia entre 2017 y 2007 en el número total de personas que vivían en hogares privados franceses (en millones, redondeada a un decimal)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "2,9 millones"
+          },
+          {
+            "key": "B",
+            "text": "3,6 millones"
+          },
+          {
+            "key": "C",
+            "text": "9,2 millones"
+          },
+          {
+            "key": "D",
+            "text": "6,3 millones"
+          },
+          {
+            "key": "E",
+            "text": "8,0 millones"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Total personas = número de hogares × personas por hogar. Cálculo: 2017: 29314,4×2,2=64491,68 miles. 2007: 26456,5×2,3=60849,95 miles. Diferencia: ≈3,6 millones (opción B). Error: Ignorar el cambio en personas por hogar daría 2,9 millones (opción A)."
+      },
+      {
+        "id": "nr_set28_q2",
+        "question": "¿Cuál fue el cambio porcentual entre 2007 y 2017 en el número de parejas italianas con hijos en hogares privados (redondeado a dos decimales)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "3,40%"
+          },
+          {
+            "key": "B",
+            "text": "9,08%"
+          },
+          {
+            "key": "C",
+            "text": "–2,98%"
+          },
+          {
+            "key": "D",
+            "text": "–2,60%"
+          },
+          {
+            "key": "E",
+            "text": "5,91%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Multiplicamos el total de hogares por la proporción de parejas con hijos en cada año. Cálculo: 2017: 25864,7×0,209=5405,72 miles. 2007: 23710,7×0,235=5572,01 miles. Cambio: (5405,72–5572,01)/5572,01×100≈–2,98% (opción C). Error: Cambio del total de hogares daría 9,08% (opción B)."
+      },
+      {
+        "id": "nr_set28_q3",
+        "question": "El número total de hogares privados de la UE-28 aumentó un 0,65% en 2018 y la proporción de parejas sin hijos no cambió. ¿Cuál fue el número total de personas sin hijos en la UE-28 en 2018 (redondeado al millón más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "110 millones"
+          },
+          {
+            "key": "B",
+            "text": "55 millones"
+          },
+          {
+            "key": "C",
+            "text": "111 millones"
+          },
+          {
+            "key": "D",
+            "text": "27 millones"
+          },
+          {
+            "key": "E",
+            "text": "1 millón"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos los hogares en 2018, multiplicamos por la proporción de parejas sin hijos y por 2. Cálculo: Hogares 2018: 221326,2×1,0065=222764,82 miles. Personas sin hijos: 222764,82×0,249×2≈111 millones (opción C). Error: Olvidar multiplicar por 2 daría 55 millones (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_29",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set29.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set29_q1",
+        "question": "Al orbitar alrededor del Sol, la distancia que recorre un planeta es 6,3 veces su distancia al Sol. ¿A qué velocidad viaja la Tierra alrededor del Sol en km/s?",
+        "options": [
+          {
+            "key": "A",
+            "text": "0,03"
+          },
+          {
+            "key": "B",
+            "text": "0,3"
+          },
+          {
+            "key": "C",
+            "text": "3"
+          },
+          {
+            "key": "D",
+            "text": "30"
+          },
+          {
+            "key": "E",
+            "text": "300"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos la distancia orbital y la velocidad. Cálculo: Distancia orbital: 150M × 6,3 = 945M km. Velocidad: 945M / 365,25 = 2,587M km/día = 2.587.000 km/día. Por hora: / 24 ≈ 107.792 km/h. Por segundo: / 3600 ≈ 30 km/s (opción D)."
+      },
+      {
+        "id": "nr_set29_q2",
+        "question": "¿Cuánto más rápido que Venus viaja Mercurio? La distancia que recorre un planeta alrededor del Sol es su distancia al Sol multiplicada por 6,3.",
+        "options": [
+          {
+            "key": "A",
+            "text": "24%"
+          },
+          {
+            "key": "B",
+            "text": "47%"
+          },
+          {
+            "key": "C",
+            "text": "67%"
+          },
+          {
+            "key": "D",
+            "text": "85%"
+          },
+          {
+            "key": "E",
+            "text": "125%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la velocidad de cada planeta y la diferencia porcentual. Cálculo: Mercurio: 58×6,3/88=4,152 M km/día. Venus: 101×6,3/224,7=2,832 M km/día. Diferencia: (4,152–2,832)/2,832×100≈47% (opción B). Atajo: el ×6,3 se cancela; basta con 58/88 vs 101/224,7."
+      },
+      {
+        "id": "nr_set29_q3",
+        "question": "Un astronauta en Marte debe esperar al menos 8 min 40 s para recibir respuesta de la Tierra. Esta demora mínima se da cuando la distancia Marte-Tierra es la distancia Marte-Sol menos la distancia Tierra-Sol. ¿A qué velocidad viajan sus mensajes (en km/s)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "120.000"
+          },
+          {
+            "key": "B",
+            "text": "150.000"
+          },
+          {
+            "key": "C",
+            "text": "210.000"
+          },
+          {
+            "key": "D",
+            "text": "270.000"
+          },
+          {
+            "key": "E",
+            "text": "300.000"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos la distancia mínima y la velocidad del mensaje (ida y vuelta). Cálculo: Distancia mínima: 228M–150M=78M km. Ida y vuelta: 78M×2=156M km. Tiempo: 8×60+40=520 s. Velocidad: 156.000.000/520=300.000 km/s (velocidad de la luz, opción E)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_30",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set30_1.png",
+      "/images/numerical/set30_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set30_q1",
+        "question": "Cinco equipos trabajan cerrando expedientes de auditoría financiera y a veces cometen errores. ¿Qué equipo cierra el menor número de expedientes sin errores al año?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Equipo A"
+          },
+          {
+            "key": "B",
+            "text": "Equipo B"
+          },
+          {
+            "key": "C",
+            "text": "Equipo C"
+          },
+          {
+            "key": "D",
+            "text": "Equipo D"
+          },
+          {
+            "key": "E",
+            "text": "Equipo E"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos expedientes sin errores = total × (1 – tasa de error). Cálculo: A: 4500×0,95=4275. B: 4500×0,93=4185. C: 5000×0,89=4450. D: 6000×0,92=5520. E: 6500×0,91=5915. El menor es el Equipo B (opción B). Atajo: A y B tienen el mismo total; el de mayor tasa de error tiene menos sin errores."
+      },
+      {
+        "id": "nr_set30_q2",
+        "question": "Si la tasa de error del Equipo C empeora al 17% y la del Equipo B mejora al 2%, ¿cuántos expedientes sin errores menos cerraría el Equipo C respecto al Equipo B?",
+        "options": [
+          {
+            "key": "A",
+            "text": "35"
+          },
+          {
+            "key": "B",
+            "text": "250"
+          },
+          {
+            "key": "C",
+            "text": "260"
+          },
+          {
+            "key": "D",
+            "text": "350"
+          },
+          {
+            "key": "E",
+            "text": "500"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos los expedientes sin errores con las nuevas tasas y la diferencia. Cálculo: Equipo B: 4500×0,98=4410. Equipo C: 5000×0,83=4150. Diferencia: 4410–4150=260 (opción C)."
+      },
+      {
+        "id": "nr_set30_q3",
+        "question": "Si los equipos avanzan en los expedientes a un ritmo constante mes a mes, ¿cuántos expedientes habrán cerrado los cinco equipos al final de septiembre?",
+        "options": [
+          {
+            "key": "A",
+            "text": "16525"
+          },
+          {
+            "key": "B",
+            "text": "17667"
+          },
+          {
+            "key": "C",
+            "text": "18258"
+          },
+          {
+            "key": "D",
+            "text": "19875"
+          },
+          {
+            "key": "E",
+            "text": "22083"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el total anual y la fracción de 9 meses. Cálculo: Total anual: 4500+4500+5000+6000+6500=26500. Por mes: 26500/12=2208,33. Hasta septiembre (mes 9): 2208,33×9=19875 (opción D). Atajo: 26500×9/12=19875."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_31",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set31.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set31_q1",
+        "question": "Un país considera adoptar un nuevo sistema fiscal. ¿En qué sistema paga menos impuestos una persona con ingresos de 55.000 €/año?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Sistema 1"
+          },
+          {
+            "key": "B",
+            "text": "Sistema 2"
+          },
+          {
+            "key": "C",
+            "text": "Sistema 3"
+          },
+          {
+            "key": "D",
+            "text": "Los sistemas 1 y 2 son iguales"
+          },
+          {
+            "key": "E",
+            "text": "Todos los sistemas son iguales"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos los impuestos totales en cada sistema para 55.000 €. Cálculo: Sistema 1: 3000+5000+1550+1200=10.750 €. Sistema 2: 4500+5250+600=10.350 €. Sistema 3: 2550+5500+2400=10.450 €. El menor es el Sistema 2 (opción B)."
+      },
+      {
+        "id": "nr_set31_q2",
+        "question": "¿Cuál es la tasa impositiva efectiva de una persona con ingresos anuales de 62.000 € bajo el Sistema 3?",
+        "options": [
+          {
+            "key": "A",
+            "text": "15,66%"
+          },
+          {
+            "key": "B",
+            "text": "15,98%"
+          },
+          {
+            "key": "C",
+            "text": "19,53%"
+          },
+          {
+            "key": "D",
+            "text": "19,77%"
+          },
+          {
+            "key": "E",
+            "text": "23,65%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos el total de impuestos y dividimos entre los ingresos. Cálculo: 0–15000 €: exento. 15001–30000 €: 2550 €. 30001–60000 €: 6600 €. 60001+: 2000×0,28=560 €. Seguro: 200×12=2400 €. Total: 12110 €. Tasa efectiva: 12110/62000×100=19,53% (opción C)."
+      },
+      {
+        "id": "nr_set31_q3",
+        "question": "Una persona gana 75.000 €/año. ¿En qué porcentaje es mayor o menor su renta neta bajo el Sistema 1 respecto al Sistema 3?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Aproximadamente 1% menor"
+          },
+          {
+            "key": "B",
+            "text": "Aproximadamente 2% menor"
+          },
+          {
+            "key": "C",
+            "text": "Aproximadamente 2% mayor"
+          },
+          {
+            "key": "D",
+            "text": "Aproximadamente 3,9% menor"
+          },
+          {
+            "key": "E",
+            "text": "Aproximadamente 3,9% mayor"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la renta neta en ambos sistemas y la diferencia porcentual. Cálculo: Sistema 1: impuestos=16950 €; neta=58050 €. Sistema 3: impuestos=15750 €; neta=59250 €. Diferencia: (58050–59250)/59250×100≈–2% (opción B). Error: Calcular al revés daría +2% (opción C)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_32",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set32.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set32_q1",
+        "question": "Si se clasifican por el porcentaje que genera cada central del consumo eléctrico total de su país, ¿cuál ocupa la posición central?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Presa de las Tres Gargantas"
+          },
+          {
+            "key": "B",
+            "text": "Presa de Itaipú"
+          },
+          {
+            "key": "C",
+            "text": "Guri"
+          },
+          {
+            "key": "D",
+            "text": "Grand Coulee"
+          },
+          {
+            "key": "E",
+            "text": "Krasnoyarsk"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos producción/consumo del país para cada central. Cálculo: Itaipú: 98,3/4557=0,02157. Tres Gargantas: 98,5/53223=0,00185. Krasnoyarsk: 20,4/10165=0,00201. Grand Coulee: 20/38864=0,00051. Guri: 53,41/858,5=0,06221. Orden: Grand Coulee < Tres Gargantas < Krasnoyarsk < Itaipú < Guri → Krasnoyarsk en el centro (opción E)."
+      },
+      {
+        "id": "nr_set32_q2",
+        "question": "Venezuela planea construir otra central con la misma capacidad que Guri. Si las centrales existentes producen el 78% del consumo venezolano, ¿cuánta electricidad tendrá para exportar tras la nueva central?",
+        "options": [
+          {
+            "key": "A",
+            "text": "20,97 TWh"
+          },
+          {
+            "key": "B",
+            "text": "34,523 MWh"
+          },
+          {
+            "key": "C",
+            "text": "34.523 MWh"
+          },
+          {
+            "key": "D",
+            "text": "20.970.000 MWh"
+          },
+          {
+            "key": "E",
+            "text": "34.523.000 MWh"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos la producción actual, añadimos la nueva central y restamos el consumo. Cálculo: Consumo: 85,85 TWh. Producción actual: 85,85×0,78=66,963 TWh. Nueva producción: 66,963+53,41=120,373 TWh. Para exportar: 120,373–85,85=34,523 TWh=34.523.000 MWh (opción E)."
+      },
+      {
+        "id": "nr_set32_q3",
+        "question": "Si la electricidad de la Presa de las Tres Gargantas cubriera el 3,24% del consumo eléctrico de la UE y la UE produce el 30% de su electricidad de fuentes nucleares, ¿cuánta electricidad produce la UE de energía nuclear?",
+        "options": [
+          {
+            "key": "A",
+            "text": "912,04 MWh"
+          },
+          {
+            "key": "B",
+            "text": "91,20 TWh"
+          },
+          {
+            "key": "C",
+            "text": "912,00 TWh"
+          },
+          {
+            "key": "D",
+            "text": "912,04 TWh"
+          },
+          {
+            "key": "E",
+            "text": "3040,12 TWh"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el consumo total de la UE y luego el 30% nuclear. Cálculo: 0,0324×X=98,5 TWh → X=98,5/0,0324=3040,12 TWh. Nuclear: 3040,12×0,30=912,04 TWh (opción D). Precaución: no redondear el total antes del 30%."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_33",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set33.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set33_q1",
+        "question": "¿Qué porcentaje de todos los electrodomésticos son lavadoras eficientes energéticamente?",
+        "options": [
+          {
+            "key": "A",
+            "text": "9%"
+          },
+          {
+            "key": "B",
+            "text": "13%"
+          },
+          {
+            "key": "C",
+            "text": "16%"
+          },
+          {
+            "key": "D",
+            "text": "20%"
+          },
+          {
+            "key": "E",
+            "text": "80%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos el % de lavadoras eficientes y su peso en el total. Cálculo: Lavadoras eficientes: 45%+35%=80%. Las lavadoras son el 20% del total. Eficientes del total: 80%×20%=16% (opción C)."
+      },
+      {
+        "id": "nr_set33_q2",
+        "question": "Si la proporción de unidades eficientes entre frigoríficos y aires acondicionados aumentara un 20%, ¿cuántas unidades eficientes de ambos tipos habría?",
+        "options": [
+          {
+            "key": "A",
+            "text": "4728"
+          },
+          {
+            "key": "B",
+            "text": "6024"
+          },
+          {
+            "key": "C",
+            "text": "6420"
+          },
+          {
+            "key": "D",
+            "text": "9264"
+          },
+          {
+            "key": "E",
+            "text": "10200"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el total actual de unidades eficientes y lo aumentamos un 20%. Cálculo: Frigoríficos eficientes: 9000×0,65=5850. Aires acondicionados eficientes: 3400×0,55=1870. Total: 7720. Tras aumento del 20%: 7720×1,2=9264 (opción D). Error: Aumentar 20 puntos porcentuales daría 10200 (opción E)."
+      },
+      {
+        "id": "nr_set33_q3",
+        "question": "Si los electrodomésticos con calificación D se clasifican de mayor a menor número de unidades, ¿cuál encabeza la lista?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Aires acondicionados"
+          },
+          {
+            "key": "B",
+            "text": "Lavadoras"
+          },
+          {
+            "key": "C",
+            "text": "Secadoras"
+          },
+          {
+            "key": "D",
+            "text": "Frigoríficos"
+          },
+          {
+            "key": "E",
+            "text": "Imposible determinarlo"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos las unidades con calificación D de cada tipo. Cálculo: Aires acondicionados: 25%×3400=850. Lavadoras: 10%×5500=550. Secadoras: 15%×2000=300. Frigoríficos: 10%×9000=900. El mayor es frigoríficos (opción D)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_34",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set34_1.png",
+      "/images/numerical/set34_2.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set34_q1",
+        "question": "La población de Noruega aumentó 577 mil personas entre 2007 y 2017. ¿En cuánto cambió el número de personas de 0 a 14 años en Noruega entre esos años (redondeado al millar más cercano)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "–39 mil"
+          },
+          {
+            "key": "B",
+            "text": "–84 mil"
+          },
+          {
+            "key": "C",
+            "text": "28 mil"
+          },
+          {
+            "key": "D",
+            "text": "103 mil"
+          },
+          {
+            "key": "E",
+            "text": "112 mil"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos las personas de 0–14 en 2017 y 2007 y la diferencia. Cálculo: 0–14 en 2017: 5,258×1000×0,178=935,9 mil. Población 2007: 5258–577=4681 mil. 0–14 en 2007: 4681×0,194=908,1 mil. Diferencia: 935,9–908,1≈28 mil (opción C). Error: Ignorar el cambio de participación daría 103 mil (opción D)."
+      },
+      {
+        "id": "nr_set34_q2",
+        "question": "¿En qué porcentaje fue mayor el número de personas de 15 años o más en Dinamarca que en Finlandia en 2017 (redondeado a dos decimales)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "3,52%"
+          },
+          {
+            "key": "B",
+            "text": "4,48%"
+          },
+          {
+            "key": "C",
+            "text": "7,36%"
+          },
+          {
+            "key": "D",
+            "text": "2,61%"
+          },
+          {
+            "key": "E",
+            "text": "–0,30%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la población de 15+ en cada país (grupos 15–64 + 65+) y la diferencia porcentual. Cálculo: Dinamarca: 5,77×(0,643+0,191)=4,812 M. Finlandia: 5,503×(0,628+0,209)=4,606 M. Diferencia: (4,812/4,606–1)×100≈4,48% (opción B). Error: Usar solo 15–64 daría 7,36% (opción C)."
+      },
+      {
+        "id": "nr_set34_q3",
+        "question": "¿Cuál fue el cambio medio por país en los 5 países en la proporción de personas de 15 a 64 años entre 2007 y 2017?",
+        "options": [
+          {
+            "key": "A",
+            "text": "–1,98%"
+          },
+          {
+            "key": "B",
+            "text": "–9,90%"
+          },
+          {
+            "key": "C",
+            "text": "–2,99%"
+          },
+          {
+            "key": "D",
+            "text": "–4,60%"
+          },
+          {
+            "key": "E",
+            "text": "–1,14%"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos el cambio de participación en cada país y promediamos. Cálculo: Dinamarca: –1,8. Finlandia: –3,7. Islandia: –0,9. Noruega: –0,5. Suecia: –3,0. Media: (–1,8–3,7–0,9–0,5–3,0)/5=–1,98% (opción A). Error: Sumar sin dividir entre 5 daría –9,90% (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_35",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set35.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set35_q1",
+        "question": "¿Qué explotación forestal tiene los empleados más productivos?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Craybourne Woodlands"
+          },
+          {
+            "key": "B",
+            "text": "Stirling Forest"
+          },
+          {
+            "key": "C",
+            "text": "Woodcombe Hills Woods"
+          },
+          {
+            "key": "D",
+            "text": "Hampton Forest"
+          },
+          {
+            "key": "E",
+            "text": "Frasier Green"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "La productividad es volumen de producción dividido entre número de empleados. Cálculo: Craybourne: 8000/50=160 t. Stirling: 14000/80=175 t. Woodcombe: 3000/30=100 t. Hampton: 3000/30=100 t. Frasier Green: 8000/40=200 t. La más productiva es Frasier Green (opción E)."
+      },
+      {
+        "id": "nr_set35_q2",
+        "question": "Si se necesitan 50 toneladas de madera por envío de muebles de exterior, ¿cuántos envíos se podrían fabricar en total si el 10% de la madera de tejados se destinara a muebles de exterior?",
+        "options": [
+          {
+            "key": "A",
+            "text": "26"
+          },
+          {
+            "key": "B",
+            "text": "88"
+          },
+          {
+            "key": "C",
+            "text": "114"
+          },
+          {
+            "key": "D",
+            "text": "304"
+          },
+          {
+            "key": "E",
+            "text": "330"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos el volumen total para muebles (actual + 10% de tejados) y dividimos entre 50. Cálculo: Muebles exterior: 15200. Tejados: 13000. 10% de tejados: 1300. Nuevo total muebles: 16500. Envíos: 16500/50=330 (opción E)."
+      },
+      {
+        "id": "nr_set35_q3",
+        "question": "Según la media de las cinco explotaciones, ¿cuánta madera de tejado suministra cada empleado?",
+        "options": [
+          {
+            "key": "A",
+            "text": "56,52 toneladas"
+          },
+          {
+            "key": "B",
+            "text": "66,09 toneladas"
+          },
+          {
+            "key": "C",
+            "text": "156,52 toneladas"
+          },
+          {
+            "key": "D",
+            "text": "565,2 toneladas"
+          },
+          {
+            "key": "E",
+            "text": "156,2 toneladas"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Dividimos el total de tejados entre el total de empleados. Cálculo: Total tejados: 13000. Total empleados: 230. Por empleado: 13000/230≈56,52 toneladas (opción A)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_36",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set36.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set36_q1",
+        "question": "Suponiendo que una copa es un quinto de una botella, ¿qué vino genera más beneficio adicional en euros al venderse por copa?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Chablis"
+          },
+          {
+            "key": "B",
+            "text": "Chardonnay"
+          },
+          {
+            "key": "C",
+            "text": "Margaux"
+          },
+          {
+            "key": "D",
+            "text": "Sancerre"
+          },
+          {
+            "key": "E",
+            "text": "Tavel"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos 5 copas – precio botella para cada vino. Cálculo: Chablis: 5×8,95–31,95=12,80 €. Chardonnay: 9,00 €. Margaux: 8,75 €. Sancerre: 11,20 €. Tavel: 10,25 €. El mayor es Chablis (opción A)."
+      },
+      {
+        "id": "nr_set36_q2",
+        "question": "El restaurante obtiene un 220% de beneficio sobre las botellas de vino. En una noche obtiene 287,10 € de beneficio solo con Sancerre. ¿Cuántas botellas de Sancerre vendió?",
+        "options": [
+          {
+            "key": "A",
+            "text": "6"
+          },
+          {
+            "key": "B",
+            "text": "10"
+          },
+          {
+            "key": "C",
+            "text": "12"
+          },
+          {
+            "key": "D",
+            "text": "15"
+          },
+          {
+            "key": "E",
+            "text": "18"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos el beneficio por botella y dividimos el total. Cálculo: Sea B el coste antes de beneficio: B+2,2B=34,80 → 3,2B=34,80 → B=10,875 €. Beneficio/botella: 34,80–10,875=23,925 €. Botellas: 287,10/23,925=12 (opción C)."
+      },
+      {
+        "id": "nr_set36_q3",
+        "question": "Si una copa es 187,5 ml y una botella 750 ml, ¿cuál es el aumento porcentual en los ingresos de una botella de Tavel al venderse por copa?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5,9%"
+          },
+          {
+            "key": "B",
+            "text": "7,8%"
+          },
+          {
+            "key": "C",
+            "text": "8,3%"
+          },
+          {
+            "key": "D",
+            "text": "9,4%"
+          },
+          {
+            "key": "E",
+            "text": "11,1%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos los ingresos de 4 copas y el aumento porcentual respecto a la botella. Cálculo: Copas/botella: 750/187,5=4. Ingresos: 4×7,95=31,80 €. Aumento: (31,80–29,50)/29,50×100=7,8% (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_37",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set37.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set37_q1",
+        "question": "En el estilo medley, el ganador empleó el 26,2% del tiempo en el tramo de mariposa. ¿Cuál fue su velocidad media durante ese tramo?",
+        "options": [
+          {
+            "key": "A",
+            "text": "1,67 m/s"
+          },
+          {
+            "key": "B",
+            "text": "1,75 m/s"
+          },
+          {
+            "key": "C",
+            "text": "1,8 m/s"
+          },
+          {
+            "key": "D",
+            "text": "2,0 m/s"
+          },
+          {
+            "key": "E",
+            "text": "2,25 m/s"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos el tiempo en mariposa y la velocidad (distancia/tiempo). Cálculo: Tiempo total: 3×60+48,7=228,7 s. Tiempo mariposa: 228,7×0,262=59,92 s. Velocidad: 100/59,92=1,67 m/s (opción A)."
+      },
+      {
+        "id": "nr_set37_q2",
+        "question": "¿Cuánto más rápido fue el ganador de la medalla de oro que el de bronce en los 200 m espalda?",
+        "options": [
+          {
+            "key": "A",
+            "text": "0,1%"
+          },
+          {
+            "key": "B",
+            "text": "1,0%"
+          },
+          {
+            "key": "C",
+            "text": "1,3%"
+          },
+          {
+            "key": "D",
+            "text": "1,5%"
+          },
+          {
+            "key": "E",
+            "text": "2,0%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos la diferencia porcentual de velocidades. Cálculo: Tiempo oro: 118,31 s. Tiempo bronce: 119,88 s. Diferencia: (119,88–118,31)/119,88×100=1,3% (opción C)."
+      },
+      {
+        "id": "nr_set37_q3",
+        "question": "Desde que terminó el ganador del oro hasta que terminó él, el ganador de plata en estilo libre nadó un 10% más rápido que su media general. ¿Por qué distancia, al centímetro más cercano, venció el oro al plata?",
+        "options": [
+          {
+            "key": "A",
+            "text": "14"
+          },
+          {
+            "key": "B",
+            "text": "17"
+          },
+          {
+            "key": "C",
+            "text": "25"
+          },
+          {
+            "key": "D",
+            "text": "36"
+          },
+          {
+            "key": "E",
+            "text": "51"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la velocidad del plata en el tramo final y la distancia recorrida. Cálculo: Velocidad media plata: 100/50,99=1,96 m/s. Velocidad final: 1,96×1,1=2,16 m/s. Diferencia de tiempo: 50,99–50,91=0,08 s. Distancia: 2,16×0,08=0,173 m≈17 cm (opción B)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_38",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set38.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set38_q1",
+        "question": "Si China exportó el 30% de su producción de acero a EE. UU. en 2014, ¿cuánto acero usó EE. UU. ese año?",
+        "options": [
+          {
+            "key": "A",
+            "text": "143,85 millones de toneladas"
+          },
+          {
+            "key": "B",
+            "text": "166,05 millones de toneladas"
+          },
+          {
+            "key": "C",
+            "text": "310,97 millones de toneladas"
+          },
+          {
+            "key": "D",
+            "text": "328,82 millones de toneladas"
+          },
+          {
+            "key": "E",
+            "text": "No se puede determinar"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "No se puede calcular porque faltan datos de importaciones del resto de regiones a EE. UU. Cálculo parcial: Producción doméstica EE. UU.: 64,35 Mt. Importaciones de China: 246,62 Mt. Subtotal: 310,97 Mt. Sin datos de otras regiones → No se puede determinar (opción E)."
+      },
+      {
+        "id": "nr_set38_q2",
+        "question": "¿Cuánto más acero exportó la UE que Japón en 2013?",
+        "options": [
+          {
+            "key": "A",
+            "text": "66,2% más"
+          },
+          {
+            "key": "B",
+            "text": "71,6% más"
+          },
+          {
+            "key": "C",
+            "text": "161% más"
+          },
+          {
+            "key": "D",
+            "text": "166,2% más"
+          },
+          {
+            "key": "E",
+            "text": "171,6% más"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Calculamos las exportaciones de Japón en 2013 usando el cambio porcentual. Cálculo: Exportaciones UE 2013: 55,9 Mt. Exportaciones Japón 2013: 21/0,98=21,43 Mt. Diferencia: (55,9–21,43)/21,43×100≈161% (opción C)."
+      },
+      {
+        "id": "nr_set38_q3",
+        "question": "¿Qué porcentaje aproximado de la producción global de acero representaron las exportaciones de 2013 si la producción regional fue la misma que en 2014?",
+        "options": [
+          {
+            "key": "A",
+            "text": "Alrededor del 6%"
+          },
+          {
+            "key": "B",
+            "text": "Alrededor del 14%"
+          },
+          {
+            "key": "C",
+            "text": "Alrededor del 38%"
+          },
+          {
+            "key": "D",
+            "text": "Alrededor del 50%"
+          },
+          {
+            "key": "E",
+            "text": "Alrededor del 70%"
+          }
+        ],
+        "correctKey": "C",
+        "explanation": "Estimamos la participación de exportaciones 2013 en la producción global. Cálculo aproximado: China (50% prod., ~33% export.): 16,5%. Resto del mundo (28%, ~57%): 15,9%. Otros: ~5,7%. Total: ≈38% (opción C)."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_39",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set39.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set39_q1",
+        "question": "La generación de electricidad aumentó un 10% entre 2005 y 2010. La generación por energía maremotriz se duplicó en ese período. ¿Qué porcentaje de la electricidad fue generado por energía maremotriz en 2005?",
+        "options": [
+          {
+            "key": "A",
+            "text": "1,12%"
+          },
+          {
+            "key": "B",
+            "text": "1,36%"
+          },
+          {
+            "key": "C",
+            "text": "1,59%"
+          },
+          {
+            "key": "D",
+            "text": "1,73%"
+          },
+          {
+            "key": "E",
+            "text": "1,94%"
+          }
+        ],
+        "correctKey": "B",
+        "explanation": "Calculamos la proporción de la energía maremotriz en el total de 2005. Cálculo: Sea E el total de 2005. Total 2010: 1,1E. Otras fuentes 2010: 1,1E×0,065=0,0715E. Maremotriz 2010 (38% de Otras): 0,0715E×0,38=0,02717E. Maremotriz 2005 (se duplicó): 0,02717E/2=0,013585E. Porcentaje: (0,013585E/E)×100=1,36% (opción B)."
+      },
+      {
+        "id": "nr_set39_q2",
+        "question": "En 2010, 2,4 millones de kWh de electricidad se generaron a partir de biomasa. ¿Cuánto se generó de energía solar (en millones de kWh)?",
+        "options": [
+          {
+            "key": "A",
+            "text": "5,3"
+          },
+          {
+            "key": "B",
+            "text": "5,9"
+          },
+          {
+            "key": "C",
+            "text": "6,2"
+          },
+          {
+            "key": "D",
+            "text": "6,8"
+          },
+          {
+            "key": "E",
+            "text": "7,3"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos el total de \"otras fuentes\" y luego la producción solar. Cálculo: Biomasa = 36% de Otras → Otras = 2,4/0,36 = 6,67 M kWh. Otras = 6,5% del total → Total = 6,67/0,065 = 102,62 M kWh. Solar (5,2% del total): 102,62×0,052 = 5,3 M kWh (opción A). Nota: No aproximes demasiado, las opciones están muy juntas."
+      },
+      {
+        "id": "nr_set39_q3",
+        "question": "Si la generación total de electricidad aumentó un 10% entre 2005 y 2010, ¿cuál fue el cambio porcentual en la electricidad generada por combustibles fósiles en ese período?",
+        "options": [
+          {
+            "key": "A",
+            "text": "+3,6%"
+          },
+          {
+            "key": "B",
+            "text": "+1,8%"
+          },
+          {
+            "key": "C",
+            "text": "Sin cambio"
+          },
+          {
+            "key": "D",
+            "text": "–1,8%"
+          },
+          {
+            "key": "E",
+            "text": "–3,6%"
+          }
+        ],
+        "correctKey": "A",
+        "explanation": "Calculamos la generación por combustibles fósiles en ambos años. Cálculo: Sea E el total de 2005. Fósiles 2005: E×0,811=0,811E. Total 2010: 1,1E. Fósiles 2010: 1,1E×0,764=0,8404E. Diferencia: 0,8404E–0,811E=0,0294E. Cambio %: 100×0,0294/0,811=3,6% (opción A). Error: Restar porcentajes directamente (81,1–76,4=4,7%) ignora el aumento del 10% en la producción total."
+      }
+    ]
+  },
+  {
+    "dataset_id": "nr_set_40",
+    "category": "numerical_reasoning",
+    "language": "es",
+    "imageUrls": [
+      "/images/numerical/set40.png"
+    ],
+    "questions": [
+      {
+        "id": "nr_set40_q1",
+        "question": "Suponiendo una muestra de 1000 niños donde cada sexo está igualmente representado, ¿en qué porcentaje disminuyó el número de niños a quienes les gusta leer entre 2010 y 2014?",
+        "options": [
+          {
+            "key": "A",
+            "text": "8%"
+          },
+          {
+            "key": "B",
+            "text": "12%"
+          },
+          {
+            "key": "C",
+            "text": "17%"
+          },
+          {
+            "key": "D",
+            "text": "21%"
+          },
+          {
+            "key": "E",
+            "text": "25%"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "Calculamos el número de niños lectores en cada año y la variación porcentual. Cálculo: Niños en muestra: 500. Niños lectores 2010: 500×0,32=160. Niños lectores 2014: 500×0,24=120. Variación: (120–160)/160×100=–25% (opción E). Atajo: (32–24)/32=25%. Error: Restar directamente los porcentajes (32–24=8%) daría la opción A."
+      },
+      {
+        "id": "nr_set40_q2",
+        "question": "¿Cuál fue el tamaño de la muestra si en 2012 el número de niños y niñas a quienes les gustaba leer era de 150 en ambos casos?",
+        "options": [
+          {
+            "key": "A",
+            "text": "792"
+          },
+          {
+            "key": "B",
+            "text": "823"
+          },
+          {
+            "key": "C",
+            "text": "833"
+          },
+          {
+            "key": "D",
+            "text": "886"
+          },
+          {
+            "key": "E",
+            "text": "938"
+          }
+        ],
+        "correctKey": "D",
+        "explanation": "Calculamos el número total de niños y niñas en la muestra. Cálculo: Sea X el número de niños: X×0,32=150 → X≈469. Sea Y el número de niñas: Y×0,36=150 → Y≈417. Total: 469+417=886 (opción D). Atajo: 150/0,32+150/0,36=150×(1/0,32+1/0,36)."
+      },
+      {
+        "id": "nr_set40_q3",
+        "question": "Suponiendo una muestra de 1000 niños donde los cuatro grupos de edad están igualmente representados y en cada grupo los sexos también están igualmente representados, ¿cuántos niños de 9 a 11 años les gustaba leer en 2010?",
+        "options": [
+          {
+            "key": "A",
+            "text": "41"
+          },
+          {
+            "key": "B",
+            "text": "48"
+          },
+          {
+            "key": "C",
+            "text": "58"
+          },
+          {
+            "key": "D",
+            "text": "64"
+          },
+          {
+            "key": "E",
+            "text": "No hay suficiente información"
+          }
+        ],
+        "correctKey": "E",
+        "explanation": "No hay información suficiente para responder. Sabemos que hay 250 niños por grupo de edad y 125 de cada sexo por grupo. El 38% de los niños de 9–11 años leen (95 en total), pero no sabemos cuántos son niños y cuántas niñas. Igualmente, de los 160 niños lectores en total, no sabemos a qué grupo de edad pertenecen. Error: Usar el 38% sobre 125 niños daría 48 (opción B), pero mezcla dos datos no relacionados."
+      }
+    ]
+  }
+]
