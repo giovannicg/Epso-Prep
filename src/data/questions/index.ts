@@ -1,5 +1,6 @@
 import type { Question, ExamCategory, Language, QuestionGroup } from '../../types';
 import verbalReasoningEs from './verbal_reasoning_es.json';
+import verbalReasoningEn from './verbal_reasoning_en.json';
 import numericalReasoningEsRaw from './numerical_reasoning_es_book.json';
 import numericalReasoningEnRaw from './numerical_reasoning_en.json';
 
@@ -29,6 +30,7 @@ const numericalReasoningEn = flattenGroups(numericalReasoningEnRaw as unknown as
 
 const questionBank: Record<string, Question[]> = {
   verbal_reasoning_es: verbalReasoningEs as Question[],
+  verbal_reasoning_en: verbalReasoningEn as Question[],
   numerical_reasoning_es: numericalReasoningEs,
   numerical_reasoning_en: numericalReasoningEn,
 };
