@@ -1,0 +1,1472 @@
+[
+  {
+    "id": "ek_es_001",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la forma más común de toma de decisiones utilizada para adoptar la legislación de la UE?",
+    "options": [
+      { "key": "A", "text": "Libro blanco" },
+      { "key": "B", "text": "Procedimiento de acuerdo" },
+      { "key": "C", "text": "Procedimiento Legislativo Ordinario" },
+      { "key": "D", "text": "Procedimiento especial" }
+    ],
+    "correctKey": "C",
+    "explanation": "El 'Procedimiento Legislativo Ordinario', o PLO, es la regla general utilizada para aprobar la legislación a nivel de la UE, cubriendo la gran mayoría de las áreas políticas. Comienza con una propuesta legislativa de la Comisión Europea, que pasa por hasta tres lecturas entre el Parlamento Europeo y el Consejo de la Unión Europea."
+  },
+  {
+    "id": "ek_es_002",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuándo se nombró oficialmente a la codecisión como 'Procedimiento Legislativo Ordinario'?",
+    "options": [
+      { "key": "A", "text": "Bajo el Tratado de Lisboa en 2009" },
+      { "key": "B", "text": "Fue introducido en el Tratado de Ámsterdam en 1999" },
+      { "key": "C", "text": "Fue extendido bajo el Tratado de Maastricht en 1992" },
+      { "key": "D", "text": "Se ha utilizado desde la fundación de las Comunidades Europeas" }
+    ],
+    "correctKey": "A",
+    "explanation": "El procedimiento de codecisión se introdujo originalmente en 1992 y se amplió en 1999. Bajo el Tratado de Lisboa (2009), se le denominó oficialmente Procedimiento Legislativo Ordinario. Se aplica a casi todas las áreas de acción del Tratado de Funcionamiento de la Unión Europea (TFUE)."
+  },
+  {
+    "id": "ek_es_003",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué institución de la UE tiene el derecho de iniciativa?",
+    "options": [
+      { "key": "A", "text": "El Consejo de la Unión Europea" },
+      { "key": "B", "text": "La Comisión Europea" },
+      { "key": "C", "text": "El Parlamento Europeo" },
+      { "key": "D", "text": "El Consejo de Europa" }
+    ],
+    "correctKey": "B",
+    "explanation": "Se ha otorgado el derecho de iniciativa a la Comisión Europea para que pueda llevar a cabo su papel de guardiana de los tratados. Puede proponer legislación europea en las áreas políticas contenidas en los tratados, así como donde considere que es necesario."
+  },
+  {
+    "id": "ek_es_004",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuántas etapas principales, conocidas como lecturas, establece el Procedimiento Legislativo Ordinario?",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "1" },
+      { "key": "D", "text": "3" }
+    ],
+    "correctKey": "D",
+    "explanation": "El Procedimiento Legislativo Ordinario tiene 3 etapas principales (lecturas), aunque puede terminar después de la primera o segunda. 1) Primera lectura del PE y luego del Consejo. 2) Segunda lectura de las mismas instituciones. 3) Comité de Conciliación y tercera lectura si no hay acuerdo."
+  },
+  {
+    "id": "ek_es_005",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cómo vota el Parlamento Europeo durante la primera lectura en los expedientes del Procedimiento Legislativo Ordinario?",
+    "options": [
+      { "key": "A", "text": "Por mayoría cualificada" },
+      { "key": "B", "text": "Por mayoría simple" },
+      { "key": "C", "text": "Por voto unánime" },
+      { "key": "D", "text": "Mediante votación anticipada" }
+    ],
+    "correctKey": "B",
+    "explanation": "El Parlamento Europeo vota por mayoría simple (una mayoría de los diputados presentes que votan)."
+  },
+  {
+    "id": "ek_es_006",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "En el Consejo de la UE, ¿cuál es el umbral para alcanzar una mayoría cualificada?",
+    "options": [
+      { "key": "A", "text": "La mitad de los Estados miembros" },
+      { "key": "B", "text": "El 45% de los Estados miembros, que representen la mitad de la población de la UE" },
+      { "key": "C", "text": "El 65% de los Estados miembros, que representen al menos el 55% de la población" },
+      { "key": "D", "text": "El 55% de los Estados miembros, que representen al menos el 65% de la población de la UE" }
+    ],
+    "correctKey": "D",
+    "explanation": "La mayoría cualificada se alcanza si se cumplen dos condiciones simultáneamente: el 55% de los Estados miembros vota a favor (15 de 27), y la propuesta cuenta con el apoyo de Estados miembros que representen al menos el 65% del total de la población de la UE."
+  },
+  {
+    "id": "ek_es_007",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es un trílogo en el contexto del Procedimiento Legislativo Ordinario (PLO) de la UE?",
+    "options": [
+      { "key": "A", "text": "Una negociación interinstitucional informal entre representantes de las tres instituciones principales" },
+      { "key": "B", "text": "Una reunión interinstitucional formal para negociar el expediente legislativo establecido en los Tratados" },
+      { "key": "C", "text": "Un paso oficial del PLO que se lleva a cabo para ayudar a redactar la propuesta legislativa inicial" },
+      { "key": "D", "text": "Una reunión entre la Comisión Europea y organizaciones de la sociedad civil" }
+    ],
+    "correctKey": "A",
+    "explanation": "Un trílogo es una negociación interinstitucional informal que reúne a representantes del Parlamento Europeo, el Consejo de la Unión Europea y la Comisión Europea, con el objetivo de alcanzar un acuerdo provisional. Este acuerdo informal debe ser adoptado posteriormente mediante procedimientos formales."
+  },
+  {
+    "id": "ek_es_008",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es un 'enfoque general' del Consejo?",
+    "options": [
+      { "key": "A", "text": "Un documento que explica la forma en que el Consejo suele proceder en expedientes legislativos" },
+      { "key": "B", "text": "Un acuerdo político para dar al PE una idea de su posición antes de las negociaciones oficiales" },
+      { "key": "C", "text": "Una pieza de legislación vinculante aplicable en todos los Estados miembros de la UE" },
+      { "key": "D", "text": "Un acto que será adoptado por el Parlamento de la UE en segunda lectura" }
+    ],
+    "correctKey": "B",
+    "explanation": "Antes de la primera lectura en el PLO, el Consejo puede adoptar un 'enfoque general', que es un acuerdo político que puede ayudar a dar al Parlamento Europeo una idea de su posición sobre la propuesta de la Comisión y facilitar el acuerdo."
+  },
+  {
+    "id": "ek_es_009",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Tienen el Consejo y el Parlamento Europeo un límite de tiempo para la primera lectura del Procedimiento Legislativo Ordinario?",
+    "options": [
+      { "key": "A", "text": "Sí, las negociaciones deben concluir en un plazo de tres meses" },
+      { "key": "B", "text": "El Parlamento no tiene límite de tiempo, pero el Consejo sí" },
+      { "key": "C", "text": "Sí, la Comisión establece la fecha límite" },
+      { "key": "D", "text": "No, no están sujetos a ningún límite de tiempo" }
+    ],
+    "correctKey": "D",
+    "explanation": "La respuesta correcta es no, ni el Parlamento Europeo ni el Consejo están sujetos a un límite de tiempo por el cual deban concluir la primera lectura."
+  },
+  {
+    "id": "ek_es_010",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el título que se le da al miembro del Parlamento Europeo responsable de redactar el informe del Parlamento y que actúa como portavoz durante las negociaciones interinstitucionales?",
+    "options": [
+      { "key": "A", "text": "Ponente (Rapporteur)" },
+      { "key": "B", "text": "Alternativo (Shadow)" },
+      { "key": "C", "text": "Presidente" },
+      { "key": "D", "text": "Escritor" }
+    ],
+    "correctKey": "A",
+    "explanation": "Un ponente (rapporteur) es un eurodiputado responsable de manejar una propuesta legislativa de la Comisión Europea. Lideran las negociaciones interinstitucionales con respecto a su archivo legislativo y manejan las discusiones."
+  },
+  {
+    "id": "ek_es_011",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué instituciones son legisladores en el Procedimiento Legislativo Especial?",
+    "options": [
+      { "key": "A", "text": "Solo el Consejo" },
+      { "key": "B", "text": "El Consejo y el Parlamento de la UE" },
+      { "key": "C", "text": "La Comisión de la UE, el Consejo y el Parlamento" },
+      { "key": "D", "text": "El Consejo Europeo y el Tribunal de Justicia de la UE" }
+    ],
+    "correctKey": "A",
+    "explanation": "El Procedimiento Legislativo Especial significa que el único legislador es el Consejo, en contraposición a la codecisión con el Parlamento de la UE (Procedimiento Legislativo Ordinario)."
+  },
+  {
+    "id": "ek_es_012",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Bajo el Procedimiento Legislativo Especial, el Parlamento Europeo:",
+    "options": [
+      { "key": "A", "text": "Codecide en igualdad de condiciones con el Consejo" },
+      { "key": "B", "text": "Modifica una propuesta legislativa" },
+      { "key": "C", "text": "No puede actuar en ninguna circunstancia" },
+      { "key": "D", "text": "Debe dar su consentimiento (aprobación) o ser consultado sobre la propuesta" }
+    ],
+    "correctKey": "D",
+    "explanation": "El artículo 289(2) del TFUE establece que, para ciertos casos (Procedimiento Especial), el Consejo es el único legislador y se requiere que el Parlamento apruebe la propuesta de la Comisión o sea consultado sobre ella."
+  },
+  {
+    "id": "ek_es_013",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "En el Procedimiento Legislativo Especial, se requiere la aprobación (consentimiento) del Parlamento de la UE en casos como:",
+    "options": [
+      { "key": "A", "text": "En todos los casos" },
+      { "key": "B", "text": "Exclusivamente para los procedimientos del Artículo 7 (Estado de Derecho) y del Artículo 50 (retirada de la UE)" },
+      { "key": "C", "text": "Para combatir la discriminación, acuerdos internacionales, Artículo 7, adhesión a la UE y retirada de la UE" },
+      { "key": "D", "text": "Cuando es invitado a participar en el procedimiento por las otras instituciones" }
+    ],
+    "correctKey": "C",
+    "explanation": "Se requiere el consentimiento del PE para adoptar nueva legislación para combatir la discriminación, así como en los procedimientos no legislativos referentes a acuerdos internacionales, violaciones graves de derechos fundamentales (Art. 7), adhesión de nuevos miembros y acuerdos de retirada."
+  },
+  {
+    "id": "ek_es_014",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de los siguientes constituye el derecho primario de la UE?",
+    "options": [
+      { "key": "A", "text": "Las directivas y los reglamentos de la UE" },
+      { "key": "B", "text": "Todos los actos legislativos" },
+      { "key": "C", "text": "Los reglamentos, directivas, decisiones, recomendaciones y dictámenes" },
+      { "key": "D", "text": "Los Tratados de la UE" }
+    ],
+    "correctKey": "D",
+    "explanation": "Hay dos tipos principales de derecho de la UE: primario y secundario. El punto de partida son los Tratados de la UE, conocidos como derecho primario. El derecho secundario (reglamentos, directivas, decisiones, etc.) deriva del derecho primario."
+  },
+  {
+    "id": "ek_es_015",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué afirmación es cierta sobre los reglamentos de la UE?",
+    "options": [
+      { "key": "A", "text": "Permiten a los Estados miembros determinar cómo los transponen a su legislación nacional" },
+      { "key": "B", "text": "Son de aplicación general, jurídicamente vinculantes y se aplican directamente en los Estados miembros" },
+      { "key": "C", "text": "Son legislación primaria de la UE" },
+      { "key": "D", "text": "Son jurídicamente vinculantes pero tienen un único destinatario específico" }
+    ],
+    "correctKey": "B",
+    "explanation": "Los reglamentos son actos jurídicos que tienen aplicación general, son totalmente vinculantes y directamente aplicables en todos los Estados miembros de la UE, formando parte del derecho derivado (o secundario) de la UE."
+  },
+  {
+    "id": "ek_es_016",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el proceso de transposición?",
+    "options": [
+      { "key": "A", "text": "Es la incorporación de las directivas de la UE a la legislación nacional de los Estados miembros." },
+      { "key": "B", "text": "Es un proceso necesario para los reglamentos y decisiones de la UE, ya que no son directamente aplicables." },
+      { "key": "C", "text": "Es un proceso voluntario de los Estados miembros, sin un plazo específico." },
+      { "key": "D", "text": "No es un proceso obligatorio y la Comisión no puede actuar si un Estado miembro no lo lleva a cabo." }
+    ],
+    "correctKey": "A",
+    "explanation": "La transposición es el proceso mediante el cual los Estados miembros incorporan las directivas de la UE a su legislación nacional. Se aplica a las directivas, ya que no son directamente aplicables en los Estados miembros, a diferencia de los reglamentos y las decisiones. Los Estados miembros de la UE deben adoptar estas leyes nacionales en un plazo determinado, establecido en la directiva, y deben notificar sus medidas de aplicación a la Comisión Europea. Si el Estado miembro no lo hace, la Comisión puede llevar el caso ante el Tribunal de Justicia de la UE."
+  },
+  {
+    "id": "ek_es_017",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de las siguientes es una característica de los Actos Delegados?",
+    "options": [
+      { "key": "A", "text": "Permiten a los Estados miembros modificar inmediatamente la legislación de la UE y adaptarla a la legislación nacional." },
+      { "key": "B", "text": "Entran en vigor incluso si el Parlamento de la UE y el Consejo se oponen, por lo que la Comisión tiene plenos poderes." },
+      { "key": "C", "text": "Se utilizan en procedimientos lentos para acelerar las negociaciones." },
+      { "key": "D", "text": "Permiten a la Comisión actuar con rapidez para modificar ciertos elementos no esenciales de las leyes." }
+    ],
+    "correctKey": "D",
+    "explanation": "El artículo 290 del Tratado de Funcionamiento de la Unión Europea (TFUE) estipuló que el legislador de la UE puede otorgar poderes a la Comisión mediante reglas específicas inscritas en un acto legislativo para adoptar 'actos delegados'. Los actos delegados son actos no legislativos adoptados por la Comisión Europea que sirven para modificar o complementar los elementos no esenciales de la legislación."
+  },
+  {
+    "id": "ek_es_018",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Los actos delegados se utilizan típicamente en casos como:",
+    "options": [
+      { "key": "A", "text": "Cuando los actos legislativos deben adaptarse regularmente en línea con el progreso científico y técnico." },
+      { "key": "B", "text": "En el caso de las directivas y los reglamentos, ya que se aplican inmediatamente en los Estados miembros." },
+      { "key": "C", "text": "En el caso de las leyes para combatir la discriminación, para proteger a los más vulnerables." },
+      { "key": "D", "text": "En los procedimientos presupuestarios, para acelerar las negociaciones entre las instituciones." }
+    ],
+    "correctKey": "A",
+    "explanation": "Los actos delegados se utilizan típicamente cuando los actos legislativos, incluidos sus anexos, deben adaptarse de forma regular para tener en cuenta el progreso técnico y científico."
+  },
+  {
+    "id": "ek_es_019",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Los actos de ejecución y los actos delegados son:",
+    "options": [
+      { "key": "A", "text": "Actos legislativos" },
+      { "key": "B", "text": "Adoptados bajo el Procedimiento Legislativo Ordinario" },
+      { "key": "C", "text": "Actos no legislativos" },
+      { "key": "D", "text": "Reglamentos y Directivas" }
+    ],
+    "correctKey": "C",
+    "explanation": "El artículo 289 del TFUE estipula que los actos no legislativos son decisiones adoptadas, generalmente por la Comisión Europea, tras una delegación (actos delegados) o para aplicar un acto legislativo (actos de ejecución)."
+  },
+  {
+    "id": "ek_es_020",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es la comitología?",
+    "options": [
+      { "key": "A", "text": "El proceso según el cual los expedientes legislativos se distribuyen entre las comisiones del Parlamento de la UE." },
+      { "key": "B", "text": "Una serie de procedimientos que dan a los Estados miembros voz y voto en los Actos de Ejecución y Actos Delegados." },
+      { "key": "C", "text": "Grupos interparlamentarios de eurodiputados que intercambian opiniones sobre cuestiones específicas." },
+      { "key": "D", "text": "El proceso mediante el cual el Consejo y el Parlamento de la UE pueden bloquear un Acto Delegado." }
+    ],
+    "correctKey": "B",
+    "explanation": "Para asegurar que una ley de la UE se aplica de manera uniforme, la Comisión puede adoptar un Acto de Ejecución (un acto no legislativo). La comitología se refiere a la serie de procedimientos que otorgan a los Estados miembros voz y voto en estos actos, incluyendo reuniones de comités representativos."
+  },
+  {
+    "id": "ek_es_021",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "En el procedimiento presupuestario de la UE, ¿quién es la autoridad presupuestaria?",
+    "options": [
+      { "key": "A", "text": "DG BUDG" },
+      { "key": "B", "text": "La Comisión de la UE" },
+      { "key": "C", "text": "El Parlamento Europeo y el Consejo" },
+      { "key": "D", "text": "El Tribunal de Cuentas" }
+    ],
+    "correctKey": "C",
+    "explanation": "El ejercicio de los poderes presupuestarios es una responsabilidad compartida entre el Parlamento Europeo y el Consejo. Juntos, constituyen el poder o la autoridad presupuestaria de la UE."
+  },
+  {
+    "id": "ek_es_022",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la relación entre el marco financiero plurianual y el presupuesto anual?",
+    "options": [
+      { "key": "A", "text": "Los presupuestos anuales de la UE deben ajustarse a los límites de gasto establecidos en el marco financiero plurianual." },
+      { "key": "B", "text": "El marco financiero plurianual determina el presupuesto del Parlamento Europeo, mientras que el presupuesto anual determina el presupuesto de las demás instituciones." },
+      { "key": "C", "text": "El MFP se compone de 7 presupuestos anuales." },
+      { "key": "D", "text": "El presupuesto anual siempre es superior al MFP por si hay gastos que no se previeron al diseñar el MFP." }
+    ],
+    "correctKey": "A",
+    "explanation": "Los presupuestos anuales de la UE deben encajar dentro de los límites de gasto (techos) fijados en el marco financiero plurianual (el presupuesto a largo plazo de la UE). El presupuesto anual generalmente se establece en un nivel inferior, en caso de que haya gastos imprevistos."
+  },
+  {
+    "id": "ek_es_023",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el marco financiero plurianual (MFP) de la UE?",
+    "options": [
+      { "key": "A", "text": "Un plan de gastos a largo plazo que dura 10 años y establece la financiación para programas específicos." },
+      { "key": "B", "text": "Un plan de gastos a largo plazo que dura entre 5 y 7 años y establece las prioridades y límites de gasto de la UE." },
+      { "key": "C", "text": "Un plan de gastos que el Parlamento de la UE es el único responsable de gestionar y aprobar cada año." },
+      { "key": "D", "text": "Un plan de recuperación pos-COVID de 750.000 millones de euros, dirigido por la Comisión de la UE." }
+    ],
+    "correctKey": "B",
+    "explanation": "La UE adopta planes de gasto a largo plazo, conocidos como marcos financieros plurianuales (MFP), que se extienden por un período de 5 a 7 años y establecen las prioridades de gasto y los límites de la UE. La Comisión es responsable de gestionarlo."
+  },
+  {
+    "id": "ek_es_024",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de las siguientes fue una fuente principal de ingresos del presupuesto de la UE 2021-2027?",
+    "options": [
+      { "key": "A", "text": "Las contribuciones basadas en el IVA recaudado por los Estados miembros." },
+      { "key": "B", "text": "La Base Imponible Consolidada Común del Impuesto sobre Sociedades (BICCIS)." },
+      { "key": "C", "text": "Préstamos de los mercados de capitales." },
+      { "key": "D", "text": "Impuestos europeos pagados directamente por los ciudadanos." }
+    ],
+    "correctKey": "A",
+    "explanation": "Las principales fuentes de ingresos para el presupuesto de la UE 2021-2027 fueron: derechos de aduana, contribuciones basadas en el Impuesto sobre el Valor Añadido (IVA) recaudado por los Estados miembros, y contribuciones directas de los países basadas en la Renta Nacional Bruta."
+  },
+  {
+    "id": "ek_es_025",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál fue el objetivo del plan de recuperación NextGenerationEU?",
+    "options": [
+      { "key": "A", "text": "Crear un fondo permanente para reparar los daños de la pandemia y prevenir cualquier crisis sanitaria futura." },
+      { "key": "B", "text": "Crear un fondo temporal con dos objetivos: apoyar la recuperación de la pandemia y apoyar la transición verde y digital." },
+      { "key": "C", "text": "Pedir dinero a los mercados para financiar exclusivamente el Pacto Verde y acelerar la transición ecológica." },
+      { "key": "D", "text": "Financiar permanentemente los programas de salud de la UE con 750.000 millones de euros." }
+    ],
+    "correctKey": "B",
+    "explanation": "NextGenerationEU es un instrumento financiero temporal de la Unión Europea de 750.000 millones de euros creado para reparar el daño económico y social inmediato tras la pandemia de COVID-19, y para apoyar la recuperación económica construyendo un futuro más verde y digital."
+  },
+  {
+    "id": "ek_es_026",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuáles son los dos componentes legislativos del Marco Financiero Plurianual (MFP)?",
+    "options": [
+      { "key": "A", "text": "El Reglamento del Consejo que establece el MFP y la Decisión del Consejo sobre el sistema de Recursos Propios." },
+      { "key": "B", "text": "El Reglamento del Consejo que establece el MFP y el Reglamento del Instrumento de Recuperación Europeo." },
+      { "key": "C", "text": "El Acuerdo Interinstitucional sobre buena gestión financiera y el Reglamento del Consejo que establece el MFP." },
+      { "key": "D", "text": "El Reglamento de Disposiciones Comunes y el Reglamento del Consejo que establece el MFP." }
+    ],
+    "correctKey": "A",
+    "explanation": "Según el Reglamento del Consejo que establece el marco financiero plurianual para los años 2021 a 2027, las principales herramientas legislativas son el presupuesto a largo plazo de la UE (MFP) y la financiación autorizada por la Decisión sobre Recursos Propios a favor del Instrumento de Recuperación."
+  },
+  {
+    "id": "ek_es_027",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué tipo de decisión permite suspender los pagos a un Estado miembro de la UE en virtud del mecanismo de condicionalidad del Estado de derecho para proteger el presupuesto de la Unión?",
+    "options": [
+      { "key": "A", "text": "Un acto delegado" },
+      { "key": "B", "text": "Una decisión de ejecución" },
+      { "key": "C", "text": "Una decisión de reglamento" },
+      { "key": "D", "text": "Una decisión de procedimiento oral" }
+    ],
+    "correctKey": "B",
+    "explanation": "En diciembre de 2022, los embajadores de los Estados miembros de la UE recomendaron al Consejo adoptar una 'decisión de ejecución' en virtud del reglamento de condicionalidad para imponer medidas de protección del presupuesto de la Unión."
+  },
+  {
+    "id": "ek_es_028",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Para financiar NextGenerationEU, la Comisión de la UE pidió préstamos a los mercados de capitales para conceder subvenciones y préstamos a los Estados miembros. ¿Quién es responsable de reembolsar el componente de préstamos?",
+    "options": [
+      { "key": "A", "text": "Las empresas multinacionales a través de un impuesto" },
+      { "key": "B", "text": "Nuevas fuentes de ingresos (nuevos recursos propios)" },
+      { "key": "C", "text": "La Comisión de la UE" },
+      { "key": "D", "text": "Los propios Estados miembros" }
+    ],
+    "correctKey": "D",
+    "explanation": "La Comisión tomó prestado hasta 806.900 millones de euros de los mercados de capitales, que se reembolsarán a largo plazo (hasta 2058), siendo los propios Estados miembros quienes reembolsarán el componente de préstamo de este instrumento."
+  },
+  {
+    "id": "ek_es_029",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Aproximadamente, ¿qué proporción del presupuesto total de la UE se gasta en la celebración de los plenos del Parlamento Europeo en Estrasburgo?",
+    "options": [
+      { "key": "A", "text": "3%" },
+      { "key": "B", "text": "6%" },
+      { "key": "C", "text": "0.1%" },
+      { "key": "D", "text": "1%" }
+    ],
+    "correctKey": "C",
+    "explanation": "Según un estudio del Parlamento Europeo, se podrían ahorrar 103 millones de euros cada año si todas las operaciones del PE se llevaran a cabo en Bruselas. Esta cantidad corresponde apenas al 0,1% del presupuesto total de la UE (y al 6% del presupuesto del Parlamento)."
+  },
+  {
+    "id": "ek_es_030",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es REACT-EU?",
+    "options": [
+      { "key": "A", "text": "Ayuda a la Recuperación para la Cohesión y los Territorios de Europa, ejecutada a través de la Iniciativa de Inversión en Respuesta al Coronavirus." },
+      { "key": "B", "text": "Reacción a la Pandemia de COVID desde la UE, entregada a través de la Iniciativa de Inversión en Respuesta al Coronavirus." },
+      { "key": "C", "text": "Reacción a la Pandemia de COVID desde la UE, un programa para regiones específicas especialmente afectadas." },
+      { "key": "D", "text": "Autoridad de Preparación y Respuesta ante Emergencias Sanitarias, un departamento de la Comisión de la UE." }
+    ],
+    "correctKey": "A",
+    "explanation": "REACT-EU (Ayuda a la Recuperación para la Cohesión y los Territorios de Europa) es una iniciativa que amplía las medidas de la Iniciativa de Inversión en Respuesta al Coronavirus, continuando la contribución hacia una economía verde, digital y resiliente a largo plazo."
+  },
+  {
+    "id": "ek_es_031",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el COREPER en la estructura institucional de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "El Comité de Regiones y Provincias de Europa." },
+      { "key": "B", "text": "El Comité de Representantes Permanentes de los Gobiernos de los Estados miembros de la UE." },
+      { "key": "C", "text": "Un comité especial del Parlamento Europeo encargado de revisar los presupuestos." },
+      { "key": "D", "text": "La comisión encargada de la ampliación y las relaciones de vecindad." }
+    ],
+    "correctKey": "B",
+    "explanation": "El COREPER (Comité de Representantes Permanentes) es el principal órgano preparatorio del Consejo de la Unión Europea. Está formado por los embajadores (representantes permanentes) de los Estados miembros y se encarga de preparar los trabajos y las reuniones ministeriales del Consejo."
+  },
+  {
+    "id": "ek_es_032",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Dónde tiene su sede oficial el Tribunal de Justicia de la Unión Europea (TJUE)?",
+    "options": [
+      { "key": "A", "text": "Bruselas, Bélgica" },
+      { "key": "B", "text": "Estrasburgo, Francia" },
+      { "key": "C", "text": "Luxemburgo, Luxemburgo" },
+      { "key": "D", "text": "La Haya, Países Bajos" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Tribunal de Justicia de la Unión Europea (TJUE), la máxima autoridad judicial de la UE, tiene su sede oficial en la ciudad de Luxemburgo. (No debe confundirse con la Corte Internacional de Justicia de la ONU, que está en La Haya, ni con el Tribunal Europeo de Derechos Humanos, que está en Estrasburgo y pertenece al Consejo de Europa)."
+  },
+  {
+    "id": "ek_es_033",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuántos jueces componen el Tribunal de Justicia de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "15 jueces, elegidos por rotación." },
+      { "key": "B", "text": "27 jueces, uno por cada Estado miembro." },
+      { "key": "C", "text": "54 jueces, dos por cada Estado miembro." },
+      { "key": "D", "text": "9 jueces nombrados por el Parlamento Europeo." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Tribunal de Justicia propiamente dicho está compuesto por 27 jueces (uno por cada Estado miembro de la UE), asistidos por 11 abogados generales. Son nombrados de común acuerdo por los gobiernos de los Estados miembros por un mandato renovable de seis años."
+  },
+  {
+    "id": "ek_es_034",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién elige al Presidente de la Comisión Europea?",
+    "options": [
+      { "key": "A", "text": "El Consejo de la Unión Europea, por unanimidad." },
+      { "key": "B", "text": "El Parlamento Europeo, a propuesta del Consejo Europeo." },
+      { "key": "C", "text": "Los ciudadanos europeos mediante sufragio directo." },
+      { "key": "D", "text": "El Colegio de Comisarios mediante una votación interna." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Consejo Europeo (los jefes de Estado o de Gobierno) propone un candidato a la presidencia de la Comisión, teniendo en cuenta los resultados de las elecciones europeas. Posteriormente, el Parlamento Europeo debe elegir a este candidato por mayoría absoluta (la mitad más uno de sus miembros)."
+  },
+  {
+    "id": "ek_es_035",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué Tratado de la Unión Europea introdujo formalmente el concepto de 'Ciudadanía de la Unión'?",
+    "options": [
+      { "key": "A", "text": "El Tratado de Roma (1957)" },
+      { "key": "B", "text": "El Acta Única Europea (1986)" },
+      { "key": "C", "text": "El Tratado de Maastricht (1992)" },
+      { "key": "D", "text": "El Tratado de Lisboa (2007)" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Tratado de la Unión Europea (Tratado de Maastricht), firmado en 1992, introdujo el concepto de Ciudadanía de la Unión. Todo nacional de un Estado miembro es automáticamente ciudadano de la UE, lo que le otorga derechos adicionales como la libre circulación y residencia, y el derecho a votar en elecciones europeas y locales."
+  },
+  {
+    "id": "ek_es_036",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué institución europea es responsable de formular la política monetaria de la zona euro?",
+    "options": [
+      { "key": "A", "text": "El Banco Europeo de Inversiones (BEI)" },
+      { "key": "B", "text": "El Consejo de Asuntos Económicos y Financieros (ECOFIN)" },
+      { "key": "C", "text": "El Banco Central Europeo (BCE)" },
+      { "key": "D", "text": "La Comisión Europea (Dirección General de Asuntos Económicos y Financieros)" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Banco Central Europeo (BCE), con sede en Fráncfort, es la institución responsable de definir y ejecutar la política monetaria de los países de la UE que han adoptado el euro. Su objetivo principal es mantener la estabilidad de los precios."
+  },
+  {
+    "id": "ek_es_037",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuántos miembros tiene actualmente el Comité Económico y Social Europeo (CESE)?",
+    "options": [
+      { "key": "A", "text": "329 miembros" },
+      { "key": "B", "text": "350 miembros" },
+      { "key": "C", "text": "705 miembros" },
+      { "key": "D", "text": "27 miembros" }
+    ],
+    "correctKey": "A",
+    "explanation": "El Comité Económico y Social Europeo (CESE), que es un órgano consultivo de la UE que representa a los empresarios, trabajadores y otros grupos de interés de la sociedad civil, está compuesto por 329 miembros provenientes de todos los Estados de la UE."
+  },
+  {
+    "id": "ek_es_038",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el objetivo principal de la Política Agrícola Común (PAC)?",
+    "options": [
+      { "key": "A", "text": "Exportar productos agrícolas a países en vías de desarrollo." },
+      { "key": "B", "text": "Apoyar a los agricultores, mejorar la productividad agrícola y garantizar un suministro estable de alimentos asequibles." },
+      { "key": "C", "text": "Eliminar gradualmente las explotaciones agrícolas pequeñas en favor de grandes corporaciones." },
+      { "key": "D", "text": "Prohibir totalmente la importación de productos agrícolas desde fuera de la UE." }
+    ],
+    "correctKey": "B",
+    "explanation": "Lanzada en 1962, la PAC es una política común para todos los países de la UE. Sus objetivos incluyen apoyar a los agricultores, asegurar un nivel de vida justo para la comunidad agrícola, garantizar la seguridad alimentaria y fomentar la agricultura sostenible en toda Europa."
+  },
+  {
+    "id": "ek_es_039",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién nombra a los miembros del Tribunal de Cuentas Europeo?",
+    "options": [
+      { "key": "A", "text": "El Parlamento Europeo, a propuesta de la Comisión." },
+      { "key": "B", "text": "El Consejo de la Unión Europea, previa consulta al Parlamento Europeo." },
+      { "key": "C", "text": "El Tribunal de Justicia de la Unión Europea." },
+      { "key": "D", "text": "Son elegidos directamente por los ciudadanos europeos." }
+    ],
+    "correctKey": "B",
+    "explanation": "Los miembros del Tribunal de Cuentas Europeo (uno por cada Estado miembro) son nombrados por el Consejo de la UE, tras consultar al Parlamento Europeo, para un mandato renovable de seis años."
+  },
+  {
+    "id": "ek_es_040",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la función principal del Defensor del Pueblo Europeo?",
+    "options": [
+      { "key": "A", "text": "Redactar las leyes de derechos humanos de la Unión Europea." },
+      { "key": "B", "text": "Juzgar casos de corrupción política dentro de los Estados miembros." },
+      { "key": "C", "text": "Investigar las reclamaciones relativas a casos de mala administración por parte de las instituciones y órganos de la UE." },
+      { "key": "D", "text": "Defender legalmente a las instituciones europeas frente a demandas ciudadanas." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Defensor del Pueblo Europeo investiga quejas de ciudadanos, residentes y empresas de la UE sobre casos de mala administración (irregularidades, injusticias, discriminación, abusos de poder) en las instituciones, órganos y organismos de la UE."
+  },
+  {
+    "id": "ek_es_041",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Para que una Iniciativa Ciudadana Europea (ICE) sea válida, requiere al menos 1 millón de firmas de ciudadanos de la UE. ¿Qué otro requisito geográfico debe cumplirse?",
+    "options": [
+      { "key": "A", "text": "Las firmas deben provenir de al menos la mitad de los Estados miembros." },
+      { "key": "B", "text": "Las firmas deben provenir de al menos una cuarta parte de los Estados miembros (actualmente 7 países)." },
+      { "key": "C", "text": "Debe haber al menos 10.000 firmas de todos y cada uno de los 27 Estados miembros." },
+      { "key": "D", "text": "Las firmas deben provenir exclusivamente de países que pertenezcan a la zona euro." }
+    ],
+    "correctKey": "B",
+    "explanation": "La Iniciativa Ciudadana Europea permite a los ciudadanos pedir a la Comisión que proponga legislación. Para ser válida, debe contar con el apoyo de al menos un millón de ciudadanos, y debe alcanzarse un número mínimo de firmantes en al menos una cuarta parte de los Estados miembros (es decir, en 7 países en la UE de 27)."
+  },
+  {
+    "id": "ek_es_042",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Dónde se encuentra la sede central de Frontex (la Agencia Europea de la Guardia de Fronteras y Costas)?",
+    "options": [
+      { "key": "A", "text": "La Valeta, Malta" },
+      { "key": "B", "text": "Roma, Italia" },
+      { "key": "C", "text": "Atenas, Grecia" },
+      { "key": "D", "text": "Varsovia, Polonia" }
+    ],
+    "correctKey": "D",
+    "explanation": "Frontex, creada en 2004 para ayudar a los Estados miembros de la UE y a los países asociados a Schengen a proteger las fronteras exteriores del espacio de libre circulación, tiene su sede principal en Varsovia, Polonia."
+  },
+  {
+    "id": "ek_es_043",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la principal función de Europol (Agencia de la Unión Europea para la Cooperación Policial)?",
+    "options": [
+      { "key": "A", "text": "Emitir órdenes de detención europeas y enjuiciar a los criminales directamente." },
+      { "key": "B", "text": "Controlar el tráfico aduanero en las fronteras de la Unión Europea." },
+      { "key": "C", "text": "Apoyar a los Estados miembros en la prevención y el combate de la delincuencia internacional grave y el terrorismo." },
+      { "key": "D", "text": "Gestionar el presupuesto de defensa militar de los Estados miembros." }
+    ],
+    "correctKey": "C",
+    "explanation": "Con sede en La Haya (Países Bajos), Europol asiste a las autoridades policiales nacionales en la lucha contra los delitos internacionales graves y el terrorismo actuando como un centro de apoyo operativo, intercambio de información y análisis criminal."
+  },
+  {
+    "id": "ek_es_044",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué Tratado de la UE abolió la antigua estructura de los 'tres pilares' y otorgó a la Unión personalidad jurídica única?",
+    "options": [
+      { "key": "A", "text": "Tratado de Ámsterdam" },
+      { "key": "B", "text": "Tratado de Niza" },
+      { "key": "C", "text": "Tratado de Lisboa" },
+      { "key": "D", "text": "Tratado de Roma" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Tratado de Lisboa (que entró en vigor en 2009) abolió la estructura de pilares (Comunidades Europeas, Política Exterior y de Seguridad Común, y Cooperación Policial y Judicial) creada por el Tratado de Maastricht, unificando la UE y dotándola de una única personalidad jurídica."
+  },
+  {
+    "id": "ek_es_045",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "De los 24 idiomas oficiales de la Unión Europea, la Comisión Europea utiliza tres como sus principales 'idiomas de trabajo' (lenguas de trabajo interno). ¿Cuáles son?",
+    "options": [
+      { "key": "A", "text": "Inglés, Español y Francés" },
+      { "key": "B", "text": "Inglés, Francés y Alemán" },
+      { "key": "C", "text": "Inglés, Alemán e Italiano" },
+      { "key": "D", "text": "Francés, Alemán y Español" }
+    ],
+    "correctKey": "B",
+    "explanation": "Aunque la UE tiene 24 lenguas oficiales y de trabajo a efectos de las comunicaciones con los ciudadanos y los textos legislativos finales, las operaciones internas del día a día de la Comisión Europea se llevan a cabo en sus tres lenguas de trabajo procedimentales: inglés, francés y alemán."
+  },
+  {
+    "id": "ek_es_046",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el propósito del Tribunal de Justicia de la UE (TJUE)?",
+    "options": [
+      { "key": "A", "text": "Proporcionar un foro para que los jueces de los 27 Estados miembros formulen normas legales uniformes en sus países." },
+      { "key": "B", "text": "Actuar como el principal guardián de los Tratados de la UE." },
+      { "key": "C", "text": "Apoyar a sus 3 jueces principales en la decisión de los casos presentados ante el Tribunal." },
+      { "key": "D", "text": "Garantizar la interpretación uniforme de la legislación de la UE y que los países e instituciones de la UE respeten la ley." }
+    ],
+    "correctKey": "D",
+    "explanation": "El propósito del Tribunal de Justicia de la Unión Europea es garantizar que la legislación de la UE se interprete y aplique de la misma manera en todos los países de la UE y asegurar que los países y las instituciones cumplan la ley. (El papel de 'guardián de los Tratados' recae principalmente sobre la Comisión Europea)."
+  },
+  {
+    "id": "ek_es_047",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuáles son las dos ramas principales del TJUE?",
+    "options": [
+      { "key": "A", "text": "El Tribunal de Justicia y el Tribunal General" },
+      { "key": "B", "text": "El Tribunal de Cuentas y el Tribunal General" },
+      { "key": "C", "text": "El Tribunal de Jueces de la UE y el Tribunal Especializado" },
+      { "key": "D", "text": "El Tribunal Especializado y el Tribunal General" }
+    ],
+    "correctKey": "A",
+    "explanation": "El TJUE está compuesto por 2 ramas principales: el Tribunal de Justicia (que emite resoluciones prejudiciales y conoce de algunos recursos de los Estados miembros) y el Tribunal General (que tiene jurisdicción para conocer de los recursos interpuestos por particulares, empresas y, en algunos casos, países de la UE)."
+  },
+  {
+    "id": "ek_es_048",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "El Tribunal de Justicia de la UE es responsable de tratar:",
+    "options": [
+      { "key": "A", "text": "Los recursos interpuestos por un país de la UE o la Comisión contra otro país por infringir la legislación comunitaria." },
+      { "key": "B", "text": "Demandas individuales sobre violaciones de los derechos civiles establecidos en el Convenio Europeo de Derechos Humanos." },
+      { "key": "C", "text": "Asegurar el derecho a la vida, el respeto de la vida privada y la libertad de expresión." },
+      { "key": "D", "text": "Aplicar el derecho de la UE a una disputa presentada por un tribunal remitente nacional." }
+    ],
+    "correctKey": "A",
+    "explanation": "El Tribunal se encarga de recursos por incumplimiento contra países de la UE, cuestiones prejudiciales y recursos de anulación. El Tribunal Europeo de Derechos Humanos (que no pertenece a la UE, sino al Consejo de Europa) es el que se encarga del Convenio Europeo de Derechos Humanos."
+  },
+  {
+    "id": "ek_es_049",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la composición del Tribunal de Justicia (como rama del TJUE)?",
+    "options": [
+      { "key": "A", "text": "28 Jueces y 28 Asesores" },
+      { "key": "B", "text": "27 Jueces" },
+      { "key": "C", "text": "27 Jueces y 11 Abogados Generales" },
+      { "key": "D", "text": "Varía en función del caso en cuestión" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Tribunal de Justicia está compuesto por 27 Jueces (uno por Estado miembro) y 11 Abogados Generales. Son nombrados de común acuerdo por los gobiernos de los Estados miembros por un mandato renovable de seis años."
+  },
+  {
+    "id": "ek_es_050",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Según los principios fundamentales establecidos en el artículo 5 del TUE, ¿qué significa la 'proporcionalidad'?",
+    "options": [
+      { "key": "A", "text": "Que la UE solo puede actuar en la medida en que los Estados miembros le hayan otorgado poder para hacerlo." },
+      { "key": "B", "text": "Que, en competencias no exclusivas, la UE solo actúa si el objetivo no puede ser alcanzado por los Estados miembros." },
+      { "key": "C", "text": "Que el contenido y el alcance de la acción de la UE no deben exceder de lo necesario para alcanzar los objetivos de los Tratados." },
+      { "key": "D", "text": "Que la UE debe actuar siempre asignando presupuestos de forma estrictamente proporcional a la población." }
+    ],
+    "correctKey": "C",
+    "explanation": "El principio de proporcionalidad dicta que las medidas adoptadas por las instituciones de la UE no deben rebasar lo que es apropiado y necesario para alcanzar los objetivos deseados. La opción B corresponde al principio de 'subsidiariedad'."
+  },
+  {
+    "id": "ek_es_051",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es una condición previa indispensable para que el Consejo pueda proceder a una votación?",
+    "options": [
+      { "key": "A", "text": "Los Estados miembros deben estar representados exclusivamente por un Secretario de Estado." },
+      { "key": "B", "text": "La presidencia debe recaer en el Alto Representante de la Unión." },
+      { "key": "C", "text": "Una mayoría de sus miembros debe estar presente." },
+      { "key": "D", "text": "La intención de voto debe anunciarse de forma unánime previamente." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Consejo solo puede votar si está presente la mayoría de sus miembros. Cada ministro o representante a nivel ministerial tiene derecho a comprometer al gobierno de su país."
+  },
+  {
+    "id": "ek_es_052",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es una 'configuración' o 'formación' del Consejo?",
+    "options": [
+      { "key": "A", "text": "Es un tipo de reunión que está abierta a la participación del público en general." },
+      { "key": "B", "text": "Un grupo intersectorial de ministros que se reúnen informalmente para discutir temas superpuestos." },
+      { "key": "C", "text": "Una de las 10 distintas áreas temáticas en las que se reúne el Consejo, a pesar de ser una única entidad jurídica." },
+      { "key": "D", "text": "Un comité conjunto formado por miembros de la Comisión y del Parlamento." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Consejo de la UE es una entidad jurídica única, pero se reúne en 10 'configuraciones' o formaciones diferentes según el tema a debatir (por ejemplo, Asuntos Exteriores, Asuntos Económicos y Financieros - ECOFIN, etc.)."
+  },
+  {
+    "id": "ek_es_053",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Las agencias de la UE se dividen en 4 grupos. ¿Cuáles son estos grupos?",
+    "options": [
+      { "key": "A", "text": "Agencias administrativas, de investigación, judiciales y de defensa." },
+      { "key": "B", "text": "Agencias descentralizadas, agencias ejecutivas, agencias EURATOM y el EIT." },
+      { "key": "C", "text": "Agencias técnicas, EURATOM, CESE y Comité de las Regiones." },
+      { "key": "D", "text": "Agencias técnicas y científicas, CESE y Comité de las Regiones." }
+    ],
+    "correctKey": "B",
+    "explanation": "Las agencias de la UE se crearon para llevar a cabo tareas técnicas, científicas o administrativas específicas. Se dividen en: Agencias descentralizadas, Agencias ejecutivas, Agencias EURATOM (Comunidad Europea de la Energía Atómica) y el Instituto Europeo de Innovación y Tecnología (EIT)."
+  },
+  {
+    "id": "ek_es_054",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es Europol?",
+    "options": [
+      { "key": "A", "text": "La Agencia de la Unión Europea para la Cooperación Policial, con sede en La Haya." },
+      { "key": "B", "text": "La Oficina Europea de Policía y la Unidad de Drogas, con sede en Lyon." },
+      { "key": "C", "text": "La Organización Internacional de Policía Criminal, con sede en Viena." },
+      { "key": "D", "text": "La Agencia Europea de la Guardia de Fronteras y Costas, con sede en Varsovia." }
+    ],
+    "correctKey": "A",
+    "explanation": "Europol es la agencia de la UE encargada de asistir a las autoridades policiales y los servicios de aplicación de la ley de los Estados miembros en la prevención y el combate del crimen organizado internacional y el terrorismo. Su sede está en La Haya (Países Bajos)."
+  },
+  {
+    "id": "ek_es_055",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el papel de la EFSA?",
+    "options": [
+      { "key": "A", "text": "Es una parte de la Comisión Europea que ofrece consejos sobre protección del consumidor en el sector textil." },
+      { "key": "B", "text": "Es una agencia descentralizada que ofrece asesoramiento científico sobre seguridad alimentaria a la UE y a sus miembros." },
+      { "key": "C", "text": "Es una agencia con el objetivo primordial de fomentar dietas saludables y ejercicio entre los ciudadanos de la UE." },
+      { "key": "D", "text": "Es una agencia con poderes sancionadores para controlar qué productos alimenticios se venden en supermercados." }
+    ],
+    "correctKey": "B",
+    "explanation": "La Autoridad Europea de Seguridad Alimentaria (EFSA), con sede en Parma (Italia), proporciona asesoramiento científico independiente sobre los riesgos relacionados con los alimentos, informando así a la legislación y políticas europeas para proteger a los consumidores."
+  },
+  {
+    "id": "ek_es_056",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué significan las siglas EIGE cuando se habla de agencias de la UE?",
+    "options": [
+      { "key": "A", "text": "Entidad Gubernamental de Innovación Europea (European Innovation Governmental Entity)." },
+      { "key": "B", "text": "Generación Económica y de Inversiones (Economic and Investment Generation)." },
+      { "key": "C", "text": "Iniciativa Europea para la Energía Geotérmica (European Initiative for Geothermal Energy)." },
+      { "key": "D", "text": "Instituto Europeo de la Igualdad de Género (European Institute for Gender Equality)." }
+    ],
+    "correctKey": "D",
+    "explanation": "El Instituto Europeo de la Igualdad de Género (EIGE) es una agencia descentralizada de la UE que apoya los esfuerzos para lograr la igualdad de género en toda la Unión. Se encuentra en Vilna, Lituania."
+  },
+  {
+    "id": "ek_es_057",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién tiene la responsabilidad fundamental del control de las fronteras exteriores de la UE?",
+    "options": [
+      { "key": "A", "text": "La Agencia Frontex de forma exclusiva." },
+      { "key": "B", "text": "Los Estados miembros individuales que poseen una frontera exterior." },
+      { "key": "C", "text": "El Departamento de Migración de la Comisión de la UE." },
+      { "key": "D", "text": "Es una responsabilidad legalmente compartida a partes iguales entre la Comisión y el Parlamento." }
+    ],
+    "correctKey": "B",
+    "explanation": "Los Estados miembros que tienen una frontera exterior tienen la responsabilidad total del control fronterizo sobre ella. Sin embargo, la agencia Frontex proporciona apoyo táctico y práctico para ayudarles a gestionar presiones migratorias y criminalidad transfronteriza."
+  },
+  {
+    "id": "ek_es_058",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es la Autoridad Bancaria Europea (EBA)?",
+    "options": [
+      { "key": "A", "text": "Un departamento dentro del Banco Central Europeo que crea normativas de mercado." },
+      { "key": "B", "text": "Una agencia independiente para la regulación y supervisión del sector bancario de la UE." },
+      { "key": "C", "text": "Una subsección del Comité de Supervisores Bancarios Europeos." },
+      { "key": "D", "text": "Un sistema europeo de vigilancia de inversiones gestionado por la Junta Europea de Riesgo." }
+    ],
+    "correctKey": "B",
+    "explanation": "La Autoridad Bancaria Europea (EBA) es un organismo independiente de la UE con sede en París que trabaja para garantizar una regulación y supervisión eficaces y coherentes en todo el sector bancario europeo, ayudando a mantener la estabilidad financiera."
+  },
+  {
+    "id": "ek_es_059",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "HERA (Autoridad de Preparación y Respuesta ante Emergencias Sanitarias), creada tras la pandemia de COVID-19, es:",
+    "options": [
+      { "key": "A", "text": "Una Agencia Ejecutiva de la UE." },
+      { "key": "B", "text": "Una nueva Dirección General (DG) de la Comisión Europea." },
+      { "key": "C", "text": "Un organismo independiente paraestatal, similar al SEAE." },
+      { "key": "D", "text": "Una Agencia Descentralizada de la UE." }
+    ],
+    "correctKey": "B",
+    "explanation": "A diferencia de la Agencia Europea de Medicamentos (EMA), HERA fue lanzada en septiembre de 2021 como un nuevo departamento interno, una Dirección General (DG), de la Comisión Europea con la misión de prevenir, detectar y responder a emergencias sanitarias."
+  },
+  {
+    "id": "ek_es_060",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuáles son las agencias exclusivas encargadas de aspectos de la política exterior y de seguridad común de la UE?",
+    "options": [
+      { "key": "A", "text": "Frontex, la Guardia de Fronteras y el SEAE." },
+      { "key": "B", "text": "El SEAE, el Centro de Satélites de la UE y Frontex." },
+      { "key": "C", "text": "La Agencia Europea de Defensa, el Instituto de Estudios de Seguridad de la UE y el Centro de Satélites de la UE." },
+      { "key": "D", "text": "La Comunidad Europea de la Energía Atómica, la Agencia Euratom y el SEAE." }
+    ],
+    "correctKey": "C",
+    "explanation": "La UE ha creado 3 agencias para llevar a cabo tareas muy claras sobre la Política Exterior y de Seguridad Común (PESC): la Agencia Europea de Defensa (EDA), el Instituto de Estudios de Seguridad de la UE (EUISS) y el Centro de Satélites de la UE (SatCen)."
+  },
+  {
+    "id": "ek_es_061",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién nombra al Alto Representante de la Unión para Asuntos Exteriores y Política de Seguridad?",
+    "options": [
+      { "key": "A", "text": "El Parlamento Europeo" },
+      { "key": "B", "text": "El Consejo Europeo, con el acuerdo del Presidente de la Comisión" },
+      { "key": "C", "text": "El Consejo de la Unión Europea por mayoría cualificada" },
+      { "key": "D", "text": "El Tribunal de Justicia de la UE" }
+    ],
+    "correctKey": "B",
+    "explanation": "El Alto Representante es nombrado por el Consejo Europeo por mayoría cualificada, con el acuerdo del Presidente de la Comisión Europea. El Alto Representante también ocupa el cargo de Vicepresidente de la Comisión."
+  },
+  {
+    "id": "ek_es_062",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿En qué ciudad se encuentra la sede oficial del Banco Central Europeo (BCE)?",
+    "options": [
+      { "key": "A", "text": "Bruselas" },
+      { "key": "B", "text": "Estrasburgo" },
+      { "key": "C", "text": "Fráncfort del Meno" },
+      { "key": "D", "text": "Luxemburgo" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Banco Central Europeo (BCE), responsable de gestionar el euro y de mantener la estabilidad de los precios en la zona euro, tiene su sede oficial en Fráncfort del Meno, Alemania."
+  },
+  {
+    "id": "ek_es_063",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué tratado otorgó valor jurídico vinculante a la Carta de los Derechos Fundamentales de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "Tratado de Niza" },
+      { "key": "B", "text": "Tratado de Ámsterdam" },
+      { "key": "C", "text": "Tratado de Roma" },
+      { "key": "D", "text": "Tratado de Lisboa" }
+    ],
+    "correctKey": "D",
+    "explanation": "Aunque la Carta fue proclamada en el año 2000, no adquirió plena fuerza jurídica vinculante, equivalente a la de los Tratados, hasta la entrada en vigor del Tratado de Lisboa el 1 de diciembre de 2009."
+  },
+  {
+    "id": "ek_es_064",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Tras la salida del Reino Unido de la UE (Brexit), ¿cuántos diputados compusieron el Parlamento Europeo (incluyendo a su presidente) durante la legislatura 2019-2024?",
+    "options": [
+      { "key": "A", "text": "751" },
+      { "key": "B", "text": "705" },
+      { "key": "C", "text": "736" },
+      { "key": "D", "text": "678" }
+    ],
+    "correctKey": "B",
+    "explanation": "Antes del Brexit, el Parlamento tenía 751 escaños. Tras la salida del Reino Unido en 2020, el número de eurodiputados se redujo a 705, redistribuyendo algunos de los escaños británicos entre otros Estados miembros subrepresentados y guardando el resto para futuras ampliaciones."
+  },
+  {
+    "id": "ek_es_065",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué institución es la encargada de elegir al Defensor del Pueblo Europeo?",
+    "options": [
+      { "key": "A", "text": "La Comisión Europea" },
+      { "key": "B", "text": "El Consejo Europeo" },
+      { "key": "C", "text": "El Parlamento Europeo" },
+      { "key": "D", "text": "El Tribunal de Justicia de la UE" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Defensor del Pueblo Europeo es elegido por el Parlamento Europeo. Su mandato dura lo mismo que la legislatura del Parlamento (cinco años) y es renovable."
+  },
+  {
+    "id": "ek_es_066",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "De las siguientes organizaciones, ¿cuál NO es una institución o un órgano de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "El Consejo de la Unión Europea" },
+      { "key": "B", "text": "El Consejo Europeo" },
+      { "key": "C", "text": "El Consejo de Europa" },
+      { "key": "D", "text": "El Tribunal de Cuentas Europeo" }
+    ],
+    "correctKey": "C",
+    "explanation": "El Consejo de Europa es una organización internacional independiente de la UE, con sede en Estrasburgo, centrada en la promoción de los derechos humanos y el Estado de derecho (incluye a 46 países, y es el responsable del Tribunal Europeo de Derechos Humanos)."
+  },
+  {
+    "id": "ek_es_067",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Con qué frecuencia rota la Presidencia del Consejo de la Unión Europea entre los Estados miembros?",
+    "options": [
+      { "key": "A", "text": "Cada 6 meses" },
+      { "key": "B", "text": "Cada año" },
+      { "key": "C", "text": "Cada 2 años y medio" },
+      { "key": "D", "text": "Cada 5 años" }
+    ],
+    "correctKey": "A",
+    "explanation": "La Presidencia del Consejo de la UE rota entre los Estados miembros cada seis meses. El país que ostenta la presidencia se encarga de organizar y presidir las reuniones del Consejo y de representar al Consejo ante las demás instituciones."
+  },
+  {
+    "id": "ek_es_068",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué tratado estableció la Comunidad Económica Europea (CEE) en 1957?",
+    "options": [
+      { "key": "A", "text": "El Tratado de París" },
+      { "key": "B", "text": "El Tratado de Roma" },
+      { "key": "C", "text": "El Acta Única Europea" },
+      { "key": "D", "text": "El Tratado de Maastricht" }
+    ],
+    "correctKey": "B",
+    "explanation": "Los Tratados de Roma, firmados en 1957 por seis países fundadores, establecieron la Comunidad Económica Europea (CEE) y la Comunidad Europea de la Energía Atómica (Euratom)."
+  },
+  {
+    "id": "ek_es_069",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿En qué año se unió Croacia a la Unión Europea, convirtiéndose en el último país en ingresar a la Unión?",
+    "options": [
+      { "key": "A", "text": "2004" },
+      { "key": "B", "text": "2007" },
+      { "key": "C", "text": "2013" },
+      { "key": "D", "text": "2015" }
+    ],
+    "correctKey": "C",
+    "explanation": "Croacia se convirtió en miembro oficial de la Unión Europea el 1 de julio de 2013, siendo el último Estado miembro en incorporarse al bloque hasta la fecha."
+  },
+  {
+    "id": "ek_es_070",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuántos Estados miembros de la UE forman parte actualmente de la zona euro (Eurozona) tras la incorporación de Croacia el 1 de enero de 2023?",
+    "options": [
+      { "key": "A", "text": "18" },
+      { "key": "B", "text": "19" },
+      { "key": "C", "text": "20" },
+      { "key": "D", "text": "22" }
+    ],
+    "correctKey": "C",
+    "explanation": "Con la adhesión de Croacia a la moneda única el 1 de enero de 2023, la Eurozona pasó a estar formada por 20 de los 27 Estados miembros de la Unión Europea."
+  },
+  {
+    "id": "ek_es_071",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la función principal de la Oficina Europea de Lucha contra el Fraude (OLAF)?",
+    "options": [
+      { "key": "A", "text": "Investigar el fraude contra el presupuesto de la UE y la corrupción dentro de las instituciones europeas." },
+      { "key": "B", "text": "Auditar anualmente las cuentas de todas las instituciones de la UE." },
+      { "key": "C", "text": "Perseguir crímenes transfronterizos violentos, como el terrorismo." },
+      { "key": "D", "text": "Gestionar las multas impuestas a las grandes empresas tecnológicas." }
+    ],
+    "correctKey": "A",
+    "explanation": "La OLAF investiga el fraude y la corrupción que involucran fondos de la UE, así como faltas graves del personal y miembros de las instituciones de la UE. A diferencia del Tribunal de Cuentas (que realiza auditorías de control), la OLAF actúa en el ámbito de la investigación antifraude."
+  },
+  {
+    "id": "ek_es_072",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién compone el Consejo Europeo?",
+    "options": [
+      { "key": "A", "text": "Los ministros de asuntos exteriores de cada Estado miembro." },
+      { "key": "B", "text": "Los Jefes de Estado o de Gobierno de los Estados miembros, junto con su Presidente y el Presidente de la Comisión." },
+      { "key": "C", "text": "Los comisarios europeos y los eurodiputados." },
+      { "key": "D", "text": "Representantes de los parlamentos nacionales de la UE." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Consejo Europeo está compuesto por los 27 Jefes de Estado o de Gobierno de los países de la UE, el Presidente del Consejo Europeo (que preside las reuniones) y el Presidente de la Comisión Europea. El Alto Representante también participa en sus reuniones."
+  },
+  {
+    "id": "ek_es_073",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Como regla general, ¿cómo se toman las decisiones en el ámbito de la Política Exterior y de Seguridad Común (PESC) en el Consejo?",
+    "options": [
+      { "key": "A", "text": "Por mayoría simple." },
+      { "key": "B", "text": "Por mayoría cualificada." },
+      { "key": "C", "text": "Por unanimidad." },
+      { "key": "D", "text": "Por codecisión con el Parlamento Europeo." }
+    ],
+    "correctKey": "C",
+    "explanation": "La Política Exterior y de Seguridad Común (PESC) está sujeta a procedimientos específicos. En este ámbito, el Consejo de la UE y el Consejo Europeo toman decisiones generalmente por unanimidad, debido a la sensibilidad y soberanía de los Estados en materia de política exterior."
+  },
+  {
+    "id": "ek_es_074",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿En qué fecha se celebra anualmente el 'Día de Europa' en conmemoración de la Declaración Schuman?",
+    "options": [
+      { "key": "A", "text": "1 de enero" },
+      { "key": "B", "text": "9 de mayo" },
+      { "key": "C", "text": "23 de junio" },
+      { "key": "D", "text": "1 de noviembre" }
+    ],
+    "correctKey": "B",
+    "explanation": "El Día de Europa se celebra el 9 de mayo de cada año, conmemorando la paz y la unidad del continente. Marca el aniversario de la histórica Declaración Schuman, pronunciada el 9 de mayo de 1950, que propuso la creación de la CECA."
+  },
+  {
+    "id": "ek_es_075",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de las siguientes es una 'Agencia Descentralizada' de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "La Agencia Ejecutiva del Consejo Europeo de Investigación (ERCEA)." },
+      { "key": "B", "text": "La Agencia Europea de Medicamentos (EMA)." },
+      { "key": "C", "text": "El Banco Europeo de Inversiones (BEI)." },
+      { "key": "D", "text": "El Comité Europeo de las Regiones (CDR)." }
+    ],
+    "correctKey": "B",
+    "explanation": "La Agencia Europea de Medicamentos (EMA), ubicada en Ámsterdam, es una agencia descentralizada de la UE. Las agencias descentralizadas se crean para llevar a cabo tareas técnicas, científicas o de gestión específicas. La ERCEA es una agencia ejecutiva, y el BEI y el CDR son un órgano financiero y consultivo respectivamente."
+  },
+  {
+    "id": "ek_es_076",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué institución representa directamente a los ciudadanos de la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "El Consejo de la Unión Europea" },
+      { "key": "B", "text": "El Parlamento Europeo" },
+      { "key": "C", "text": "La Comisión Europea" },
+      { "key": "D", "text": "El Defensor del Pueblo Europeo" }
+    ],
+    "correctKey": "B",
+    "explanation": "El Parlamento Europeo es la única institución de la UE elegida directamente por sufragio universal, y su función principal es representar los intereses de los ciudadanos europeos en el proceso de toma de decisiones a nivel de la Unión."
+  },
+  {
+    "id": "ek_es_077",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el número mínimo de Estados miembros que deben participar para establecer una 'Cooperación Reforzada'?",
+    "options": [
+      { "key": "A", "text": "Al menos 5 Estados miembros." },
+      { "key": "B", "text": "Al menos 9 Estados miembros." },
+      { "key": "C", "text": "Al menos 14 Estados miembros (la mitad de la UE)." },
+      { "key": "D", "text": "Se requiere el voto unánime de los 27 Estados miembros." }
+    ],
+    "correctKey": "B",
+    "explanation": "La Cooperación Reforzada es un procedimiento que permite a un mínimo de nueve Estados miembros de la UE establecer una integración o cooperación avanzada en un área particular dentro de las estructuras de la UE, sin la participación de los demás Estados miembros que no deseen unirse."
+  },
+  {
+    "id": "ek_es_078",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuántas lenguas oficiales tiene actualmente la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "3 (Inglés, Francés y Alemán)" },
+      { "key": "B", "text": "20" },
+      { "key": "C", "text": "24" },
+      { "key": "D", "text": "27 (Una por cada Estado miembro)" }
+    ],
+    "correctKey": "C",
+    "explanation": "La Unión Europea tiene actualmente 24 lenguas oficiales. Todo ciudadano de la UE tiene derecho a dirigirse a las instituciones de la UE en cualquiera de estas lenguas y a recibir una respuesta en la misma lengua, y todos los actos legislativos se publican en estos idiomas."
+  },
+  {
+    "id": "ek_es_079",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿A qué ciudad se trasladó la Agencia Europea de Medicamentos (EMA) tras la salida del Reino Unido de la UE (Brexit)?",
+    "options": [
+      { "key": "A", "text": "Fráncfort" },
+      { "key": "B", "text": "París" },
+      { "key": "C", "text": "Ámsterdam" },
+      { "key": "D", "text": "Dublín" }
+    ],
+    "correctKey": "C",
+    "explanation": "La Agencia Europea de Medicamentos (EMA) tenía su sede original en Londres. Debido a la salida del Reino Unido de la Unión Europea, el Consejo Europeo decidió en 2017 reubicar su sede en Ámsterdam, Países Bajos."
+  },
+  {
+    "id": "ek_es_080",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿En qué consiste el proceso del 'Spitzenkandidat' en las elecciones europeas?",
+    "options": [
+      { "key": "A", "text": "Es el mecanismo para elegir a los comisarios nacionales en cada Estado miembro." },
+      { "key": "B", "text": "Es el sistema por el cual los partidos políticos europeos designan a un 'cabeza de lista' como su candidato a presidir la Comisión Europea." },
+      { "key": "C", "text": "Es el proceso de selección de los jueces para el Tribunal de Justicia de la UE." },
+      { "key": "D", "text": "Es el método que utilizan los ciudadanos para vetar la legislación europea." }
+    ],
+    "correctKey": "B",
+    "explanation": "El proceso de los candidatos cabeza de lista ('Spitzenkandidaten' en alemán) es un sistema en el que los partidos políticos a nivel europeo presentan a un candidato principal antes de las elecciones. El candidato del partido que consiga más escaños en el Parlamento Europeo suele ser el propuesto para presidir la Comisión Europea."
+  },
+  {
+    "id": "ek_es_081",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es el principal mandato u objetivo del Banco Europeo de Inversiones (BEI)?",
+    "options": [
+      { "key": "A", "text": "Fijar las tasas de interés y controlar la inflación en la Eurozona." },
+      { "key": "B", "text": "Supervisar las fusiones y adquisiciones de grandes bancos comerciales europeos." },
+      { "key": "C", "text": "Proporcionar financiación a largo plazo para proyectos de inversión sólidos y sostenibles que contribuyan a los objetivos de la UE." },
+      { "key": "D", "text": "Emitir el dinero en efectivo (billetes y monedas de euro) para todos los países miembros." }
+    ],
+    "correctKey": "C",
+    "explanation": "El BEI es la institución de financiación a largo plazo de la Unión Europea. Su principal mandato es conceder préstamos y financiar proyectos dentro y fuera de la UE que apoyen los objetivos políticos de la Unión, como la lucha contra el cambio climático y el fomento de la cohesión económica."
+  },
+  {
+    "id": "ek_es_082",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Quién fue la primera persona en ocupar el cargo de Presidente permanente del Consejo Europeo tras la creación de este puesto en el Tratado de Lisboa?",
+    "options": [
+      { "key": "A", "text": "Donald Tusk" },
+      { "key": "B", "text": "Jean-Claude Juncker" },
+      { "key": "C", "text": "Herman Van Rompuy" },
+      { "key": "D", "text": "Charles Michel" }
+    ],
+    "correctKey": "C",
+    "explanation": "El político belga Herman Van Rompuy fue el primer Presidente a tiempo completo (permanente) del Consejo Europeo, asumiendo el cargo en diciembre de 2009, inmediatamente después de la entrada en vigor del Tratado de Lisboa."
+  },
+  {
+    "id": "ek_es_083",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué institución es la encargada de redactar y proponer el proyecto preliminar de presupuesto anual de la UE?",
+    "options": [
+      { "key": "A", "text": "La Comisión Europea" },
+      { "key": "B", "text": "El Tribunal de Cuentas Europeo" },
+      { "key": "C", "text": "El Parlamento Europeo" },
+      { "key": "D", "text": "El Consejo de la Unión Europea" }
+    ],
+    "correctKey": "A",
+    "explanation": "La Comisión Europea es responsable de preparar el proyecto de presupuesto de la UE y presentarlo a la autoridad presupuestaria (el Parlamento Europeo y el Consejo). Una vez adoptado, la Comisión también es la principal responsable de su ejecución."
+  },
+  {
+    "id": "ek_es_084",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el 'Semestre Europeo'?",
+    "options": [
+      { "key": "A", "text": "El período de seis meses en el que un Estado miembro ostenta la Presidencia del Consejo." },
+      { "key": "B", "text": "El calendario académico que rige las becas del programa Erasmus+." },
+      { "key": "C", "text": "Un ciclo anual de coordinación de las políticas económicas, fiscales, laborales y sociales dentro de la UE." },
+      { "key": "D", "text": "El período estival durante el cual las instituciones de la UE suspenden sus actividades legislativas." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Semestre Europeo es un marco para la coordinación de las políticas económicas entre los países de la UE. Durante este ciclo anual, los Estados miembros alinean sus políticas presupuestarias y económicas con los objetivos y normas acordados a nivel de la Unión."
+  },
+  {
+    "id": "ek_es_085",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "El Tribunal Europeo de Derechos Humanos (TEDH) a menudo se confunde con las instituciones de la UE. ¿A qué organización pertenece realmente?",
+    "options": [
+      { "key": "A", "text": "Al Tribunal de Justicia de la Unión Europea (TJUE)." },
+      { "key": "B", "text": "Al Consejo de Europa." },
+      { "key": "C", "text": "A la Organización de las Naciones Unidas (ONU)." },
+      { "key": "D", "text": "Al Parlamento Europeo." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Tribunal Europeo de Derechos Humanos, con sede en Estrasburgo, NO es una institución de la Unión Europea. Pertenece al Consejo de Europa, una organización internacional independiente dedicada a la protección de los derechos humanos y el Estado de derecho."
+  },
+  {
+    "id": "ek_es_086",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué política de la UE tiene como principal objetivo reducir las disparidades económicas y sociales entre las distintas regiones de Europa?",
+    "options": [
+      { "key": "A", "text": "La Política Agrícola Común (PAC)." },
+      { "key": "B", "text": "La Política Exterior y de Seguridad Común (PESC)." },
+      { "key": "C", "text": "La Política de Cohesión (o Política Regional)." },
+      { "key": "D", "text": "La Política Pesquera Común (PPC)." }
+    ],
+    "correctKey": "C",
+    "explanation": "La Política de Cohesión de la UE canaliza fondos estructurales y de inversión hacia las regiones menos desarrolladas de Europa con el fin de promover la convergencia económica, fomentar la creación de empleo y reducir la desigualdad territorial."
+  },
+  {
+    "id": "ek_es_087",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "El Espacio Económico Europeo (EEE) incluye a los Estados miembros de la UE y a tres de los cuatro países de la AELC (EFTA). ¿Qué país de la AELC NO forma parte del EEE?",
+    "options": [
+      { "key": "A", "text": "Noruega" },
+      { "key": "B", "text": "Islandia" },
+      { "key": "C", "text": "Suiza" },
+      { "key": "D", "text": "Liechtenstein" }
+    ],
+    "correctKey": "C",
+    "explanation": "Suiza es miembro de la Asociación Europea de Libre Comercio (AELC / EFTA), pero es el único de sus cuatro miembros que optó por no unirse al Espacio Económico Europeo (EEE). En su lugar, Suiza mantiene una serie de acuerdos bilaterales directos con la UE."
+  },
+  {
+    "id": "ek_es_088",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el procedimiento de la 'tarjeta amarilla' en el marco legislativo de la UE?",
+    "options": [
+      { "key": "A", "text": "Una advertencia emitida por la Comisión a un país por superar el déficit presupuestario." },
+      { "key": "B", "text": "Un mecanismo que permite a los parlamentos nacionales objetar un proyecto legislativo si consideran que vulnera el principio de subsidiariedad." },
+      { "key": "C", "text": "Una penalización impuesta a los eurodiputados por violar el código de conducta en el Pleno." },
+      { "key": "D", "text": "Un recurso del Tribunal de Justicia para frenar una directiva contraria a los tratados." }
+    ],
+    "correctKey": "B",
+    "explanation": "El mecanismo de 'tarjeta amarilla' otorga a los parlamentos nacionales el derecho a revisar los proyectos legislativos de la UE. Si al menos un tercio de los votos asignados a los parlamentos nacionales emiten un dictamen motivado alegando que la propuesta incumple el principio de subsidiariedad, el proyecto debe ser reexaminado."
+  },
+  {
+    "id": "ek_es_089",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "La libre circulación de bienes, personas, servicios y capitales constituye el núcleo del Mercado Único de la UE. ¿Cómo se conocen comúnmente en los Tratados?",
+    "options": [
+      { "key": "A", "text": "Las Cuatro Libertades" },
+      { "key": "B", "text": "Los Pilares de Maastricht" },
+      { "key": "C", "text": "Los Principios de Schengen" },
+      { "key": "D", "text": "Los Acuerdos de Roma" }
+    ],
+    "correctKey": "A",
+    "explanation": "El mercado único europeo (o mercado interior) se asienta sobre la libre circulación de personas, bienes, servicios y capitales, conocidas históricamente y en los Tratados de la UE como 'Las Cuatro Libertades'."
+  },
+  {
+    "id": "ek_es_090",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de las siguientes agencias de la UE se centra fundamentalmente en la ciberseguridad y la seguridad de las redes de la información?",
+    "options": [
+      { "key": "A", "text": "Europol" },
+      { "key": "B", "text": "ENISA" },
+      { "key": "C", "text": "EASO" },
+      { "key": "D", "text": "Frontex" }
+    ],
+    "correctKey": "B",
+    "explanation": "La Agencia de la Unión Europea para la Ciberseguridad (ENISA), con sede en Grecia, está dedicada a lograr un alto nivel común de ciberseguridad en toda Europa, asistiendo a los Estados miembros y a las instituciones en la prevención y respuesta frente a incidentes y ciberataques."
+  },
+  {
+    "id": "ek_es_091",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la función principal del Supervisor Europeo de Protección de Datos (SEPD)?",
+    "options": [
+      { "key": "A", "text": "Auditar las cuentas financieras de las grandes empresas tecnológicas en Europa." },
+      { "key": "B", "text": "Garantizar que las instituciones, órganos y organismos de la UE respeten el derecho a la intimidad y la protección de datos en el tratamiento de datos personales." },
+      { "key": "C", "text": "Controlar el uso de datos en las redes sociales privadas de los ciudadanos de los Estados miembros." },
+      { "key": "D", "text": "Redactar la legislación nacional de ciberseguridad para cada Estado miembro." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Supervisor Europeo de Protección de Datos (SEPD) es la autoridad independiente de protección de datos de la UE. Su función es supervisar y garantizar que las propias instituciones y órganos de la UE respeten las normas de privacidad y protección de datos al procesar información personal."
+  },
+  {
+    "id": "ek_es_092",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "El espacio Schengen permite la libre circulación de personas sin controles fronterizos interiores. ¿Cuál de los siguientes países NO pertenece a la Unión Europea pero SÍ forma parte del espacio Schengen?",
+    "options": [
+      { "key": "A", "text": "Suiza" },
+      { "key": "B", "text": "Rumanía" },
+      { "key": "C", "text": "Irlanda" },
+      { "key": "D", "text": "Chipre" }
+    ],
+    "correctKey": "A",
+    "explanation": "Suiza, Islandia, Noruega y Liechtenstein no son Estados miembros de la UE, pero son países asociados que forman parte del espacio Schengen. Por el contrario, Irlanda es miembro de la UE pero ha optado por no participar en el espacio Schengen (opt-out)."
+  },
+  {
+    "id": "ek_es_093",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué es el 'Eurogrupo'?",
+    "options": [
+      { "key": "A", "text": "El comité de directores del Banco Central Europeo." },
+      { "key": "B", "text": "Un órgano formal de la Comisión Europea encargado de emitir moneda." },
+      { "key": "C", "text": "Una reunión informal de los ministros de economía y finanzas de los Estados miembros de la zona euro." },
+      { "key": "D", "text": "El grupo de países que aún no han adoptado el euro." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Eurogrupo es un órgano informal donde los ministros de los Estados miembros de la zona euro debaten cuestiones relativas a sus responsabilidades comunes sobre la moneda única. Elige a su propio presidente para un mandato de dos años y medio."
+  },
+  {
+    "id": "ek_es_094",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "En el contexto de la Política de Seguridad y Defensa Común (PSDC), ¿qué son las 'Misiones de Petersberg'?",
+    "options": [
+      { "key": "A", "text": "Misiones espaciales conjuntas con la Agencia Espacial Europea." },
+      { "key": "B", "text": "Misiones humanitarias, de mantenimiento de la paz y de gestión de crisis en las que puede participar la UE." },
+      { "key": "C", "text": "Acuerdos comerciales para la exportación de armamento europeo." },
+      { "key": "D", "text": "Controles fronterizos marítimos exclusivos del Mar Mediterráneo." }
+    ],
+    "correctKey": "B",
+    "explanation": "Las tareas de Petersberg, incorporadas al Tratado de la UE, definen el espectro de operaciones militares y civiles que la Unión Europea puede emprender, incluyendo misiones humanitarias, de rescate, de mantenimiento de la paz y de gestión de crisis (incluido el restablecimiento de la paz)."
+  },
+  {
+    "id": "ek_es_095",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué Tratado introdujo la estructura de los 'Tres Pilares' en la Unión Europea?",
+    "options": [
+      { "key": "A", "text": "El Tratado de Lisboa" },
+      { "key": "B", "text": "El Tratado de Niza" },
+      { "key": "C", "text": "El Tratado de Ámsterdam" },
+      { "key": "D", "text": "El Tratado de Maastricht" }
+    ],
+    "correctKey": "D",
+    "explanation": "El Tratado de Maastricht (1992) fundó la Unión Europea bajo una estructura de tres pilares: las Comunidades Europeas (pilar comunitario), la Política Exterior y de Seguridad Común (PESC), y la Cooperación en los ámbitos de Justicia y Asuntos de Interior (JAI). Esta estructura fue posteriormente abolida por el Tratado de Lisboa."
+  },
+  {
+    "id": "ek_es_096",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "En el marco del Procedimiento Legislativo Ordinario, si el Consejo y el Parlamento Europeo no llegan a un acuerdo en segunda lectura, se convoca un Comité de Conciliación. ¿Quién copreside este comité?",
+    "options": [
+      { "key": "A", "text": "El Presidente de la Comisión Europea y el Presidente del Consejo." },
+      { "key": "B", "text": "Exclusivamente el Presidente del Parlamento Europeo." },
+      { "key": "C", "text": "El Presidente del Parlamento Europeo (o su representante) y el Presidente del Consejo (o su representante)." },
+      { "key": "D", "text": "El Tribunal de Justicia de la UE actúa como mediador y presidente." }
+    ],
+    "correctKey": "C",
+    "explanation": "El Comité de Conciliación está compuesto por un número igual de representantes del Consejo y del Parlamento Europeo. Está copresidido por los presidentes (o sus representantes designados) de ambas instituciones."
+  },
+  {
+    "id": "ek_es_097",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué derecho fundamental garantiza el Artículo 227 del Tratado de Funcionamiento de la Unión Europea (TFUE) a todos los ciudadanos y residentes de la UE?",
+    "options": [
+      { "key": "A", "text": "El derecho a una pensión de jubilación universal." },
+      { "key": "B", "text": "El derecho a trabajar sin pagar impuestos durante el primer año en un país extranjero." },
+      { "key": "C", "text": "El derecho a vetar leyes europeas mediante referéndum." },
+      { "key": "D", "text": "El derecho de petición ante el Parlamento Europeo." }
+    ],
+    "correctKey": "D",
+    "explanation": "El Artículo 227 del TFUE otorga a cualquier ciudadano de la Unión, así como a cualquier persona física o jurídica que resida o tenga su domicilio social en un Estado miembro, el derecho a presentar una petición al Parlamento Europeo sobre un asunto que le afecte directamente y que incida en el ámbito de actuación de la UE."
+  },
+  {
+    "id": "ek_es_098",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál es la diferencia fundamental entre el Sistema Europeo de Bancos Centrales (SEBC) y el Eurosistema?",
+    "options": [
+      { "key": "A", "text": "El Eurosistema gestiona los impuestos, mientras que el SEBC gestiona las tasas de interés." },
+      { "key": "B", "text": "El SEBC incluye a los bancos centrales de todos los países de la UE, mientras que el Eurosistema solo incluye a los de los países que han adoptado el euro." },
+      { "key": "C", "text": "Son exactamente la misma entidad, solo que cambiaron de nombre tras el Tratado de Lisboa." },
+      { "key": "D", "text": "El SEBC incluye bancos privados, mientras que el Eurosistema es estrictamente público." }
+    ],
+    "correctKey": "B",
+    "explanation": "El SEBC comprende el Banco Central Europeo (BCE) y los bancos centrales nacionales de los 27 Estados miembros de la UE (usen o no el euro). El Eurosistema, sin embargo, comprende únicamente al BCE y a los bancos centrales nacionales de los Estados miembros que forman parte de la zona euro."
+  },
+  {
+    "id": "ek_es_099",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "El 'Triángulo Institucional' de la UE, responsable de la formulación y adopción de políticas y leyes a nivel europeo, está formado por:",
+    "options": [
+      { "key": "A", "text": "El Consejo Europeo, el Banco Central Europeo y la Comisión Europea." },
+      { "key": "B", "text": "El Tribunal de Justicia, el Parlamento Europeo y el Consejo de Europa." },
+      { "key": "C", "text": "El Parlamento Europeo, el Consejo de la Unión Europea y la Comisión Europea." },
+      { "key": "D", "text": "La Comisión Europea, Frontex y el Comité Económico y Social Europeo." }
+    ],
+    "correctKey": "C",
+    "explanation": "El 'triángulo institucional' esencial en la toma de decisiones de la UE está compuesto por la Comisión Europea (que propone la legislación), el Parlamento Europeo (que representa a los ciudadanos) y el Consejo de la Unión Europea (que representa a los gobiernos nacionales); estos dos últimos adoptan conjuntamente la legislación."
+  },
+  {
+    "id": "ek_es_100",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿A qué institución se le denomina tradicionalmente como la 'Guardiana de los Tratados'?",
+    "options": [
+      { "key": "A", "text": "Al Tribunal de Justicia de la UE" },
+      { "key": "B", "text": "A la Comisión Europea" },
+      { "key": "C", "text": "Al Defensor del Pueblo Europeo" },
+      { "key": "D", "text": "Al Consejo Europeo" }
+    ],
+    "correctKey": "B",
+    "explanation": "La Comisión Europea es la 'Guardiana de los Tratados'. Tiene la responsabilidad de velar por la correcta aplicación del Derecho de la UE en todos los Estados miembros y puede iniciar procedimientos de infracción contra los países que incumplan sus obligaciones legales."
+  },
+  {
+    "id": "ek_es_101",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué mayoría se requiere en el Parlamento Europeo para aprobar una moción de censura y forzar la dimisión de la Comisión Europea en bloque?",
+    "options": [
+      { "key": "A", "text": "Una mayoría simple de los presentes." },
+      { "key": "B", "text": "Una mayoría absoluta (la mitad más uno de todos los diputados)." },
+      { "key": "C", "text": "Una mayoría de dos tercios de los votos emitidos, que represente a su vez la mayoría de los diputados que componen el Parlamento." },
+      { "key": "D", "text": "Unanimidad de todos los grupos políticos del Parlamento." }
+    ],
+    "correctKey": "C",
+    "explanation": "Para destituir a la Comisión, el Parlamento Europeo debe aprobar una moción de censura con una doble mayoría: dos tercios de los votos válidos emitidos, y que esos votos representen además a la mayoría absoluta de todos los diputados del Parlamento."
+  },
+  {
+    "id": "ek_es_102",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Cuál de las siguientes agencias tiene su sede en Colonia (Alemania) y es responsable de garantizar la seguridad en la aviación civil?",
+    "options": [
+      { "key": "A", "text": "ENISA (Agencia de Ciberseguridad)" },
+      { "key": "B", "text": "EMA (Agencia Europea de Medicamentos)" },
+      { "key": "C", "text": "EASA (Agencia de la Unión Europea para la Seguridad Aérea)" },
+      { "key": "D", "text": "EFSA (Autoridad Europea de Seguridad Alimentaria)" }
+    ],
+    "correctKey": "C",
+    "explanation": "La EASA (European Union Aviation Safety Agency) tiene su sede en Colonia, Alemania. Se encarga de promover los más altos estándares comunes de seguridad y protección medioambiental en la aviación civil."
+  },
+  {
+    "id": "ek_es_103",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Según el Artículo 127 del Tratado de Funcionamiento de la Unión Europea, ¿cuál es el objetivo principal del Sistema Europeo de Bancos Centrales (SEBC)?",
+    "options": [
+      { "key": "A", "text": "Erradicar el desempleo juvenil." },
+      { "key": "B", "text": "Mantener la estabilidad de precios." },
+      { "key": "C", "text": "Establecer impuestos comunes en toda la UE." },
+      { "key": "D", "text": "Financiar el déficit público de los Estados miembros." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Tratado establece explícitamente que 'el objetivo principal del Sistema Europeo de Bancos Centrales será mantener la estabilidad de precios'. Sin perjuicio de este objetivo, el SEBC también apoya las políticas económicas generales de la Unión."
+  },
+  {
+    "id": "ek_es_104",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "Aunque la política de defensa de la UE se está integrando progresivamente, algunos Estados miembros de la UE son tradicionalmente neutrales o no alineados militarmente y NO pertenecen a la OTAN. ¿Cuál de los siguientes países cumple esta condición?",
+    "options": [
+      { "key": "A", "text": "Polonia" },
+      { "key": "B", "text": "Italia" },
+      { "key": "C", "text": "Austria" },
+      { "key": "D", "text": "Dinamarca" }
+    ],
+    "correctKey": "C",
+    "explanation": "Austria (al igual que Irlanda, Chipre y Malta) es miembro de la Unión Europea pero mantiene una política de neutralidad militar, por lo que no es miembro de la Organización del Tratado del Atlántico Norte (OTAN)."
+  },
+  {
+    "id": "ek_es_105",
+    "category": "eu_knowledge",
+    "language": "es",
+    "question": "¿Qué procedimiento legislativo se utiliza para la adopción del Marco Financiero Plurianual (MFP) de la UE?",
+    "options": [
+      { "key": "A", "text": "El Procedimiento Legislativo Ordinario (codecisión)." },
+      { "key": "B", "text": "Un procedimiento legislativo especial: el Consejo decide por unanimidad previa aprobación del Parlamento Europeo." },
+      { "key": "C", "text": "La Comisión lo adopta unilateralmente como un Acto Delegado." },
+      { "key": "D", "text": "El Consejo Europeo lo adopta por mayoría simple sin consultar al Parlamento." }
+    ],
+    "correctKey": "B",
+    "explanation": "El Marco Financiero Plurianual (MFP) se adopta mediante un procedimiento legislativo especial. El Consejo de la Unión Europea debe adoptar el reglamento por unanimidad, tras haber obtenido la aprobación (consentimiento) del Parlamento Europeo, que se pronuncia por mayoría absoluta."
+  }
+]

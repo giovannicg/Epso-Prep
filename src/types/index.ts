@@ -2,7 +2,8 @@ export type ExamCategory =
   | 'verbal_reasoning'
   | 'numerical_reasoning'
   | 'abstract_reasoning'
-  | 'situational_judgement';
+  | 'situational_judgement'
+  | 'eu_knowledge';
 
 export type Language = 'es' | 'en' | 'fr';
 
@@ -95,6 +96,25 @@ export interface SessionSummary {
 export interface ProgressState {
   statsByCategory: Record<ExamCategory, CategoryStats>;
   recentSessions: SessionSummary[];
+}
+
+export interface ExamSectionAttempt {
+  category: ExamCategory;
+  questionIds: string[];
+  attempts: Record<string, QuestionAttempt>;
+  timeLimitSeconds: number;
+  startedAt: number;
+  completedAt: number | null;
+  currentIndex: number;
+}
+
+export interface ExamSession {
+  id: string;
+  language: Language;
+  sections: ExamSectionAttempt[];
+  currentSectionIndex: number;
+  startedAt: number;
+  completedAt: number | null;
 }
 
 export type RootStackParamList = {

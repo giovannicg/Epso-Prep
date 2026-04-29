@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BookOpen, Calculator, Lock, Play } from 'lucide-react'
+import { BookOpen, Calculator, Lock, Play, Flag, Timer } from 'lucide-react'
 import { useProgressStore } from '../store/progressStore'
 import { useUserStore } from '../store/userStore'
 import { UserPickerModal } from '../components/quiz/UserPickerModal'
@@ -10,6 +10,7 @@ export default function PracticeScreen() {
   const navigate = useNavigate()
   const vStats = useProgressStore(s => s.statsByCategory.verbal_reasoning)
   const nStats = useProgressStore(s => s.statsByCategory.numerical_reasoning)
+  const ekStats = useProgressStore(s => s.statsByCategory.eu_knowledge)
   const preferredLanguage = useUserStore(s => s.preferredLanguage)
   const setPreferredLanguage = useUserStore(s => s.setPreferredLanguage)
   const [showPicker, setShowPicker] = useState(false)
@@ -17,6 +18,7 @@ export default function PracticeScreen() {
 
   const vAccuracy = vStats.totalAttempted > 0 ? Math.round((vStats.totalCorrect / vStats.totalAttempted) * 100) : null
   const nAccuracy = nStats.totalAttempted > 0 ? Math.round((nStats.totalCorrect / nStats.totalAttempted) * 100) : null
+  const ekAccuracy = ekStats.totalAttempted > 0 ? Math.round((ekStats.totalCorrect / ekStats.totalAttempted) * 100) : null
 
   function startQuiz(path: string) {
     pendingNav.current = path
@@ -104,10 +106,28 @@ export default function PracticeScreen() {
       </div>
 
       <div className="content-wrap">
+        {/* Exam mode entry */}
+        <button
+          onClick={() => startQuiz(`/exam/${preferredLanguage}`)}
+          style={{ width: '100%', display: 'flex', alignItems: 'center', gap: spacing.lg, backgroundColor: colors.euBlue, borderRadius: radius.lg, padding: spacing.lg, marginBottom: spacing.xl, textAlign: 'left', cursor: 'pointer', ...shadow.lg }}
+        >
+          <div style={{ width: 52, height: 52, borderRadius: radius.md, backgroundColor: 'rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+            <Timer size={26} color={colors.euGold} />
+          </div>
+          <div style={{ flex: 1 }}>
+            <p style={{ fontSize: fontSize.lg, fontWeight: 800, color: '#fff' }}>Modo Examen</p>
+            <p style={{ fontSize: fontSize.sm, color: 'rgba(255,255,255,0.75)', marginTop: 2 }}>
+              30 verbal (35 min) · 10 numérico (10 min) · 10 UE (10 min)
+            </p>
+          </div>
+          <Play size={20} color="rgba(255,255,255,0.8)" />
+        </button>
+
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Tests disponibles</p>
         <div className="practice-grid">
-          <PracticeCard title={preferredLanguage === 'en' ? 'Verbal Reasoning' : 'Razonamiento Verbal'} desc={preferredLanguage === 'en' ? '10 questions · English · AST/AD' : '10 preguntas · Español · AST/ES'} icon={<BookOpen size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/verbal_reasoning/${preferredLanguage}`)} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
+          <PracticeCard title={preferredLanguage === 'en' ? 'Verbal Reasoning' : 'Razonamiento Verbal'} desc={preferredLanguage === 'en' ? '150 questions · English · AST/AD' : '150 preguntas · Español · AST/ES'} icon={<BookOpen size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/verbal_reasoning/${preferredLanguage}`)} accuracy={vAccuracy} attempted={vStats.totalAttempted} sessions={vStats.sessionsCompleted} />
           <PracticeCard title={preferredLanguage === 'en' ? 'Numerical Reasoning' : 'Razonamiento Numérico'} desc={preferredLanguage === 'en' ? '120 questions · English · AST/AD' : '120 preguntas · Español · AST/ES'} icon={<Calculator size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/numerical_reasoning/${preferredLanguage}`)} accuracy={nAccuracy} attempted={nStats.totalAttempted} sessions={nStats.sessionsCompleted} />
+          <PracticeCard title={preferredLanguage === 'en' ? 'EU Knowledge' : 'Conocimiento UE'} desc={preferredLanguage === 'en' ? '90+ questions · English · AST/AD' : '90+ preguntas · Español · AST/ES'} icon={<Flag size={24} color={colors.primary} />} onStart={() => startQuiz(`/quiz/eu_knowledge/${preferredLanguage}`)} accuracy={ekAccuracy} attempted={ekStats.totalAttempted} sessions={ekStats.sessionsCompleted} />
         </div>
 
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md, marginTop: spacing.xl }}>Próximamente</p>

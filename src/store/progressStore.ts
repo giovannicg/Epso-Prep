@@ -15,15 +15,25 @@ function defaultState(): ProgressState {
       numerical_reasoning: defaultCategoryStats(),
       abstract_reasoning: defaultCategoryStats(),
       situational_judgement: defaultCategoryStats(),
+      eu_knowledge: defaultCategoryStats(),
     },
     recentSessions: [],
+  }
+}
+
+function mergeWithDefault(stored: Partial<ProgressState>): ProgressState {
+  const def = defaultState()
+  return {
+    ...def,
+    ...stored,
+    statsByCategory: { ...def.statsByCategory, ...(stored.statsByCategory ?? {}) },
   }
 }
 
 function loadFromStorage(userId: string): ProgressState {
   try {
     const raw = localStorage.getItem(storageKey(userId))
-    if (raw) return JSON.parse(raw) as ProgressState
+    if (raw) return mergeWithDefault(JSON.parse(raw) as Partial<ProgressState>)
   } catch { /* ignore */ }
   return defaultState()
 }

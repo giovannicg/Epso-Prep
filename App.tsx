@@ -6,6 +6,8 @@ import PracticeScreen from './src/screens/PracticeScreen'
 import ProgressScreen from './src/screens/ProgressScreen'
 import QuizScreen from './src/screens/QuizScreen'
 import QuizResultsScreen from './src/screens/QuizResultsScreen'
+import ExamScreen from './src/screens/ExamScreen'
+import ExamResultsScreen from './src/screens/ExamResultsScreen'
 import Layout from './src/components/common/Layout'
 import LoadingScreen from './src/components/common/LoadingScreen'
 
@@ -27,6 +29,8 @@ export default function App() {
         </Route>
         <Route path="/quiz/:category/:language" element={<QuizScreen />} />
         <Route path="/results" element={<QuizResultsScreen />} />
+        <Route path="/exam/:language" element={<ExamScreen />} />
+        <Route path="/exam-results" element={<ExamResultsScreen />} />
       </Routes>
     </BrowserRouter>
   )

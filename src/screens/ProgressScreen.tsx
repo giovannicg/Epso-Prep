@@ -1,7 +1,7 @@
 import React from 'react'
 import { useProgressStore } from '../store/progressStore'
 import { colors, spacing, fontSize, radius, shadow } from '../utils/theme'
-import { BookOpen, Calculator, Shapes, Users, Trash2 } from 'lucide-react'
+import { BookOpen, Calculator, Shapes, Users, Trash2, Flag } from 'lucide-react'
 import type { ExamCategory } from '../types'
 
 const CATEGORY_NAMES: Record<ExamCategory, string> = {
@@ -9,11 +9,13 @@ const CATEGORY_NAMES: Record<ExamCategory, string> = {
   numerical_reasoning: 'Razonamiento Numérico',
   abstract_reasoning: 'Razonamiento Abstracto',
   situational_judgement: 'Juicio Situacional',
+  eu_knowledge: 'Conocimiento UE',
 }
 
 const CATEGORIES: { key: ExamCategory; title: string; icon: React.ReactNode }[] = [
   { key: 'verbal_reasoning', title: 'Razonamiento Verbal', icon: <BookOpen size={18} color={colors.primary} /> },
   { key: 'numerical_reasoning', title: 'Razonamiento Numérico', icon: <Calculator size={18} color={colors.primary} /> },
+  { key: 'eu_knowledge', title: 'Conocimiento UE', icon: <Flag size={18} color={colors.primary} /> },
   { key: 'abstract_reasoning', title: 'Razonamiento Abstracto', icon: <Shapes size={18} color={colors.textMuted} /> },
   { key: 'situational_judgement', title: 'Juicio Situacional', icon: <Users size={18} color={colors.textMuted} /> },
 ]

@@ -3,6 +3,8 @@ import verbalReasoningEs from './verbal_reasoning_es.json';
 import verbalReasoningEn from './verbal_reasoning_en.json';
 import numericalReasoningEsRaw from './numerical_reasoning_es_book.json';
 import numericalReasoningEnRaw from './numerical_reasoning_en.json';
+import euKnowledgeEs from './eu_knowldge_es.json';
+import euKnowledgeEn from './eu_knowldge_en.json';
 
 function flattenGroups(groups: QuestionGroup[]): Question[] {
   return groups.flatMap(group =>
@@ -33,6 +35,8 @@ const questionBank: Record<string, Question[]> = {
   verbal_reasoning_en: verbalReasoningEn as Question[],
   numerical_reasoning_es: numericalReasoningEs,
   numerical_reasoning_en: numericalReasoningEn,
+  eu_knowledge_es: euKnowledgeEs as Question[],
+  eu_knowledge_en: euKnowledgeEn as Question[],
 };
 
 export function getQuestions(category: ExamCategory, language: Language): Question[] {

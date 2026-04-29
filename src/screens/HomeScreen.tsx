@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { BookOpen, Calculator, Shapes, Users, Lock, ChevronRight } from 'lucide-react'
+import { BookOpen, Calculator, Shapes, Users, Lock, ChevronRight, Flag, Timer } from 'lucide-react'
 import { useProgressStore } from '../store/progressStore'
 import { useUserStore } from '../store/userStore'
 import { UserPickerModal } from '../components/quiz/UserPickerModal'
@@ -10,6 +10,7 @@ import type { ExamCategory } from '../types'
 const CATEGORIES: { category: ExamCategory; title: string; description: string; icon: React.ReactNode; locked: boolean }[] = [
   { category: 'verbal_reasoning', title: 'Razonamiento Verbal', description: 'Comprensión lectora y análisis textual', icon: <BookOpen size={22} color={colors.primary} />, locked: false },
   { category: 'numerical_reasoning', title: 'Razonamiento Numérico', description: 'Tablas, gráficos y cálculos estadísticos', icon: <Calculator size={22} color={colors.primary} />, locked: false },
+  { category: 'eu_knowledge', title: 'Conocimiento UE', description: 'Instituciones, tratados y legislación europea', icon: <Flag size={22} color={colors.primary} />, locked: false },
   { category: 'abstract_reasoning', title: 'Razonamiento Abstracto', description: 'Patrones y secuencias lógicas', icon: <Shapes size={22} color={colors.textMuted} />, locked: true },
   { category: 'situational_judgement', title: 'Juicio Situacional', description: 'Toma de decisiones profesionales', icon: <Users size={22} color={colors.textMuted} />, locked: true },
 ]
@@ -52,7 +53,7 @@ export default function HomeScreen() {
           <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: fontSize.md }}>Preparación EPSO · Nivel AST/ES</p>
         </div>
         <div style={{ display: 'flex', gap: spacing.md, flexWrap: 'wrap' }}>
-          {[{ label: 'Categorías', value: '4' }, { label: 'Preguntas', value: '40+' }, { label: 'Idiomas', value: 'ES' }].map(({ label, value }) => (
+          {[{ label: 'Categorías', value: '5' }, { label: 'Preguntas', value: '400+' }, { label: 'Idiomas', value: 'ES/EN' }].map(({ label, value }) => (
             <div key={label} style={{ textAlign: 'center', backgroundColor: 'rgba(255,255,255,0.12)', borderRadius: radius.md, padding: `${spacing.sm}px ${spacing.md}px`, border: '1px solid rgba(255,255,255,0.2)' }}>
               <p style={{ fontSize: fontSize.xl, fontWeight: 800, color: '#fff' }}>{value}</p>
               <p style={{ fontSize: fontSize.xs, color: 'rgba(255,255,255,0.7)', marginTop: 2 }}>{label}</p>
@@ -63,6 +64,23 @@ export default function HomeScreen() {
 
       {/* Content */}
       <div className="content-wrap">
+        {/* Exam Mode banner */}
+        <button
+          onClick={() => startQuiz(`/exam/${preferredLanguage}`)}
+          style={{ width: '100%', display: 'flex', alignItems: 'center', gap: spacing.lg, backgroundColor: colors.euBlue, borderRadius: radius.lg, padding: spacing.lg, marginBottom: spacing.xl, textAlign: 'left', cursor: 'pointer', ...shadow.lg }}
+        >
+          <div style={{ width: 52, height: 52, borderRadius: radius.md, backgroundColor: 'rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+            <Timer size={26} color={colors.euGold} />
+          </div>
+          <div style={{ flex: 1 }}>
+            <p style={{ fontSize: fontSize.lg, fontWeight: 800, color: '#fff' }}>Modo Examen</p>
+            <p style={{ fontSize: fontSize.sm, color: 'rgba(255,255,255,0.75)', marginTop: 2 }}>
+              50 preguntas · 55 min · Verbal + Numérico + UE
+            </p>
+          </div>
+          <ChevronRight size={20} color="rgba(255,255,255,0.7)" />
+        </button>
+
         <p style={{ fontSize: fontSize.xs, fontWeight: 700, color: colors.textMuted, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: spacing.md }}>Categorías de examen</p>
         <div className="category-grid">
           {CATEGORIES.map(({ category, title, description, icon, locked }) => {

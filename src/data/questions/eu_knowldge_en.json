@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ek_en_001",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the most common form of decision-making used to adopt EU legislation?",
+    "options": [
+      { "key": "A", "text": "White paper" },
+      { "key": "B", "text": "Agreement procedure" },
+      { "key": "C", "text": "Ordinary Legislative Procedure" },
+      { "key": "D", "text": "Special procedure" }
+    ],
+    "correctKey": "C",
+    "explanation": "The 'Ordinary Legislative Procedure', or OLP, is the general rule used to pass legislation at the EU level, covering the vast majority of policy areas. It begins with a legislative proposal from the European Commission, which goes through up to three readings between the European Parliament and the Council of the European Union."
+  },
+  {
+    "id": "ek_en_002",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "When was co-decision officially named the 'Ordinary Legislative Procedure'?",
+    "options": [
+      { "key": "A", "text": "Under the Lisbon Treaty in 2009" },
+      { "key": "B", "text": "It was introduced in the Amsterdam Treaty in 1999" },
+      { "key": "C", "text": "It was extended under the Maastricht Treaty in 1992" },
+      { "key": "D", "text": "It has been used since the founding of the European Communities" }
+    ],
+    "correctKey": "A",
+    "explanation": "The co-decision procedure was originally introduced in 1992 and extended in 1999. Under the Lisbon Treaty (2009), it was officially renamed the Ordinary Legislative Procedure. It applies to almost all policy areas in the Treaty on the Functioning of the European Union (TFEU)."
+  },
+  {
+    "id": "ek_en_003",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which EU institution has the right of initiative?",
+    "options": [
+      { "key": "A", "text": "The Council of the European Union" },
+      { "key": "B", "text": "The European Commission" },
+      { "key": "C", "text": "The European Parliament" },
+      { "key": "D", "text": "The Council of Europe" }
+    ],
+    "correctKey": "B",
+    "explanation": "The right of initiative has been given to the European Commission so that it can carry out its role as guardian of the treaties. It can propose European legislation in the policy areas contained in the treaties, as well as where it considers it necessary."
+  },
+  {
+    "id": "ek_en_004",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How many main stages, known as readings, does the Ordinary Legislative Procedure set out?",
+    "options": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "6" },
+      { "key": "C", "text": "1" },
+      { "key": "D", "text": "3" }
+    ],
+    "correctKey": "D",
+    "explanation": "The Ordinary Legislative Procedure has 3 main stages (readings), although it can end after the first or second. 1) First reading by the EP and then the Council. 2) Second reading by the same institutions. 3) Conciliation Committee and third reading if there is no agreement."
+  },
+  {
+    "id": "ek_en_005",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How does the European Parliament vote during the first reading on Ordinary Legislative Procedure files?",
+    "options": [
+      { "key": "A", "text": "By qualified majority" },
+      { "key": "B", "text": "By simple majority" },
+      { "key": "C", "text": "By unanimous vote" },
+      { "key": "D", "text": "By early voting" }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Parliament votes by simple majority (a majority of the Members present and voting)."
+  },
+  {
+    "id": "ek_en_006",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In the Council of the EU, what is the threshold for reaching a qualified majority?",
+    "options": [
+      { "key": "A", "text": "Half of the member states" },
+      { "key": "B", "text": "45% of member states representing half of the EU population" },
+      { "key": "C", "text": "65% of member states representing at least 55% of the population" },
+      { "key": "D", "text": "55% of member states representing at least 65% of the EU population" }
+    ],
+    "correctKey": "D",
+    "explanation": "A qualified majority is reached if two conditions are met simultaneously: 55% of member states vote in favour (15 out of 27), and the proposal is supported by member states representing at least 65% of the total EU population."
+  },
+  {
+    "id": "ek_en_007",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is a trilogue in the context of the EU's Ordinary Legislative Procedure (OLP)?",
+    "options": [
+      { "key": "A", "text": "An informal interinstitutional negotiation between representatives of the three main institutions" },
+      { "key": "B", "text": "A formal interinstitutional meeting to negotiate the legislative file set out in the Treaties" },
+      { "key": "C", "text": "An official step of the OLP taking place to help draft the initial legislative proposal" },
+      { "key": "D", "text": "A meeting between the European Commission and civil society organisations" }
+    ],
+    "correctKey": "A",
+    "explanation": "A trilogue is an informal interinstitutional negotiation bringing together representatives of the European Parliament, the Council of the EU and the European Commission, with the aim of reaching a provisional agreement. This informal agreement must later be adopted through formal procedures."
+  },
+  {
+    "id": "ek_en_008",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is a 'general approach' of the Council?",
+    "options": [
+      { "key": "A", "text": "A document explaining the way the Council usually proceeds on legislative files" },
+      { "key": "B", "text": "A political agreement to give the EP an idea of its position prior to official negotiations" },
+      { "key": "C", "text": "A piece of binding legislation applicable in all EU member states" },
+      { "key": "D", "text": "An act that will be adopted by the EU Parliament at second reading" }
+    ],
+    "correctKey": "B",
+    "explanation": "Prior to the first reading in the OLP, the Council may adopt a 'general approach', which is a political agreement that can help give the European Parliament an idea of its position on the Commission's proposal and facilitate agreement."
+  },
+  {
+    "id": "ek_en_009",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Do the Council and the European Parliament have a time limit for the first reading of the Ordinary Legislative Procedure?",
+    "options": [
+      { "key": "A", "text": "Yes, negotiations must conclude within three months" },
+      { "key": "B", "text": "The Parliament has no time limit but the Council does" },
+      { "key": "C", "text": "Yes, the Commission sets the deadline" },
+      { "key": "D", "text": "No, they are not subject to any time limit" }
+    ],
+    "correctKey": "D",
+    "explanation": "The correct answer is no, neither the European Parliament nor the Council are subject to a time limit by which they must conclude the first reading."
+  },
+  {
+    "id": "ek_en_010",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the title given to the Member of the European Parliament responsible for drafting the Parliament's report and who acts as the spokesperson during interinstitutional negotiations?",
+    "options": [
+      { "key": "A", "text": "Rapporteur" },
+      { "key": "B", "text": "Shadow" },
+      { "key": "C", "text": "President" },
+      { "key": "D", "text": "Writer" }
+    ],
+    "correctKey": "A",
+    "explanation": "A rapporteur is an MEP responsible for handling a legislative proposal from the European Commission. They lead the interinstitutional negotiations regarding their legislative file and manage the discussions."
+  },
+  {
+    "id": "ek_en_011",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which institutions are legislators in the Special Legislative Procedure?",
+    "options": [
+      { "key": "A", "text": "Only the Council" },
+      { "key": "B", "text": "The Council and the EU Parliament" },
+      { "key": "C", "text": "The EU Commission, Council and Parliament" },
+      { "key": "D", "text": "The European Council and the EU Court of Justice" }
+    ],
+    "correctKey": "A",
+    "explanation": "The Special Legislative Procedure means that the sole legislator is the Council, as opposed to co-decision with the EU Parliament (Ordinary Legislative Procedure)."
+  },
+  {
+    "id": "ek_en_012",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Under the Special Legislative Procedure, the European Parliament:",
+    "options": [
+      { "key": "A", "text": "Co-decides on an equal footing with the Council" },
+      { "key": "B", "text": "Amends a legislative proposal" },
+      { "key": "C", "text": "Cannot act under any circumstances" },
+      { "key": "D", "text": "Must give its consent or be consulted on the proposal" }
+    ],
+    "correctKey": "D",
+    "explanation": "Article 289(2) TFEU states that, for certain cases (Special Procedure), the Council is the sole legislator and the Parliament is required to either consent to the Commission's proposal or be consulted on it."
+  },
+  {
+    "id": "ek_en_013",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In the Special Legislative Procedure, the consent of the EU Parliament is required in cases such as:",
+    "options": [
+      { "key": "A", "text": "In all cases" },
+      { "key": "B", "text": "Exclusively for Article 7 (Rule of Law) and Article 50 (withdrawal from the EU) procedures" },
+      { "key": "C", "text": "To combat discrimination, international agreements, Article 7, EU accession and withdrawal" },
+      { "key": "D", "text": "When it is invited to participate in the procedure by the other institutions" }
+    ],
+    "correctKey": "C",
+    "explanation": "The EP's consent is required to adopt new legislation to combat discrimination, as well as in non-legislative procedures regarding international agreements, serious breaches of fundamental rights (Art. 7), accession of new members and withdrawal agreements."
+  },
+  {
+    "id": "ek_en_014",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which of the following constitutes primary EU law?",
+    "options": [
+      { "key": "A", "text": "EU directives and regulations" },
+      { "key": "B", "text": "All legislative acts" },
+      { "key": "C", "text": "Regulations, directives, decisions, recommendations and opinions" },
+      { "key": "D", "text": "The EU Treaties" }
+    ],
+    "correctKey": "D",
+    "explanation": "There are two main types of EU law: primary and secondary. The starting point is the EU Treaties, known as primary law. Secondary law (regulations, directives, decisions, etc.) derives from primary law."
+  },
+  {
+    "id": "ek_en_015",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which statement is true regarding EU regulations?",
+    "options": [
+      { "key": "A", "text": "They allow member states to determine how they transpose them into national law" },
+      { "key": "B", "text": "They are of general application, legally binding and apply directly in member states" },
+      { "key": "C", "text": "They are primary EU legislation" },
+      { "key": "D", "text": "They are legally binding but have a single specific addressee" }
+    ],
+    "correctKey": "B",
+    "explanation": "Regulations are legal acts that have general application, are entirely binding and directly applicable in all EU member states, forming part of the secondary EU law."
+  },
+  {
+    "id": "ek_en_016",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the transposition process?",
+    "options": [
+      { "key": "A", "text": "It is the incorporation of EU directives into the national law of member states." },
+      { "key": "B", "text": "It is a necessary process for EU regulations and decisions, as they are not directly applicable." },
+      { "key": "C", "text": "It is a voluntary process for member states, with no specific deadline." },
+      { "key": "D", "text": "It is not a mandatory process and the Commission cannot act if a member state fails to do it." }
+    ],
+    "correctKey": "A",
+    "explanation": "Transposition is the process by which member states incorporate EU directives into their national legislation. It applies to directives, as they are not directly applicable in member states, unlike regulations and decisions. EU member states must adopt these national laws within a specific timeframe set out in the directive, and notify the European Commission. If they fail to do so, the Commission can take the case to the EU Court of Justice."
+  },
+  {
+    "id": "ek_en_017",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which of the following is a characteristic of Delegated Acts?",
+    "options": [
+      { "key": "A", "text": "They allow member states to immediately amend EU law and adapt it to national law." },
+      { "key": "B", "text": "They enter into force even if the EU Parliament and Council object, giving the Commission full powers." },
+      { "key": "C", "text": "They are used in slow procedures to speed up negotiations." },
+      { "key": "D", "text": "They allow the Commission to act quickly to amend certain non-essential elements of laws." }
+    ],
+    "correctKey": "D",
+    "explanation": "Article 290 of the Treaty on the Functioning of the European Union (TFEU) stipulated that the EU legislator can grant powers to the Commission through specific rules enshrined in a legislative act to adopt 'delegated acts'. Delegated acts are non-legislative acts adopted by the European Commission that serve to amend or supplement non-essential elements of the legislation."
+  },
+  {
+    "id": "ek_en_018",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Delegated acts are typically used in cases such as:",
+    "options": [
+      { "key": "A", "text": "When legislative acts need to be regularly adapted in line with scientific and technical progress." },
+      { "key": "B", "text": "In the case of directives and regulations, as they apply immediately in member states." },
+      { "key": "C", "text": "In the case of laws to combat discrimination, to protect the most vulnerable." },
+      { "key": "D", "text": "In budgetary procedures, to speed up negotiations between institutions." }
+    ],
+    "correctKey": "A",
+    "explanation": "Delegated acts are typically used when legislative acts, including their annexes, need to be adapted on a regular basis to take account of technical and scientific progress."
+  },
+  {
+    "id": "ek_en_019",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Implementing acts and delegated acts are:",
+    "options": [
+      { "key": "A", "text": "Legislative acts" },
+      { "key": "B", "text": "Adopted under the Ordinary Legislative Procedure" },
+      { "key": "C", "text": "Non-legislative acts" },
+      { "key": "D", "text": "Regulations and Directives" }
+    ],
+    "correctKey": "C",
+    "explanation": "Article 289 of the TFEU stipulates that non-legislative acts are decisions adopted, generally by the European Commission, following a delegation (delegated acts) or to implement a legislative act (implementing acts)."
+  },
+  {
+    "id": "ek_en_020",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is comitology?",
+    "options": [
+      { "key": "A", "text": "The process by which legislative files are distributed among EU Parliament committees." },
+      { "key": "B", "text": "A set of procedures that give member states a say in Implementing and Delegated Acts." },
+      { "key": "C", "text": "Interparliamentary groups of MEPs that exchange views on specific issues." },
+      { "key": "D", "text": "The process by which the Council and the EU Parliament can block a Delegated Act." }
+    ],
+    "correctKey": "B",
+    "explanation": "To ensure that an EU law is applied uniformly, the Commission may adopt an Implementing Act (a non-legislative act). Comitology refers to the set of procedures that give member states a say in these acts, including meetings of representative committees."
+  },
+  {
+    "id": "ek_en_021",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In the EU budgetary procedure, who is the budgetary authority?",
+    "options": [
+      { "key": "A", "text": "DG BUDG" },
+      { "key": "B", "text": "The EU Commission" },
+      { "key": "C", "text": "The European Parliament and the Council" },
+      { "key": "D", "text": "The Court of Auditors" }
+    ],
+    "correctKey": "C",
+    "explanation": "The exercise of budgetary powers is a shared responsibility between the European Parliament and the Council. Together, they constitute the EU's budgetary authority or power."
+  },
+  {
+    "id": "ek_en_022",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the relationship between the Multiannual Financial Framework and the annual budget?",
+    "options": [
+      { "key": "A", "text": "The EU's annual budgets must fit within the spending limits set out in the Multiannual Financial Framework." },
+      { "key": "B", "text": "The Multiannual Financial Framework determines the budget for the European Parliament, while the annual budget determines the budget for the other institutions." },
+      { "key": "C", "text": "The MFF is made up of 7 annual budgets." },
+      { "key": "D", "text": "The annual budget is always higher than the MFF in case there are expenses that were not foreseen when designing the MFF." }
+    ],
+    "correctKey": "A",
+    "explanation": "The EU's annual budgets must fit within the spending limits (ceilings) set in the Multiannual Financial Framework (the EU's long-term budget). The annual budget is usually set at a lower level, in case of unforeseen expenditures."
+  },
+  {
+    "id": "ek_en_023",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the EU's Multiannual Financial Framework (MFF)?",
+    "options": [
+      { "key": "A", "text": "A long-term spending plan lasting 10 years that sets funding for specific programs." },
+      { "key": "B", "text": "A long-term spending plan lasting between 5 and 7 years that sets the EU's spending priorities and limits." },
+      { "key": "C", "text": "A spending plan that the EU Parliament is solely responsible for managing and approving each year." },
+      { "key": "D", "text": "A €750 billion post-COVID recovery plan run by the EU Commission." }
+    ],
+    "correctKey": "B",
+    "explanation": "The EU adopts long-term spending plans, known as Multiannual Financial Frameworks (MFFs), which run for a period of 5 to 7 years and set the EU's spending priorities and limits. The Commission is responsible for managing it."
+  },
+  {
+    "id": "ek_en_024",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which of the following was a main source of revenue for the 2021-2027 EU budget?",
+    "options": [
+      { "key": "A", "text": "Contributions based on VAT collected by Member States." },
+      { "key": "B", "text": "The Common Consolidated Corporate Tax Base (CCCTB)." },
+      { "key": "C", "text": "Loans from capital markets." },
+      { "key": "D", "text": "European taxes paid directly by citizens." }
+    ],
+    "correctKey": "A",
+    "explanation": "The main sources of revenue for the 2021-2027 EU budget were: customs duties, contributions based on Value Added Tax (VAT) collected by member states, and direct contributions from countries based on Gross National Income."
+  },
+  {
+    "id": "ek_en_025",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What was the objective of the NextGenerationEU recovery plan?",
+    "options": [
+      { "key": "A", "text": "To create a permanent fund to repair pandemic damage and prevent any future health crisis." },
+      { "key": "B", "text": "To create a temporary fund with two objectives: supporting pandemic recovery and supporting the green and digital transition." },
+      { "key": "C", "text": "To borrow money from markets to exclusively finance the Green Deal and accelerate the ecological transition." },
+      { "key": "D", "text": "To permanently fund EU health programs with €750 billion." }
+    ],
+    "correctKey": "B",
+    "explanation": "NextGenerationEU is a €750 billion temporary recovery instrument created to help repair the immediate economic and social damage brought about by the coronavirus pandemic, and to support economic recovery by building a greener, more digital and more resilient future."
+  },
+  {
+    "id": "ek_en_026",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What are the two legislative components of the Multiannual Financial Framework (MFF)?",
+    "options": [
+      { "key": "A", "text": "The Council Regulation laying down the MFF and the Council Decision on the system of Own Resources." },
+      { "key": "B", "text": "The Council Regulation laying down the MFF and the European Union Recovery Instrument Regulation." },
+      { "key": "C", "text": "The Interinstitutional Agreement on sound financial management and the Council Regulation laying down the MFF." },
+      { "key": "D", "text": "The Common Provisions Regulation and the Council Regulation laying down the MFF." }
+    ],
+    "correctKey": "A",
+    "explanation": "According to the Council Regulation laying down the multiannual financial framework for the years 2021 to 2027, the main legislative tools are the EU's long-term budget (MFF) and the financing authorized by the Own Resources Decision in favor of the Recovery Instrument."
+  },
+  {
+    "id": "ek_en_027",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What type of decision allows for the suspension of payments to an EU member state under the rule of law conditionality mechanism to protect the Union budget?",
+    "options": [
+      { "key": "A", "text": "A delegated act" },
+      { "key": "B", "text": "An implementing decision" },
+      { "key": "C", "text": "A regulation decision" },
+      { "key": "D", "text": "An oral procedure decision" }
+    ],
+    "correctKey": "B",
+    "explanation": "In December 2022, EU member states' ambassadors recommended that the Council adopt an 'implementing decision' under the conditionality regulation to impose measures protecting the Union budget."
+  },
+  {
+    "id": "ek_en_028",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "To finance NextGenerationEU, the EU Commission borrowed from capital markets to provide grants and loans to member states. Who is responsible for repaying the loan component?",
+    "options": [
+      { "key": "A", "text": "Multinational companies via a tax" },
+      { "key": "B", "text": "New revenue sources (new own resources)" },
+      { "key": "C", "text": "The EU Commission" },
+      { "key": "D", "text": "The member states themselves" }
+    ],
+    "correctKey": "D",
+    "explanation": "The Commission borrowed up to €806.9 billion on the capital markets, to be repaid over the long term (until 2058), with the member states themselves repaying the loan component of this instrument."
+  },
+  {
+    "id": "ek_en_029",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Approximately what proportion of the total EU budget is spent on holding European Parliament plenaries in Strasbourg?",
+    "options": [
+      { "key": "A", "text": "3%" },
+      { "key": "B", "text": "6%" },
+      { "key": "C", "text": "0.1%" },
+      { "key": "D", "text": "1%" }
+    ],
+    "correctKey": "C",
+    "explanation": "According to a European Parliament study, €103 million could be saved every year if all EP operations were carried out in Brussels. This amount corresponds to just 0.1% of the total EU budget (and 6% of the Parliament's budget)."
+  },
+  {
+    "id": "ek_en_030",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is REACT-EU?",
+    "options": [
+      { "key": "A", "text": "Recovery Assistance for Cohesion and the Territories of Europe, delivered through the Coronavirus Response Investment Initiative." },
+      { "key": "B", "text": "Reaction to the COVID Pandemic from the EU, delivered through the Coronavirus Response Investment Initiative." },
+      { "key": "C", "text": "Reaction to the COVID Pandemic from the EU, a program for specific regions particularly affected." },
+      { "key": "D", "text": "Health Emergency Preparedness and Response Authority, a department of the EU Commission." }
+    ],
+    "correctKey": "A",
+    "explanation": "REACT-EU (Recovery Assistance for Cohesion and the Territories of Europe) is an initiative that expands the crisis response and repair measures delivered through the Coronavirus Response Investment Initiative, continuing the contribution to a green, digital and resilient recovery of the economy."
+  },
+  {
+    "id": "ek_en_031",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is COREPER in the institutional structure of the European Union?",
+    "options": [
+      { "key": "A", "text": "The Committee of Regions and Provinces of Europe." },
+      { "key": "B", "text": "The Committee of Permanent Representatives of the Governments of the Member States to the European Union." },
+      { "key": "C", "text": "A special committee of the European Parliament in charge of reviewing budgets." },
+      { "key": "D", "text": "The commission in charge of enlargement and neighborhood relations." }
+    ],
+    "correctKey": "B",
+    "explanation": "COREPER (Committee of Permanent Representatives) is the main preparatory body of the Council of the European Union. It is made up of the ambassadors (permanent representatives) of the member states and is responsible for preparing the work and ministerial meetings of the Council."
+  },
+  {
+    "id": "ek_en_032",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Where is the official seat of the Court of Justice of the European Union (CJEU)?",
+    "options": [
+      { "key": "A", "text": "Brussels, Belgium" },
+      { "key": "B", "text": "Strasbourg, France" },
+      { "key": "C", "text": "Luxembourg, Luxembourg" },
+      { "key": "D", "text": "The Hague, Netherlands" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Court of Justice of the European Union (CJEU), the highest judicial authority of the EU, has its official seat in the city of Luxembourg. (It should not be confused with the UN's International Court of Justice, which is in The Hague, nor with the European Court of Human Rights, which is in Strasbourg and belongs to the Council of Europe)."
+  },
+  {
+    "id": "ek_en_033",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How many judges make up the Court of Justice of the European Union?",
+    "options": [
+      { "key": "A", "text": "15 judges, elected by rotation." },
+      { "key": "B", "text": "27 judges, one for each member state." },
+      { "key": "C", "text": "54 judges, two for each member state." },
+      { "key": "D", "text": "9 judges appointed by the European Parliament." }
+    ],
+    "correctKey": "B",
+    "explanation": "The Court of Justice itself is composed of 27 judges (one for each EU member state), assisted by 11 Advocates General. They are appointed by common accord of the governments of the member states for a renewable term of six years."
+  },
+  {
+    "id": "ek_en_034",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who elects the President of the European Commission?",
+    "options": [
+      { "key": "A", "text": "The Council of the European Union, by unanimity." },
+      { "key": "B", "text": "The European Parliament, on a proposal from the European Council." },
+      { "key": "C", "text": "European citizens by direct suffrage." },
+      { "key": "D", "text": "The College of Commissioners through an internal vote." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Council (heads of state or government) proposes a candidate for the presidency of the Commission, taking into account the results of the European elections. Subsequently, the European Parliament must elect this candidate by an absolute majority (half plus one of its component members)."
+  },
+  {
+    "id": "ek_en_035",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which European Union Treaty formally introduced the concept of 'Citizenship of the Union'?",
+    "options": [
+      { "key": "A", "text": "The Treaty of Rome (1957)" },
+      { "key": "B", "text": "The Single European Act (1986)" },
+      { "key": "C", "text": "The Maastricht Treaty (1992)" },
+      { "key": "D", "text": "The Treaty of Lisbon (2007)" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Treaty on European Union (Maastricht Treaty), signed in 1992, introduced the concept of Citizenship of the Union. Every national of a member state is automatically a citizen of the EU, which grants additional rights such as free movement and residence, and the right to vote in European and local elections."
+  },
+  {
+    "id": "ek_en_036",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which European institution is responsible for formulating the monetary policy of the euro area?",
+    "options": [
+      { "key": "A", "text": "The European Investment Bank (EIB)" },
+      { "key": "B", "text": "The Economic and Financial Affairs Council (ECOFIN)" },
+      { "key": "C", "text": "The European Central Bank (ECB)" },
+      { "key": "D", "text": "The European Commission (Directorate-General for Economic and Financial Affairs)" }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Central Bank (ECB), based in Frankfurt, is the institution responsible for defining and implementing the monetary policy of the EU countries that have adopted the euro. Its main objective is to maintain price stability."
+  },
+  {
+    "id": "ek_en_037",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How many members does the European Economic and Social Committee (EESC) currently have?",
+    "options": [
+      { "key": "A", "text": "329 members" },
+      { "key": "B", "text": "350 members" },
+      { "key": "C", "text": "705 members" },
+      { "key": "D", "text": "27 members" }
+    ],
+    "correctKey": "A",
+    "explanation": "The European Economic and Social Committee (EESC), which is an EU advisory body representing employers, workers, and other civil society interest groups, is composed of 329 members drawn from all EU member states."
+  },
+  {
+    "id": "ek_en_038",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the main objective of the Common Agricultural Policy (CAP)?",
+    "options": [
+      { "key": "A", "text": "To export agricultural products to developing countries." },
+      { "key": "B", "text": "To support farmers, improve agricultural productivity, and ensure a stable supply of affordable food." },
+      { "key": "C", "text": "To phase out small farms in favor of large corporations." },
+      { "key": "D", "text": "To totally ban the import of agricultural products from outside the EU." }
+    ],
+    "correctKey": "B",
+    "explanation": "Launched in 1962, the CAP is a common policy for all EU countries. Its objectives include supporting farmers, ensuring a fair standard of living for the agricultural community, guaranteeing food security, and promoting sustainable agriculture across Europe."
+  },
+  {
+    "id": "ek_en_039",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who appoints the members of the European Court of Auditors?",
+    "options": [
+      { "key": "A", "text": "The European Parliament, on a proposal from the Commission." },
+      { "key": "B", "text": "The Council of the European Union, after consulting the European Parliament." },
+      { "key": "C", "text": "The Court of Justice of the European Union." },
+      { "key": "D", "text": "They are directly elected by European citizens." }
+    ],
+    "correctKey": "B",
+    "explanation": "The members of the European Court of Auditors (one from each member state) are appointed by the Council of the EU, after consulting the European Parliament, for a renewable term of six years."
+  },
+  {
+    "id": "ek_en_040",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the main role of the European Ombudsman?",
+    "options": [
+      { "key": "A", "text": "To draft the human rights laws of the European Union." },
+      { "key": "B", "text": "To judge cases of political corruption within the member states." },
+      { "key": "C", "text": "To investigate complaints concerning maladministration by EU institutions and bodies." },
+      { "key": "D", "text": "To legally defend European institutions against citizen lawsuits." }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Ombudsman investigates complaints from EU citizens, residents, and businesses about cases of maladministration (irregularities, unfairness, discrimination, abuse of power) in the institutions, bodies, offices, and agencies of the EU."
+  },
+  {
+    "id": "ek_en_041",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "For a European Citizens' Initiative (ECI) to be valid, it requires at least 1 million signatures from EU citizens. What other geographical requirement must be met?",
+    "options": [
+      { "key": "A", "text": "Signatures must come from at least half of the member states." },
+      { "key": "B", "text": "Signatures must come from at least one-quarter of the member states (currently 7 countries)." },
+      { "key": "C", "text": "There must be at least 10,000 signatures from each and every one of the 27 member states." },
+      { "key": "D", "text": "Signatures must come exclusively from countries belonging to the Eurozone." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Citizens' Initiative allows citizens to call on the Commission to propose legislation. To be valid, it must be supported by at least one million citizens, and a minimum number of signatories must be reached in at least one-quarter of the member states (i.e., 7 countries in an EU of 27)."
+  },
+  {
+    "id": "ek_en_042",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Where is the headquarters of Frontex (the European Border and Coast Guard Agency) located?",
+    "options": [
+      { "key": "A", "text": "Valletta, Malta" },
+      { "key": "B", "text": "Rome, Italy" },
+      { "key": "C", "text": "Athens, Greece" },
+      { "key": "D", "text": "Warsaw, Poland" }
+    ],
+    "correctKey": "D",
+    "explanation": "Frontex, created in 2004 to help EU member states and Schengen associated countries protect the external borders of the EU's area of free movement, is headquartered in Warsaw, Poland."
+  },
+  {
+    "id": "ek_en_043",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the primary role of Europol (European Union Agency for Law Enforcement Cooperation)?",
+    "options": [
+      { "key": "A", "text": "To issue European arrest warrants and prosecute criminals directly." },
+      { "key": "B", "text": "To control customs traffic at the borders of the European Union." },
+      { "key": "C", "text": "To support member states in preventing and combating serious international crime and terrorism." },
+      { "key": "D", "text": "To manage the military defense budget of the member states." }
+    ],
+    "correctKey": "C",
+    "explanation": "Based in The Hague (Netherlands), Europol assists national law enforcement authorities in the fight against serious international crimes and terrorism by acting as a hub for operational support, information exchange, and criminal analysis."
+  },
+  {
+    "id": "ek_en_044",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which EU Treaty abolished the old 'three-pillar' structure and granted the Union a single legal personality?",
+    "options": [
+      { "key": "A", "text": "Treaty of Amsterdam" },
+      { "key": "B", "text": "Treaty of Nice" },
+      { "key": "C", "text": "Treaty of Lisbon" },
+      { "key": "D", "text": "Treaty of Rome" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Treaty of Lisbon (which entered into force in 2009) abolished the pillar structure (European Communities, Common Foreign and Security Policy, and Police and Judicial Cooperation) created by the Maastricht Treaty, unifying the EU and endowing it with a single legal personality."
+  },
+  {
+    "id": "ek_en_045",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Of the 24 official languages of the European Union, the European Commission uses three as its main 'working languages' (internal procedural languages). What are they?",
+    "options": [
+      { "key": "A", "text": "English, Spanish, and French" },
+      { "key": "B", "text": "English, French, and German" },
+      { "key": "C", "text": "English, German, and Italian" },
+      { "key": "D", "text": "French, German, and Spanish" }
+    ],
+    "correctKey": "B",
+    "explanation": "Although the EU has 24 official and working languages for communication with citizens and final legislative texts, the day-to-day internal operations of the European Commission are conducted in its three procedural working languages: English, French, and German."
+  },
+  {
+    "id": "ek_en_046",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the purpose of the EU Court of Justice (CJEU)?",
+    "options": [
+      { "key": "A", "text": "To provide a forum for judges from the 27 member states to formulate uniform legal standards across their countries." },
+      { "key": "B", "text": "To act as the main guardian of the EU Treaties." },
+      { "key": "C", "text": "To support its 3 main judges in deciding the cases brought before the Court." },
+      { "key": "D", "text": "To ensure the uniform interpretation of EU law and that EU countries and institutions abide by the law." }
+    ],
+    "correctKey": "D",
+    "explanation": "The purpose of the Court of Justice of the European Union is to ensure that EU law is interpreted and applied in the same way in every EU country, ensuring countries and EU institutions abide by EU law. (The role of 'guardian of the Treaties' rests primarily with the European Commission)."
+  },
+  {
+    "id": "ek_en_047",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What are the two main branches of the CJEU?",
+    "options": [
+      { "key": "A", "text": "The Court of Justice and the General Court" },
+      { "key": "B", "text": "The Court of Auditors and the General Court" },
+      { "key": "C", "text": "The EU Court of Judges and the Specialised Court" },
+      { "key": "D", "text": "The Specialised Court and the General Court" }
+    ],
+    "correctKey": "A",
+    "explanation": "The CJEU is divided into 2 main branches: the Court of Justice (which deals with requests for preliminary rulings and some actions by member states) and the General Court (which has jurisdiction to hear actions brought by individuals, companies and, in some cases, EU governments)."
+  },
+  {
+    "id": "ek_en_048",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The EU Court of Justice is responsible for dealing with:",
+    "options": [
+      { "key": "A", "text": "Actions brought by an EU country or the Commission against another country for infringing EU law." },
+      { "key": "B", "text": "Individual claims regarding violations of civil rights set out in the European Convention on Human Rights." },
+      { "key": "C", "text": "Ensuring the right to life, respect for private life and freedom of expression." },
+      { "key": "D", "text": "Applying EU law to a dispute submitted by a national referring court." }
+    ],
+    "correctKey": "A",
+    "explanation": "The Court deals with infringement proceedings against EU countries, requests for preliminary rulings, and actions for annulment. The European Court of Human Rights (which is not part of the EU, but the Council of Europe) is responsible for the European Convention on Human Rights."
+  },
+  {
+    "id": "ek_en_049",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the composition of the Court of Justice (as a branch of the CJEU)?",
+    "options": [
+      { "key": "A", "text": "28 Judges and 28 Assessors" },
+      { "key": "B", "text": "27 Judges" },
+      { "key": "C", "text": "27 Judges and 11 Advocates General" },
+      { "key": "D", "text": "It varies depending on the case at hand" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Court of Justice is composed of 27 Judges (one per member state) and 11 Advocates General. They are appointed by common accord of the governments of the member states for a renewable term of six years."
+  },
+  {
+    "id": "ek_en_050",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "According to the fundamental principles set out in Article 5 TEU, what does 'proportionality' mean?",
+    "options": [
+      { "key": "A", "text": "That the EU can only act within the limits of the competences conferred upon it by the Member States." },
+      { "key": "B", "text": "That, in non-exclusive competences, the EU shall act only if the objectives cannot be sufficiently achieved by the Member States." },
+      { "key": "C", "text": "That the content and form of Union action shall not exceed what is necessary to achieve the objectives of the Treaties." },
+      { "key": "D", "text": "That the EU must always act by allocating budgets strictly proportional to population." }
+    ],
+    "correctKey": "C",
+    "explanation": "The principle of proportionality dictates that the measures taken by EU institutions must not exceed what is appropriate and necessary to achieve the desired objectives. Option B refers to the principle of 'subsidiarity'."
+  },
+  {
+    "id": "ek_en_051",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is an indispensable precondition for the Council to proceed to a vote?",
+    "options": [
+      { "key": "A", "text": "Member states must be represented exclusively by a Secretary of State." },
+      { "key": "B", "text": "The presidency must be held by the High Representative of the Union." },
+      { "key": "C", "text": "A majority of its members must be present." },
+      { "key": "D", "text": "The voting intention must be unanimously announced in advance." }
+    ],
+    "correctKey": "C",
+    "explanation": "The Council can only vote if a majority of its members are present. Each minister or representative at ministerial level has the right to commit the government of their country."
+  },
+  {
+    "id": "ek_en_052",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is a 'configuration' or 'formation' of the Council?",
+    "options": [
+      { "key": "A", "text": "It is a type of meeting that is open to public participation." },
+      { "key": "B", "text": "A cross-sectoral group of ministers who meet informally to discuss overlapping issues." },
+      { "key": "C", "text": "One of the 10 distinct policy areas in which the Council meets, despite being a single legal entity." },
+      { "key": "D", "text": "A joint committee made up of members of the Commission and the Parliament." }
+    ],
+    "correctKey": "C",
+    "explanation": "The Council of the EU is a single legal entity, but it meets in 10 different 'configurations' or formations depending on the subject being discussed (e.g., Foreign Affairs, Economic and Financial Affairs - ECOFIN, etc.)."
+  },
+  {
+    "id": "ek_en_053",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "EU agencies are divided into 4 groups. What are these groups?",
+    "options": [
+      { "key": "A", "text": "Administrative, research, judicial, and defense agencies." },
+      { "key": "B", "text": "Decentralised agencies, executive agencies, EURATOM agencies, and the EIT." },
+      { "key": "C", "text": "Technical agencies, EURATOM, EESC, and the Committee of the Regions." },
+      { "key": "D", "text": "Technical and scientific agencies, EESC, and the Committee of the Regions." }
+    ],
+    "correctKey": "B",
+    "explanation": "EU agencies were set up to carry out specific technical, scientific, or administrative tasks. They are divided into: Decentralised agencies, Executive agencies, EURATOM (European Atomic Energy Community) agencies, and the European Institute of Innovation and Technology (EIT)."
+  },
+  {
+    "id": "ek_en_054",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is Europol?",
+    "options": [
+      { "key": "A", "text": "The European Union Agency for Law Enforcement Cooperation, headquartered in The Hague." },
+      { "key": "B", "text": "The European Police Office and Drugs Unit, headquartered in Lyon." },
+      { "key": "C", "text": "The International Criminal Police Organization, headquartered in Vienna." },
+      { "key": "D", "text": "The European Border and Coast Guard Agency, headquartered in Warsaw." }
+    ],
+    "correctKey": "A",
+    "explanation": "Europol is the EU agency tasked with assisting law enforcement authorities in member states in preventing and combating serious international organized crime and terrorism. Its headquarters are in The Hague (Netherlands)."
+  },
+  {
+    "id": "ek_en_055",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the role of EFSA?",
+    "options": [
+      { "key": "A", "text": "It is a part of the European Commission that offers advice on consumer protection in the textile sector." },
+      { "key": "B", "text": "It is a decentralised agency providing scientific advice on food safety to the EU and its member states." },
+      { "key": "C", "text": "It is an agency with the primary goal of promoting healthy diets and exercise among EU citizens." },
+      { "key": "D", "text": "It is an agency with sanctioning powers to control what food products are sold in supermarkets." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Food Safety Authority (EFSA), based in Parma (Italy), provides independent scientific advice on food-related risks, thereby informing European legislation and policies to protect consumers."
+  },
+  {
+    "id": "ek_en_056",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What does EIGE stand for when talking about EU agencies?",
+    "options": [
+      { "key": "A", "text": "European Innovation Governmental Entity." },
+      { "key": "B", "text": "Economic and Investment Generation." },
+      { "key": "C", "text": "European Initiative for Geothermal Energy." },
+      { "key": "D", "text": "European Institute for Gender Equality." }
+    ],
+    "correctKey": "D",
+    "explanation": "The European Institute for Gender Equality (EIGE) is an EU decentralised agency that supports efforts to achieve gender equality across the Union. It is located in Vilnius, Lithuania."
+  },
+  {
+    "id": "ek_en_057",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who bears the primary responsibility for the control of the EU's external borders?",
+    "options": [
+      { "key": "A", "text": "The Frontex Agency exclusively." },
+      { "key": "B", "text": "The individual member states that have an external border." },
+      { "key": "C", "text": "The Migration Department of the EU Commission." },
+      { "key": "D", "text": "It is a legally shared responsibility equally between the Commission and the Parliament." }
+    ],
+    "correctKey": "B",
+    "explanation": "The member states that have an external border bear the primary responsibility for border control over it. However, the Frontex agency provides tactical and practical support to help them manage migratory pressures and cross-border crime."
+  },
+  {
+    "id": "ek_en_058",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the European Banking Authority (EBA)?",
+    "options": [
+      { "key": "A", "text": "A department within the European Central Bank that creates market regulations." },
+      { "key": "B", "text": "An independent agency for the regulation and supervision of the EU banking sector." },
+      { "key": "C", "text": "A subsection of the Committee of European Banking Supervisors." },
+      { "key": "D", "text": "A European investment surveillance system managed by the European Risk Board." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Banking Authority (EBA) is an independent EU body based in Paris that works to ensure effective and consistent prudential regulation and supervision across the European banking sector, helping to maintain financial stability."
+  },
+  {
+    "id": "ek_en_059",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "HERA (Health Emergency Preparedness and Response Authority), created after the COVID-19 pandemic, is:",
+    "options": [
+      { "key": "A", "text": "An EU Executive Agency." },
+      { "key": "B", "text": "A new Directorate-General (DG) of the European Commission." },
+      { "key": "C", "text": "An independent parastatal body, similar to the EEAS." },
+      { "key": "D", "text": "An EU Decentralised Agency." }
+    ],
+    "correctKey": "B",
+    "explanation": "Unlike the European Medicines Agency (EMA), HERA was launched in September 2021 as a new internal department, a Directorate-General (DG), of the European Commission with the mission to prevent, detect, and rapidly respond to health emergencies."
+  },
+  {
+    "id": "ek_en_060",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What are the exclusive agencies tasked with aspects of the EU's common foreign and security policy?",
+    "options": [
+      { "key": "A", "text": "Frontex, the Border Guard, and the EEAS." },
+      { "key": "B", "text": "The EEAS, the EU Satellite Centre, and Frontex." },
+      { "key": "C", "text": "The European Defence Agency, the EU Institute for Security Studies, and the EU Satellite Centre." },
+      { "key": "D", "text": "The European Atomic Energy Community, the Euratom Agency, and the EEAS." }
+    ],
+    "correctKey": "C",
+    "explanation": "The EU has set up 3 agencies to carry out very specific tasks under the Common Foreign and Security Policy (CFSP): the European Defence Agency (EDA), the EU Institute for Security Studies (EUISS), and the EU Satellite Centre (SatCen)."
+  },
+  {
+    "id": "ek_en_061",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who appoints the High Representative of the Union for Foreign Affairs and Security Policy?",
+    "options": [
+      { "key": "A", "text": "The European Parlament" },
+      { "key": "B", "text": "The European Council, with the agreement of the President of the Commission" },
+      { "key": "C", "text": "The Council of the European Union by qualified majority" },
+      { "key": "D", "text": "The Court of Justice of the EU" }
+    ],
+    "correctKey": "B",
+    "explanation": "The High Representative is appointed by the European Council acting by a qualified majority, with the agreement of the President of the European Commission. The High Representative also holds the position of Vice-President of the Commission."
+  },
+  {
+    "id": "ek_en_062",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In which city is the official headquarters of the European Central Bank (ECB) located?",
+    "options": [
+      { "key": "A", "text": "Brussels" },
+      { "key": "B", "text": "Strasbourg" },
+      { "key": "C", "text": "Frankfurt am Main" },
+      { "key": "D", "text": "Luxembourg" }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Central Bank (ECB), responsible for managing the euro and maintaining price stability in the euro area, has its official headquarters in Frankfurt am Main, Germany."
+  },
+  {
+    "id": "ek_en_063",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which treaty gave legally binding force to the Charter of Fundamental Rights of the European Union?",
+    "options": [
+      { "key": "A", "text": "Treaty of Nice" },
+      { "key": "B", "text": "Treaty of Amsterdam" },
+      { "key": "C", "text": "Treaty of Rome" },
+      { "key": "D", "text": "Treaty of Lisbon" }
+    ],
+    "correctKey": "D",
+    "explanation": "Although the Charter was proclaimed in the year 2000, it did not acquire full legally binding force, equivalent to that of the Treaties, until the entry into force of the Treaty of Lisbon on December 1, 2009."
+  },
+  {
+    "id": "ek_en_064",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Following the UK's departure from the EU (Brexit), how many MEPs made up the European Parliament (including its President) during the 2019-2024 parliamentary term?",
+    "options": [
+      { "key": "A", "text": "751" },
+      { "key": "B", "text": "705" },
+      { "key": "C", "text": "736" },
+      { "key": "D", "text": "678" }
+    ],
+    "correctKey": "B",
+    "explanation": "Before Brexit, the Parliament had 751 seats. Following the UK's departure in 2020, the number of MEPs was reduced to 705, redistributing some of the British seats among other under-represented member states and keeping the rest in reserve for future enlargements."
+  },
+  {
+    "id": "ek_en_065",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which institution is responsible for electing the European Ombudsman?",
+    "options": [
+      { "key": "A", "text": "The European Commission" },
+      { "key": "B", "text": "The European Council" },
+      { "key": "C", "text": "The European Parliament" },
+      { "key": "D", "text": "The Court of Justice of the EU" }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Ombudsman is elected by the European Parliament. Their term of office matches the parliamentary term (five years) and is renewable."
+  },
+  {
+    "id": "ek_en_066",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Of the following organizations, which is NOT an institution or body of the European Union?",
+    "options": [
+      { "key": "A", "text": "The Council of the European Union" },
+      { "key": "B", "text": "The European Council" },
+      { "key": "C", "text": "The Council of Europe" },
+      { "key": "D", "text": "The European Court of Auditors" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Council of Europe is an international organization independent of the EU, based in Strasbourg, focused on promoting human rights and the rule of law (it includes 46 countries, and is responsible for the European Court of Human Rights)."
+  },
+  {
+    "id": "ek_en_067",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How often does the Presidency of the Council of the European Union rotate among member states?",
+    "options": [
+      { "key": "A", "text": "Every 6 months" },
+      { "key": "B", "text": "Every year" },
+      { "key": "C", "text": "Every 2 and a half years" },
+      { "key": "D", "text": "Every 5 years" }
+    ],
+    "correctKey": "A",
+    "explanation": "The Presidency of the Council of the EU rotates among the member states every six months. The country holding the presidency is responsible for organizing and chairing Council meetings and representing the Council in its dealings with other EU institutions."
+  },
+  {
+    "id": "ek_en_068",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which treaty established the European Economic Community (EEC) in 1957?",
+    "options": [
+      { "key": "A", "text": "The Treaty of Paris" },
+      { "key": "B", "text": "The Treaty of Rome" },
+      { "key": "C", "text": "The Single European Act" },
+      { "key": "D", "text": "The Maastricht Treaty" }
+    ],
+    "correctKey": "B",
+    "explanation": "The Treaties of Rome, signed in 1957 by six founding countries, established the European Economic Community (EEC) and the European Atomic Energy Community (Euratom)."
+  },
+  {
+    "id": "ek_en_069",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In what year did Croatia join the European Union, becoming the latest country to enter the Union?",
+    "options": [
+      { "key": "A", "text": "2004" },
+      { "key": "B", "text": "2007" },
+      { "key": "C", "text": "2013" },
+      { "key": "D", "text": "2015" }
+    ],
+    "correctKey": "C",
+    "explanation": "Croatia officially became a member of the European Union on July 1, 2013, making it the latest member state to join the bloc to date."
+  },
+  {
+    "id": "ek_en_070",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How many EU member states are currently part of the euro area (Eurozone) following Croatia's accession on January 1, 2023?",
+    "options": [
+      { "key": "A", "text": "18" },
+      { "key": "B", "text": "19" },
+      { "key": "C", "text": "20" },
+      { "key": "D", "text": "22" }
+    ],
+    "correctKey": "C",
+    "explanation": "With Croatia's adoption of the single currency on January 1, 2023, the Eurozone grew to include 20 of the 27 member states of the European Union."
+  },
+  {
+    "id": "ek_en_071",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the main role of the European Anti-Fraud Office (OLAF)?",
+    "options": [
+      { "key": "A", "text": "To investigate fraud against the EU budget and corruption within European institutions." },
+      { "key": "B", "text": "To annually audit the financial accounts of all EU institutions." },
+      { "key": "C", "text": "To prosecute violent cross-border crimes, such as terrorism." },
+      { "key": "D", "text": "To manage the fines imposed on large technology companies." }
+    ],
+    "correctKey": "A",
+    "explanation": "OLAF investigates fraud and corruption involving EU funds, as well as serious misconduct by staff and members of EU institutions. Unlike the Court of Auditors (which carries out control audits), OLAF acts in the field of anti-fraud investigation."
+  },
+  {
+    "id": "ek_en_072",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who makes up the European Council?",
+    "options": [
+      { "key": "A", "text": "The foreign affairs ministers of each member state." },
+      { "key": "B", "text": "The Heads of State or Government of the member states, together with its President and the President of the Commission." },
+      { "key": "C", "text": "The European Commissioners and the MEPs." },
+      { "key": "D", "text": "Representatives of the national parliaments of the EU." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Council is made up of the 27 Heads of State or Government of the EU countries, the President of the European Council (who chairs the meetings), and the President of the European Commission. The High Representative also takes part in its meetings."
+  },
+  {
+    "id": "ek_en_073",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "As a general rule, how are decisions taken in the field of the Common Foreign and Security Policy (CFSP) in the Council?",
+    "options": [
+      { "key": "A", "text": "By simple majority." },
+      { "key": "B", "text": "By qualified majority." },
+      { "key": "C", "text": "By unanimity." },
+      { "key": "D", "text": "By co-decision with the European Parliament." }
+    ],
+    "correctKey": "C",
+    "explanation": "The Common Foreign and Security Policy (CFSP) is subject to specific procedures. In this area, the Council of the EU and the European Council generally take decisions by unanimity, due to the sensitivity and sovereignty of states regarding foreign policy."
+  },
+  {
+    "id": "ek_en_074",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "On what date is 'Europe Day' celebrated annually to commemorate the Schuman Declaration?",
+    "options": [
+      { "key": "A", "text": "January 1" },
+      { "key": "B", "text": "May 9" },
+      { "key": "C", "text": "June 23" },
+      { "key": "D", "text": "November 1" }
+    ],
+    "correctKey": "B",
+    "explanation": "Europe Day is celebrated on May 9 every year, commemorating peace and unity in the continent. It marks the anniversary of the historic Schuman Declaration, delivered on May 9, 1950, which proposed the creation of the ECSC."
+  },
+  {
+    "id": "ek_en_075",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which of the following is a 'Decentralised Agency' of the European Union?",
+    "options": [
+      { "key": "A", "text": "The European Research Council Executive Agency (ERCEA)." },
+      { "key": "B", "text": "The European Medicines Agency (EMA)." },
+      { "key": "C", "text": "The European Investment Bank (EIB)." },
+      { "key": "D", "text": "The European Committee of the Regions (CoR)." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Medicines Agency (EMA), located in Amsterdam, is a decentralised agency of the EU. Decentralised agencies are set up to carry out specific technical, scientific, or managerial tasks. ERCEA is an executive agency, and the EIB and the CoR are a financial and advisory body respectively."
+  },
+  {
+    "id": "ek_en_076",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which institution directly represents the citizens of the European Union?",
+    "options": [
+      { "key": "A", "text": "The Council of the European Union" },
+      { "key": "B", "text": "The European Parliament" },
+      { "key": "C", "text": "The European Commission" },
+      { "key": "D", "text": "The European Ombudsman" }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Parliament is the only EU institution directly elected by universal suffrage, and its main function is to represent the interests of European citizens in the decision-making process at the Union level."
+  },
+  {
+    "id": "ek_en_077",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the minimum number of member states that must participate to establish 'Enhanced Cooperation'?",
+    "options": [
+      { "key": "A", "text": "At least 5 member states." },
+      { "key": "B", "text": "At least 9 member states." },
+      { "key": "C", "text": "At least 14 member states (half of the EU)." },
+      { "key": "D", "text": "A unanimous vote of all 27 member states is required." }
+    ],
+    "correctKey": "B",
+    "explanation": "Enhanced Cooperation is a procedure that allows a minimum of nine EU member states to establish advanced integration or cooperation in a particular area within the EU structures, without the participation of the other member states that do not wish to join."
+  },
+  {
+    "id": "ek_en_078",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "How many official languages does the European Union currently have?",
+    "options": [
+      { "key": "A", "text": "3 (English, French, and German)" },
+      { "key": "B", "text": "20" },
+      { "key": "C", "text": "24" },
+      { "key": "D", "text": "27 (One for each member state)" }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Union currently has 24 official languages. Every EU citizen has the right to address the EU institutions in any of these languages and to receive a reply in the same language, and all legislative acts are published in these languages."
+  },
+  {
+    "id": "ek_en_079",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "To which city did the European Medicines Agency (EMA) relocate following the UK's departure from the EU (Brexit)?",
+    "options": [
+      { "key": "A", "text": "Frankfurt" },
+      { "key": "B", "text": "Paris" },
+      { "key": "C", "text": "Amsterdam" },
+      { "key": "D", "text": "Dublin" }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Medicines Agency (EMA) was originally headquartered in London. Due to the United Kingdom's departure from the European Union, the European Council decided in 2017 to relocate its headquarters to Amsterdam, Netherlands."
+  },
+  {
+    "id": "ek_en_080",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the 'Spitzenkandidat' process in the context of European elections?",
+    "options": [
+      { "key": "A", "text": "It is the mechanism for electing national commissioners in each member state." },
+      { "key": "B", "text": "It is the system by which European political parties designate a 'lead candidate' for the presidency of the European Commission." },
+      { "key": "C", "text": "It is the selection process for judges to the EU Court of Justice." },
+      { "key": "D", "text": "It is the method used by citizens to veto European legislation." }
+    ],
+    "correctKey": "B",
+    "explanation": "The lead candidate process ('Spitzenkandidaten' in German) is a system in which European political parties put forward a lead candidate ahead of the elections. The candidate of the party that wins the most seats in the European Parliament is usually the one proposed to preside over the European Commission."
+  },
+  {
+    "id": "ek_en_081",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the main mandate or objective of the European Investment Bank (EIB)?",
+    "options": [
+      { "key": "A", "text": "To set interest rates and control inflation in the Eurozone." },
+      { "key": "B", "text": "To supervise mergers and acquisitions of large European commercial banks." },
+      { "key": "C", "text": "To provide long-term finance for sound, sustainable investment projects that contribute to EU policy objectives." },
+      { "key": "D", "text": "To issue cash (euro banknotes and coins) for all member countries." }
+    ],
+    "correctKey": "C",
+    "explanation": "The EIB is the long-term lending institution of the European Union. Its primary mandate is to grant loans and finance projects within and outside the EU that support the Union's policy objectives, such as combating climate change and promoting economic cohesion."
+  },
+  {
+    "id": "ek_en_082",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Who was the first person to hold the post of full-time President of the European Council after the position was created by the Treaty of Lisbon?",
+    "options": [
+      { "key": "A", "text": "Donald Tusk" },
+      { "key": "B", "text": "Jean-Claude Juncker" },
+      { "key": "C", "text": "Herman Van Rompuy" },
+      { "key": "D", "text": "Charles Michel" }
+    ],
+    "correctKey": "C",
+    "explanation": "The Belgian politician Herman Van Rompuy was the first full-time (permanent) President of the European Council, taking office in December 2009, immediately following the entry into force of the Treaty of Lisbon."
+  },
+  {
+    "id": "ek_en_083",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which institution is responsible for drafting and proposing the preliminary draft of the EU's annual budget?",
+    "options": [
+      { "key": "A", "text": "The European Commission" },
+      { "key": "B", "text": "The European Court of Auditors" },
+      { "key": "C", "text": "The European Parliament" },
+      { "key": "D", "text": "The Council of the European Union" }
+    ],
+    "correctKey": "A",
+    "explanation": "The European Commission is responsible for preparing the draft EU budget and submitting it to the budgetary authority (the European Parliament and the Council). Once adopted, the Commission is also chiefly responsible for implementing it."
+  },
+  {
+    "id": "ek_en_084",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the 'European Semester'?",
+    "options": [
+      { "key": "A", "text": "The six-month period during which a member state holds the Presidency of the Council." },
+      { "key": "B", "text": "The academic calendar governing Erasmus+ program grants." },
+      { "key": "C", "text": "An annual cycle for the coordination of economic, fiscal, labor, and social policies within the EU." },
+      { "key": "D", "text": "The summer period during which EU institutions suspend their legislative activities." }
+    ],
+    "correctKey": "C",
+    "explanation": "The European Semester is a framework for the coordination of economic policies across the EU countries. During this annual cycle, member states align their budgetary and economic policies with the objectives and rules agreed at the Union level."
+  },
+  {
+    "id": "ek_en_085",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The European Court of Human Rights (ECtHR) is often confused with EU institutions. To which organization does it actually belong?",
+    "options": [
+      { "key": "A", "text": "The Court of Justice of the European Union (CJEU)." },
+      { "key": "B", "text": "The Council of Europe." },
+      { "key": "C", "text": "The United Nations (UN)." },
+      { "key": "D", "text": "The European Parliament." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Court of Human Rights, based in Strasbourg, is NOT an institution of the European Union. It belongs to the Council of Europe, an independent international organization dedicated to protecting human rights and the rule of law."
+  },
+  {
+    "id": "ek_en_086",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which EU policy has the primary objective of reducing economic and social disparities between the different regions of Europe?",
+    "options": [
+      { "key": "A", "text": "The Common Agricultural Policy (CAP)." },
+      { "key": "B", "text": "The Common Foreign and Security Policy (CFSP)." },
+      { "key": "C", "text": "Cohesion Policy (or Regional Policy)." },
+      { "key": "D", "text": "The Common Fisheries Policy (CFP)." }
+    ],
+    "correctKey": "C",
+    "explanation": "The EU's Cohesion Policy channels structural and investment funds to the less developed regions of Europe in order to promote economic convergence, encourage job creation, and reduce territorial inequality."
+  },
+  {
+    "id": "ek_en_087",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The European Economic Area (EEA) includes the EU member states and three of the four EFTA countries. Which EFTA country is NOT part of the EEA?",
+    "options": [
+      { "key": "A", "text": "Norway" },
+      { "key": "B", "text": "Iceland" },
+      { "key": "C", "text": "Switzerland" },
+      { "key": "D", "text": "Liechtenstein" }
+    ],
+    "correctKey": "C",
+    "explanation": "Switzerland is a member of the European Free Trade Association (EFTA), but it is the only one of its four members that chose not to join the European Economic Area (EEA). Instead, Switzerland maintains a series of direct bilateral agreements with the EU."
+  },
+  {
+    "id": "ek_en_088",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the 'yellow card' procedure in the EU's legislative framework?",
+    "options": [
+      { "key": "A", "text": "A warning issued by the Commission to a country for exceeding its budget deficit." },
+      { "key": "B", "text": "A mechanism allowing national parliaments to object to a draft legislative act if they consider it breaches the principle of subsidiarity." },
+      { "key": "C", "text": "A penalty imposed on MEPs for violating the code of conduct in the Plenary." },
+      { "key": "D", "text": "A remedy by the Court of Justice to halt a directive that violates the treaties." }
+    ],
+    "correctKey": "B",
+    "explanation": "The 'yellow card' mechanism gives national parliaments the right to review draft EU legislation. If at least one-third of the votes allocated to national parliaments issue a reasoned opinion claiming the proposal breaches the principle of subsidiarity, the draft must be reviewed."
+  },
+  {
+    "id": "ek_en_089",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The free movement of goods, persons, services, and capital forms the core of the EU Single Market. What are these commonly known as in the Treaties?",
+    "options": [
+      { "key": "A", "text": "The Four Freedoms" },
+      { "key": "B", "text": "The Pillars of Maastricht" },
+      { "key": "C", "text": "The Schengen Principles" },
+      { "key": "D", "text": "The Rome Agreements" }
+    ],
+    "correctKey": "A",
+    "explanation": "The European Single Market (or internal market) is built upon the free movement of persons, goods, services, and capital, known historically and in the EU Treaties as 'The Four Freedoms'."
+  },
+  {
+    "id": "ek_en_090",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which of the following EU agencies focuses primarily on cybersecurity and information network security?",
+    "options": [
+      { "key": "A", "text": "Europol" },
+      { "key": "B", "text": "ENISA" },
+      { "key": "C", "text": "EASO" },
+      { "key": "D", "text": "Frontex" }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Union Agency for Cybersecurity (ENISA), based in Greece, is dedicated to achieving a high common level of cybersecurity across Europe, assisting member states and institutions in preventing and responding to incidents and cyber attacks."
+  },
+  {
+    "id": "ek_en_091",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the main role of the European Data Protection Supervisor (EDPS)?",
+    "options": [
+      { "key": "A", "text": "To audit the financial accounts of large technology companies in Europe." },
+      { "key": "B", "text": "To ensure that the EU institutions, bodies, offices and agencies respect the right to privacy and data protection when processing personal data." },
+      { "key": "C", "text": "To monitor the use of data on the private social networks of citizens of the member states." },
+      { "key": "D", "text": "To draft national cybersecurity legislation for each member state." }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Data Protection Supervisor (EDPS) is the EU's independent data protection authority. Its role is to supervise and ensure that the EU institutions and bodies themselves respect privacy and data protection rules when processing personal information."
+  },
+  {
+    "id": "ek_en_092",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The Schengen area allows the free movement of people without internal border controls. Which of the following countries does NOT belong to the European Union but DOES form part of the Schengen area?",
+    "options": [
+      { "key": "A", "text": "Switzerland" },
+      { "key": "B", "text": "Romania" },
+      { "key": "C", "text": "Ireland" },
+      { "key": "D", "text": "Cyprus" }
+    ],
+    "correctKey": "A",
+    "explanation": "Switzerland, Iceland, Norway, and Liechtenstein are not EU member states, but they are associated countries that form part of the Schengen area. Conversely, Ireland is an EU member but has opted out of the Schengen area."
+  },
+  {
+    "id": "ek_en_093",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the 'Eurogroup'?",
+    "options": [
+      { "key": "A", "text": "The board of directors of the European Central Bank." },
+      { "key": "B", "text": "A formal body of the European Commission responsible for issuing currency." },
+      { "key": "C", "text": "An informal meeting of the economic and finance ministers of the euro area member states." },
+      { "key": "D", "text": "The group of countries that have not yet adopted the euro." }
+    ],
+    "correctKey": "C",
+    "explanation": "The Eurogroup is an informal body where the ministers of the euro area member states discuss matters relating to their shared responsibilities regarding the single currency. It elects its own president for a two-and-a-half-year term."
+  },
+  {
+    "id": "ek_en_094",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "In the context of the Common Security and Defence Policy (CSDP), what are the 'Petersberg tasks'?",
+    "options": [
+      { "key": "A", "text": "Joint space missions with the European Space Agency." },
+      { "key": "B", "text": "Humanitarian, peacekeeping, and crisis management missions in which the EU may participate." },
+      { "key": "C", "text": "Trade agreements for the export of European weaponry." },
+      { "key": "D", "text": "Maritime border controls exclusive to the Mediterranean Sea." }
+    ],
+    "correctKey": "B",
+    "explanation": "The Petersberg tasks, incorporated into the EU Treaty, define the spectrum of military and civilian operations that the European Union can undertake, including humanitarian, rescue, peacekeeping, and crisis management missions (including peacemaking)."
+  },
+  {
+    "id": "ek_en_095",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which Treaty introduced the 'Three Pillars' structure to the European Union?",
+    "options": [
+      { "key": "A", "text": "The Treaty of Lisbon" },
+      { "key": "B", "text": "The Treaty of Nice" },
+      { "key": "C", "text": "The Treaty of Amsterdam" },
+      { "key": "D", "text": "The Maastricht Treaty" }
+    ],
+    "correctKey": "D",
+    "explanation": "The Maastricht Treaty (1992) founded the European Union under a three-pillar structure: the European Communities (community pillar), the Common Foreign and Security Policy (CFSP), and Cooperation in the fields of Justice and Home Affairs (JHA). This structure was later abolished by the Treaty of Lisbon."
+  },
+  {
+    "id": "ek_en_096",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Within the framework of the Ordinary Legislative Procedure, if the Council and the European Parliament fail to reach an agreement at second reading, a Conciliation Committee is convened. Who co-chairs this committee?",
+    "options": [
+      { "key": "A", "text": "The President of the European Commission and the President of the Council." },
+      { "key": "B", "text": "Exclusively the President of the European Parliament." },
+      { "key": "C", "text": "The President of the European Parliament (or their representative) and the President of the Council (or their representative)." },
+      { "key": "D", "text": "The Court of Justice of the EU acts as mediator and chair." }
+    ],
+    "correctKey": "C",
+    "explanation": "The Conciliation Committee is composed of an equal number of representatives from the Council and the European Parliament. It is co-chaired by the Presidents (or their designated representatives) of both institutions."
+  },
+  {
+    "id": "ek_en_097",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What fundamental right does Article 227 of the Treaty on the Functioning of the European Union (TFEU) guarantee to all EU citizens and residents?",
+    "options": [
+      { "key": "A", "text": "The right to a universal retirement pension." },
+      { "key": "B", "text": "The right to work tax-free during the first year in a foreign country." },
+      { "key": "C", "text": "The right to veto European laws by referendum." },
+      { "key": "D", "text": "The right to petition the European Parliament." }
+    ],
+    "correctKey": "D",
+    "explanation": "Article 227 of the TFEU grants any citizen of the Union, as well as any natural or legal person residing or having its registered office in a member state, the right to address a petition to the European Parliament on a matter which affects them directly and which falls within the EU's fields of activity."
+  },
+  {
+    "id": "ek_en_098",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "What is the fundamental difference between the European System of Central Banks (ESCB) and the Eurosystem?",
+    "options": [
+      { "key": "A", "text": "The Eurosystem manages taxes, while the ESCB manages interest rates." },
+      { "key": "B", "text": "The ESCB includes the central banks of all EU countries, while the Eurosystem only includes those of the countries that have adopted the euro." },
+      { "key": "C", "text": "They are exactly the same entity, they just changed names after the Treaty of Lisbon." },
+      { "key": "D", "text": "The ESCB includes private banks, while the Eurosystem is strictly public." }
+    ],
+    "correctKey": "B",
+    "explanation": "The ESCB comprises the European Central Bank (ECB) and the national central banks of all 27 EU member states (whether they use the euro or not). The Eurosystem, however, comprises only the ECB and the national central banks of the member states that are part of the euro area."
+  },
+  {
+    "id": "ek_en_099",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "The EU's 'Institutional Triangle', responsible for the formulation and adoption of policies and laws at the European level, is made up of:",
+    "options": [
+      { "key": "A", "text": "The European Council, the European Central Bank, and the European Commission." },
+      { "key": "B", "text": "The Court of Justice, the European Parliament, and the Council of Europe." },
+      { "key": "C", "text": "The European Parliament, the Council of the European Union, and the European Commission." },
+      { "key": "D", "text": "The European Commission, Frontex, and the European Economic and Social Committee." }
+    ],
+    "correctKey": "C",
+    "explanation": "The essential 'institutional triangle' in EU decision-making is made up of the European Commission (which proposes legislation), the European Parliament (which represents the citizens), and the Council of the European Union (which represents the national governments); the latter two jointly adopt the legislation."
+  },
+  {
+    "id": "ek_en_100",
+    "category": "eu_knowledge",
+    "language": "en",
+    "question": "Which institution is traditionally referred to as the 'Guardian of the Treaties'?",
+    "options": [
+      { "key": "A", "text": "The Court of Justice of the EU" },
+      { "key": "B", "text": "The European Commission" },
+      { "key": "C", "text": "The European Ombudsman" },
+      { "key": "D", "text": "The European Council" }
+    ],
+    "correctKey": "B",
+    "explanation": "The European Commission is the 'Guardian of the Treaties'. It is responsible for ensuring that EU law is correctly applied in all member states and can initiate infringement proceedings against countries that fail to comply with their legal obligations."
+  }
+]
